@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"DocBlockr_Python",
+		"Git",
+		"GoOracle",
+		"GoSublime",
+		"jQuery",
+		"Package Control",
+		"SublimeREPL",
+		"Terminal"
+	]
+}

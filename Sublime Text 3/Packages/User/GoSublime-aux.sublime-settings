@@ -1,0 +1,275 @@
+{
+	"9o.hist.C:\\":
+	[
+		"cd C:\\Users\\tangzhongliang\\go\\src\\github.com\\nsf\\gocode; git submodule update --init --recursive",
+		"cd ..",
+		"cd Users\\tangzhongliang\\go\\src\\github.com\\nsf\\gocode; git submodule update --init --recursive",
+		"git --help",
+		"git config --global http.proxy",
+		"git config --global https.proxy",
+		"cd"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\SNS\\tests":
+	[
+		"go test default_test.go"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\dingding":
+	[
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\dingding\\controllers\\office":
+	[
+		"cd ~/go/src/dingding/"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\dingding\\routers":
+	[
+		"cd ~/go/src/dingding"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\hello":
+	[
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\hello\\controllers":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\office":
+	[
+		"build",
+		"go run test.go"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\office\\controllers":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\office\\models":
+	[
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\office\\routers":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\officeapp":
+	[
+		"GoSublime r17.03.05-1 9o: type `help` for help and command documentation\n\n[ ~/go/src/officeapp/ ] # go run main.go",
+		"GoSublime r17.03.05-1 9o: type `help` for help and command documentation",
+		"go run test.go",
+		"build",
+		"go run main.go"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\officeapp\\controllers":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\officeapp\\controllers\\office":
+	[
+		"cd ..",
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\officeapp\\models":
+	[
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\officeapp\\routers":
+	[
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian":
+	[
+		"cd cloud"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud":
+	[
+		"b",
+		"cd ..",
+		"go get github.com/line/line-bot-sdk-go/linebot",
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers":
+	[
+		"build",
+		"cd",
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\calendar":
+	[
+		"build",
+		"cd ..",
+		"cd ~/go/src/persian/cloud"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\calendar\\office":
+	[
+		"build",
+		"cd ../../",
+		"cd ..",
+		"cd ~/go/src/persian/cloud"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\logic":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\sns":
+	[
+		"cd ..",
+		"cd ~/go/src/persian/cloud"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\sns\\msteams":
+	[
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\models":
+	[
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\web\\routers":
+	[
+		"cd ..//..",
+		"cd ~/go/src/persian/cloud"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\web\\webControllers":
+	[
+		"cd ..",
+		"cd ~/go/src/persian/cloud"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\ribot":
+	[
+		"cd ..",
+		"cd cloud"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud":
+	[
+		"help",
+		"go run",
+		"go list",
+		"cd cloud",
+		"run",
+		"tskill t3",
+		"./cloud.exe",
+		"9 go",
+		"tskill #1209",
+		"tskill #t1209",
+		"tski",
+		"cancel-replay",
+		"go go run test.go",
+		"tskill go",
+		"tskill",
+		"replay test.go",
+		"clear",
+		"cd /",
+		"go run test.go",
+		"go run main.go",
+		"replay",
+		"replay --help",
+		"tskill replay",
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\conf":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\controllers":
+	[
+		"cd cd..",
+		"go run main.go",
+		"cd ..\\",
+		"cd ..",
+		"cd ../../",
+		"cd ../..",
+		"cd ../",
+		"cd ../."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\models":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\routers":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\ribot\\common":
+	[
+		"cd ../cloud"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\ribot\\common\\cmutil":
+	[
+		"cd ../../cloud",
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\ribot\\local":
+	[
+		"go run main.go"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns":
+	[
+		"go run .",
+		"go run main.go",
+		"tskill",
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\common\\snsstruct":
+	[
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snscommon":
+	[
+		"GoSublime r17.03.05-1 9o: type `help` for help and command documentation\n\n[ `build` | done: 2.8312831s ]\n	# sns/controllers/snscommon\n	.\\err_define.go:21: undefined: errCodeConf\n	.\\err_define.go:21: undefined: err\n	.\\err_define.go:21: undefined: conifg in conifg.NewConfig\n	.\\err_define.go:22: undefined: err\n	.\\err_define.go:23: undefined: err\n	.\\err_define.go:26: undefined: errMessageConf\n	.\\err_define.go:26: undefined: err2\n	.\\err_define.go:26: undefined: conifg in conifg.NewConfig\n	.\\err_define.go:27: undefined: err2\n	.\\err_define.go:28: undefined: err2\n	.\\err_define.go:28: too many errors\n	\n	exit status 2\n[ `build` | done: 2.7072707s ]\n	# sns/controllers/snscommon\n	.\\err_define.go:21: undefined: conifg in conifg.NewConfig\n	.\\err_define.go:26: undefined: conifg in conifg.NewConfig\n	.\\token_util.go:19: not enough arguments to return\n		have (string)\n		want (string, error)\n	\n	exit status 2\n[ `build` | done: 3.2823282s ]\n	# sns/controllers/snscommon\n	.\\err_define.go:21: undefined: conifg in conifg.NewConfig\n	.\\err_define.go:26: undefined: conifg in conifg.NewConfig\n	.\\token_util.go:19: not enough arguments to return\n		have (string)\n		want (string, error)\n	\n	exit status 2\n[ ~/go/src/sns/controllers/snscommon/ ] # \n[ `build` | done: 2.9632963s ]\n	# sns/controllers/snscommon\n	.\\err_define.go:15: undefined: ErrDefine\n	.\\err_define.go:16: undefined: conifg in conifg.NewConfig\n	.\\err_define.go:21: undefined: conifg in conifg.NewConfig\n	.\\err_define.go:30: multiple-value this.ErrCodeConf.Int() in single-value context\n	.\\token_util.go:19: not enough arguments to return\n		have (string)\n		want (string, error)\n	\n	exit status 2\n[ ~/go/src/sns/controllers/snscommon/ ] #  ~/go/src/sns",
+		"GoSublime r17.03.05-1 9o: type `help` for help and command documentation",
+		"cd ~/go/src/sns",
+		"build",
+		"go go test -v common_test.go",
+		"go test -v common_test.go"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snsep":
+	[
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snsplugin":
+	[
+		"cd",
+		"go test plugin_test.go",
+		"build",
+		"go test -v plugin_test.go",
+		"cd ~/go/src/sns"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\web":
+	[
+		"~/go/src/sns",
+		"cd ~/go/src/sns",
+		"build",
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\tests":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\tests\\common\\snsfactory":
+	[
+		"cd ~/go/src/sns/"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\tests\\controllers":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\tests\\controllers\\sns":
+	[
+		"build",
+		"cd ~/go/src/sns",
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\util":
+	[
+		"build"
+	],
+	"9o.hist.C:\\Users\\tangzhongliang\\go\\src\\sns\\util\\arrayutil":
+	[
+		"build"
+	],
+	"ann": "a17.03.05-1",
+	"install_version": "r17.03.05-1",
+	"version": "r17.03.05-1"
+}
