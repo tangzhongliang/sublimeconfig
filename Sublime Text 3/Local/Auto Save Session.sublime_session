@@ -1,0 +1,5542 @@
+{
+	"folder_history":
+	[
+		"/C/Users/tangzhongliang/src/pythonsrc/tests",
+		"/C/Users/tangzhongliang/go/src/sns",
+		"/C/Users/tangzhongliang/Temp",
+		"/C/Users/tangzhongliang/go/src/ribot",
+		"/C/Users/tangzhongliang/go/src/SNS",
+		"/C/Users/tangzhongliang/go/src/persian",
+		"/C/Users/tangzhongliang/go/src/dingding",
+		"/C/Users/tangzhongliang/go/src/test",
+		"/C/Users/tangzhongliang/go/src/officeapp",
+		"/C/Users/tangzhongliang/go/src/office",
+		"/C/Users/tangzhongliang/go/src/hello",
+		"/C/Users/tangzhongliang/go/src/php-connect-rest-sample",
+		"/C/Users/tangzhongliang/go/src/active-directory-node-webapi",
+		"/C/Users/tangzhongliang/src/models/tutorials/image/mnist",
+		"/C/Users/tangzhongliang/src/models/tutorials/image/cifar10",
+		"/C/Users/tangzhongliang/Desktop/temp/testforcalendar"
+	],
+	"last_version": 3114,
+	"last_window_id": 44,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 202.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"init",
+						"InitDbData	 ƒ"
+					],
+					[
+						"Err",
+						"ErrDefine	snsstruct.ErrDefine ν"
+					],
+					[
+						"S",
+						"SErrConfig	snscommon.ErrConfig ν"
+					],
+					[
+						"sns",
+						"snsglobal	 package ρ"
+					],
+					[
+						"E",
+						"ErrDefine	snsstruct.ErrDefine ν"
+					],
+					[
+						"to",
+						"token	string ν"
+					],
+					[
+						"e",
+						"ErrCode	int ν"
+					],
+					[
+						"st",
+						"String	string ƒ"
+					],
+					[
+						"Config",
+						"Configer	interface ¡"
+					],
+					[
+						"config",
+						"Configer	interface ¡"
+					],
+					[
+						"ini",
+						"IniConfig	struct ʈ"
+					],
+					[
+						"snsp",
+						"snsplugin	 package ρ"
+					],
+					[
+						"n",
+						"UnixNano	int64 ƒ"
+					],
+					[
+						"str",
+						"strconv	 package ρ"
+					],
+					[
+						"maxint",
+						"MaxInt32	 Ɩ"
+					],
+					[
+						"in",
+						"Intn	int ƒ"
+					],
+					[
+						"ran",
+						"randNum	*rand.Rand ν"
+					],
+					[
+						"plu",
+						"PluginToken	string ν"
+					],
+					[
+						"sn",
+						"snsstruct	 package ρ"
+					],
+					[
+						"id",
+						"PluginId	string ν"
+					],
+					[
+						"get",
+						"GetBearerFromRequest	token string, err error ƒ"
+					],
+					[
+						"spl",
+						"SplitN	[]string ƒ"
+					],
+					[
+						"err",
+						"errors	 package ρ"
+					],
+					[
+						"gets",
+						"GetSession	interface{} ƒ"
+					],
+					[
+						"dom",
+						"domains	[]models.Calendar_domain_info ν"
+					],
+					[
+						"doma",
+						"domainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"office",
+						"OfficeDomainTokenMap	map[string]models.Calendar_domain_info ν"
+					],
+					[
+						"Office",
+						"OfficeDomainTokenMapLock	sync.RWMutex ν"
+					],
+					[
+						"set",
+						"saveOfficeDomainToMemory	 ƒ"
+					],
+					[
+						"cale",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"off",
+						"office_secret	string ν"
+					],
+					[
+						"office_sco",
+						"office_tenant_scope	string ν"
+					],
+					[
+						"re",
+						"redirect	string ν"
+					],
+					[
+						"Off",
+						"OfficeController	struct ʈ"
+					],
+					[
+						"upda",
+						"UpdateResourceToken	 ƒ"
+					],
+					[
+						"eve",
+						"events	[]models.Event_info ν"
+					],
+					[
+						"value",
+						"value	models.Event_info ν"
+					],
+					[
+						"R",
+						"RFC3339	 Ɩ"
+					],
+					[
+						"up",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"do",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"Update",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"update",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"req",
+						"Request	 ƒ"
+					],
+					[
+						"updatetoke",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"updatet",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"Upda",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"calen",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"getdo",
+						"GetDomainByResourceId	domain []models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"cal",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"resou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"getdoma",
+						"GetDomainInfo	domainInfo models.Calendar_domain_info, errRes error ƒ"
+					],
+					[
+						"con",
+						"console.error();"
+					],
+					[
+						"offic",
+						"OfficeSubcribe	models.Calendar_watch_info ν"
+					],
+					[
+						"ev",
+						"events	[]models.Event_info ν"
+					],
+					[
+						"data",
+						"data	pStruct.MeettingStateInfo ν"
+					],
+					[
+						"send",
+						"SendMessageOnly	[]byte, error ƒ"
+					],
+					[
+						"s",
+						"Summary	string ν"
+					],
+					[
+						"cin",
+						"Cintimeout	string ν"
+					],
+					[
+						"updawa",
+						"UpdateOfficeWatch	 ƒ"
+					],
+					[
+						"add",
+						"AddOfficeResource	 ƒ"
+					],
+					[
+						"nof",
+						"Notify	 ƒ"
+					],
+					[
+						"subcriwa",
+						"SubcribeResourceWatchAction	 ν"
+					],
+					[
+						"no",
+						"Notify	 ƒ"
+					],
+					[
+						"p",
+						"pConst	 package ρ"
+					],
+					[
+						"ca",
+						"CALENDAR_TYPE_OFFICE365	 Ɩ"
+					],
+					[
+						"sy",
+						"sync	 package ρ"
+					],
+					[
+						"i",
+						"I	 ƒ"
+					],
+					[
+						"job",
+						"MAX_JOBS_CALENDAR	 Ɩ"
+					],
+					[
+						"caleresou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"valu",
+						"value	MyJsonTrackValue ν"
+					],
+					[
+						"la",
+						"layout	string ν"
+					],
+					[
+						"lo",
+						"location	string ν"
+					],
+					[
+						"getdom",
+						"GetDomainByResourceId	domain []models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"dele",
+						"deleteSubscription	 ƒ"
+					],
+					[
+						"calde",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"clare",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"sub",
+						"SubcribeOfficeResource	 ƒ"
+					],
+					[
+						"va",
+						"value	MyJsonTrackValue ν"
+					],
+					[
+						"par",
+						"parseEventTime	tstr string, err error ƒ"
+					],
+					[
+						"Ca",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"getto",
+						"GetOfficeToken	office models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"doam",
+						"domains	[]models.Calendar_domain_info ν"
+					],
+					[
+						"gettoke",
+						"GetOfficeToken	office models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"un",
+						"UnSubcribeOfficeResource	 ƒ"
+					],
+					[
+						"res",
+						"ResponseWriter	*context.Response ν"
+					],
+					[
+						"sta",
+						"Status	string ν"
+					],
+					[
+						"tra",
+						"track	MyJsonTrack ν"
+					],
+					[
+						"d",
+						"D	 ƒ"
+					],
+					[
+						"getre",
+						"GetCalendarResourceInfoByResourceid	[]models.Calendar_resource_info, error ƒ"
+					],
+					[
+						"reso",
+						"resourceInfos	[]models.Calendar_resource_info ν"
+					],
+					[
+						"care",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"calere",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"syn",
+						"SyncSubcribeOffice	 ƒ"
+					],
+					[
+						"json",
+						"jsonDomain	JsonDomain ν"
+					],
+					[
+						"su",
+						"subcribe	models.Calendar_watch_info ν"
+					],
+					[
+						"sus",
+						"SubcribeOfficeResource	 ƒ"
+					],
+					[
+						"ser",
+						"ServeJSON	 ƒ"
+					],
+					[
+						"cado",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"calendo",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"wa",
+						"WatchInfo	models.Calendar_watch_info ν"
+					],
+					[
+						"caresou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"cain",
+						"Calendar_resource_info	struct ʈ"
+					],
+					[
+						"Wat",
+						"Calendar_watch_info	struct ʈ"
+					],
+					[
+						"calenre",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"careour",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"er",
+						"err	error ν"
+					],
+					[
+						"C",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"new",
+						"NewNamespace	*beego.Namespace ƒ"
+					],
+					[
+						"upte",
+						"UpdateSubcribeOfficeResource	 ƒ"
+					],
+					[
+						"Sy",
+						"SyncDataAction	 ν"
+					],
+					[
+						"del",
+						"deltaLink	string ν"
+					],
+					[
+						"Eve",
+						"Event_info	struct ʈ"
+					],
+					[
+						"pri",
+						"Println	n int, err error ƒ"
+					],
+					[
+						"f",
+						"Fprintln	n int, err error ƒ"
+					],
+					[
+						"de",
+						"DefaultClient	*http.Client ν"
+					],
+					[
+						"im",
+						"import	import (...) ʂ"
+					],
+					[
+						"se",
+						"secret	 ν"
+					],
+					[
+						"sc",
+						"scope	 ν"
+					],
+					[
+						"sec",
+						"scope	 ν"
+					],
+					[
+						"w",
+						"WriteHeader	 ƒ"
+					],
+					[
+						"wri",
+						"WriteHeader	 ƒ"
+					],
+					[
+						"ur",
+						"RequestURI	string ν"
+					],
+					[
+						"c",
+						"Ctx	*context.Context ν"
+					],
+					[
+						"win",
+						"win64	 ν"
+					],
+					[
+						"rea",
+						"Read	string ƒ"
+					],
+					[
+						"html",
+						"html	.html()"
+					],
+					[
+						"u",
+						"UserId	string ν"
+					],
+					[
+						"team",
+						"teamName	string ν"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/GoSublime/GoSublime.sublime-build",
+							""
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/GoSublime/GoSublime.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 219.0,
+				"last_filter": "wra",
+				"selected_items":
+				[
+					[
+						"wra",
+						"Word Wrap: Toggle"
+					],
+					[
+						"GoSublime: pa",
+						"GoSublime: Browse Packages"
+					],
+					[
+						"GoSublime: pak",
+						"GoSublime: Browse Packages"
+					],
+					[
+						"func",
+						"Snippet: Function"
+					],
+					[
+						"w",
+						"Word Wrap: Toggle"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"ip",
+						"Package Control: Install Package"
+					],
+					[
+						"listpa",
+						"Package Control: List Packages"
+					],
+					[
+						"GoSublime: hi",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"GoSublime: godi",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: tode",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: hin",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"GoSublime: tod",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"GoSublime: todi",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: goto",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: de",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: go",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: to",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: ",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: gode",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: usa",
+						"GoSublime: Usage & Tips"
+					],
+					[
+						"GoSublime: do",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"rp",
+						"GoSublime: Add/Remove package"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 432.0
+			},
+			"console":
+			{
+				"height": 174.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/tangzhongliang/Downloads/Ribot_local_win64 (3)/Ribot_local_win64/proxy.txt",
+				"/C/Users/tangzhongliang/Downloads/Ribot_local_win64 (3)/Ribot_local_win64/ricohConf.txt",
+				"/C/Users/tangzhongliang/test.txt",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp08442/root/workspace/src/dingding/routers/router.go",
+				"/C/Users/tangzhongliang/go/src/dingding/officeapp",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/webControllers/office_auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/office_auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/webControllers/office.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/main.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/routers/router.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/office_meeting.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/calendar.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp56216/root/workspace/src/log.txt",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp54322/root/fordocker/persian/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/local.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/models/google.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pFunction/pFunction.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/subcribe.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/meeting.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/google/googleProcess.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pConst/pConst.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/models/office_models.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pStruct/pInfo.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/logic/threadcalendar.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/default.go",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp53762/root/fordocker/ribot-install",
+				"/C/Users/tangzhongliang/go/src/office/controllers/office_meeting.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/ribot_thread_manager - Copy.bak",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/views/logintest.html",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/message_handler.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/static/img/haha.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/default.go",
+				"/C/Users/tangzhongliang/Desktop/sdf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/socketmanager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/ribot_thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/model_crud.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/scanToSlack/RobotScan/cheetahMiniUtil/src/main/java/jp/co/ricoh/advop/mini/cheetahminiutil/ssdk/wrapper/client/RestClient.java",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmutil/log.go",
+				"/C/Users/tangzhongliang/go/src/ribot - Copy/cloud/controllers/ribot_thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/test.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/app_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/user_language.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/slack_api.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/persian_models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/conf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/resourece.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/team_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmmodels/job_modles.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmconstant/constant.go",
+				"/C/Go/src/strconv/itoa.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf/youxia.cer",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/button_message_handle.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/USAGE.md",
+				"/C/Go/src/builtin/builtin.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/company_server_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/base.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/team_models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/company_user_controller.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda_GO.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/anaconda_go/Anaconda_GO.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp04109/home/rits/go/src/nohup.out",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/bot_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/routers/router.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/Go/src/strings/strings.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/main.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/views/login.html",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmutil/conf_util.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/company_user_models.go"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 102.0,
+				"where_history":
+				[
+					"C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>,C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>,C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot",
+					"C:\\Users\\tangzhongliang\\go\\src\\active-directory-node-webapi",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"SNSEPBeans",
+					":=",
+					"token",
+					"pc",
+					"officeapp/controllers/office",
+					"officeAction",
+					"ACT_DELETE_MEETTING",
+					"redirect",
+					"httpGet",
+					"GetResourceEventInfoByDiff",
+					"httpGet",
+					"getTokenByTenant",
+					"SubscriptionID",
+					"layout",
+					"TokenHandleChan",
+					"result",
+					"req_list",
+					"getOfficeDomainByDomain",
+					"getOfficeDomainFromRunning",
+					"parseResponse",
+					"todo",
+					"officeAction",
+					"eventInfo",
+					"models",
+					"GetAccountInfoByLineaccount",
+					"MeettingStateInfo",
+					"ACT_SNS_UPDATAMESSAGE",
+					"SendMessageOnly",
+					"MeettingStateInfo",
+					"Creatormail",
+					"Creatormail =",
+					"Creatormail",
+					"SendMessageOnly",
+					"updatemessage",
+					"ACT_SNS_CONFIM_CANCEL",
+					"ACT_SNS_UPDATAMESSAGE",
+					"ACT_UPDATAMESSAGE",
+					"ACT_SNS_UPDATAMESSAGE",
+					"UpdateMessage",
+					"sendcheck",
+					"Cinremind",
+					"updateSubscription",
+					"SubcribeOfficeResource",
+					"UpdateAllSubcribeOfficeResource",
+					"SubcribeResourceAll",
+					"SyncAllSubcribeOfficeResource",
+					"UpdateAllWatch",
+					"(\\s+)SubcribeOfficeResource",
+					"^SubcribeOfficeResource",
+					"SubcribeOfficeResource",
+					"UpdateResourceWatchAction",
+					"SyncDataAction",
+					"UpdateDataAction",
+					"ChangeMeetingTime",
+					"CalendarActionInfo",
+					"'",
+					"CALENDAR_TYPE_OFFICE365",
+					".CalendarType",
+					"CalendarType",
+					"todo",
+					"<<<(\\s*)HEAD",
+					"HEAD",
+					"msteams",
+					"sync",
+					"<<<(\\s*)HEAD",
+					"HEAD",
+					"pConst",
+					"C",
+					"office365",
+					"CALENDAR_TYPE_OFFICE365 = ",
+					"pConst",
+					"HEAD",
+					"====================",
+					"<<<<<<<<<<<<<<<<<<<<<<",
+					"fmt",
+					"LogE",
+					"LogD",
+					"cmutil",
+					"win32",
+					"sendmessageto",
+					"lineRemiderCancelUpdataMsg",
+					"CallbackIdMap",
+					"MsteamsController",
+					"ACT_SNS_CONFIM_MESSAGE",
+					"*********Msteams Send---eventInfo************",
+					"SendCancelMessage",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsmwAAAA",
+					"Entry/ AfterFunc",
+					"time.AfterFunc trig",
+					"act_set",
+					"act_update",
+					"act_set",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCslwAAAA",
+					"oooooooooooooooooooo",
+					"\"\n",
+					"httpGet",
+					"ooooooooooo",
+					"act_set",
+					"reminder",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCslQAAAA",
+					"ACT_SET_REMIND",
+					"ACT_TRIG_REMIND",
+					"***********DoInBackgroundForSns<---",
+					"sns.Send",
+					"send<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+					"send",
+					"remider2",
+					"test remin",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCskgAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCshQAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiAAAAA",
+					"172.25.78.74",
+					"GetNearlastRemind/ get RemindStrToTime",
+					"GetNearlastRemind/ get GetCalendarRemindInfo",
+					"GetNearlastRemind/ times<------",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsjQAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsjAAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsigAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiwAAAA",
+					"GetRemindStatus",
+					"GetNearlastRemind",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsigAAAA",
+					"StatusMachine GetNextStatus<---",
+					"GetNearlastRemind/ index<------",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiAAAAA",
+					"UpdateEvent/ models.EventInfo.InsertOrUpdateEventInfo",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsfwAAAA",
+					"httpget"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"GetResourceEventInfoByDiff",
+					"GetTokenByTenant",
+					"loadOfficeDomainFromMemory",
+					"UpdateAllWatch",
+					"GetAllOfficeEventList",
+					"SyncResourceDataAction",
+					"UpdateResourceWatchAction",
+					"Calendartype",
+					"E",
+					"D",
+					"pLog",
+					"pLog.E",
+					"models.Calendar_domain_info",
+					"",
+					"msgRes",
+					"persianOrm.",
+					"persian.",
+					"",
+					"createSlackRequest",
+					"",
+					"GetString(command.UserID",
+					"",
+					"ProIWBResume"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"menu_visible": true,
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\dingding\\controllers\\office":
+			{
+				"height": 124.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\dingding\\routers":
+			{
+				"height": 124.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office":
+			{
+				"height": 311.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office\\controllers":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office\\routers":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\calendar":
+			{
+				"height": 239.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\calendar\\office":
+			{
+				"height": 303.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\logic":
+			{
+				"height": 347.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\sns":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\sns\\msteams":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\models":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\util\\pFunction":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\web\\routers":
+			{
+				"height": 334.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\web\\webControllers":
+			{
+				"height": 407.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\controllers":
+			{
+				"height": 355.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\models":
+			{
+				"height": 276.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\routers":
+			{
+				"height": 424.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\common\\cmutil":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\local":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snscommon":
+			{
+				"height": 278.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snsplugin":
+			{
+				"height": 513.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 142.0
+			},
+			"output.GsDoc-output-output":
+			{
+				"height": 324.0
+			},
+			"output.exec":
+			{
+				"height": 142.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"pc",
+						"cloud\\util\\pConst\\pConst.go"
+					],
+					[
+						"def",
+						"cloud\\controllers\\default.go"
+					],
+					[
+						"do",
+						"cloud\\views\\download.html"
+					],
+					[
+						"",
+						"cloud\\views\\login.html"
+					],
+					[
+						"app",
+						"cloud\\conf\\app.conf"
+					],
+					[
+						"login",
+						"cloud\\views\\login.html"
+					],
+					[
+						"dow",
+						"cloud\\views\\download.html"
+					],
+					[
+						"down",
+						"cloud\\views\\download.html"
+					],
+					[
+						"socket",
+						"cloud\\controllers\\socketmanager.go"
+					],
+					[
+						"sla",
+						"cloud\\controllers\\slack_api.go"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"showSla",
+						"ShowSlack"
+					]
+				],
+				"width": 416.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 320.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 944.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"init",
+						"InitDbData	 ƒ"
+					],
+					[
+						"Err",
+						"ErrDefine	snsstruct.ErrDefine ν"
+					],
+					[
+						"S",
+						"SErrConfig	snscommon.ErrConfig ν"
+					],
+					[
+						"sns",
+						"snsglobal	 package ρ"
+					],
+					[
+						"E",
+						"ErrDefine	snsstruct.ErrDefine ν"
+					],
+					[
+						"to",
+						"token	string ν"
+					],
+					[
+						"e",
+						"ErrCode	int ν"
+					],
+					[
+						"st",
+						"String	string ƒ"
+					],
+					[
+						"Config",
+						"Configer	interface ¡"
+					],
+					[
+						"config",
+						"Configer	interface ¡"
+					],
+					[
+						"ini",
+						"IniConfig	struct ʈ"
+					],
+					[
+						"snsp",
+						"snsplugin	 package ρ"
+					],
+					[
+						"n",
+						"UnixNano	int64 ƒ"
+					],
+					[
+						"str",
+						"strconv	 package ρ"
+					],
+					[
+						"maxint",
+						"MaxInt32	 Ɩ"
+					],
+					[
+						"in",
+						"Intn	int ƒ"
+					],
+					[
+						"ran",
+						"randNum	*rand.Rand ν"
+					],
+					[
+						"plu",
+						"PluginToken	string ν"
+					],
+					[
+						"sn",
+						"snsstruct	 package ρ"
+					],
+					[
+						"id",
+						"PluginId	string ν"
+					],
+					[
+						"get",
+						"GetBearerFromRequest	token string, err error ƒ"
+					],
+					[
+						"spl",
+						"SplitN	[]string ƒ"
+					],
+					[
+						"err",
+						"errors	 package ρ"
+					],
+					[
+						"gets",
+						"GetSession	interface{} ƒ"
+					],
+					[
+						"dom",
+						"domains	[]models.Calendar_domain_info ν"
+					],
+					[
+						"doma",
+						"domainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"office",
+						"OfficeDomainTokenMap	map[string]models.Calendar_domain_info ν"
+					],
+					[
+						"Office",
+						"OfficeDomainTokenMapLock	sync.RWMutex ν"
+					],
+					[
+						"set",
+						"saveOfficeDomainToMemory	 ƒ"
+					],
+					[
+						"cale",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"off",
+						"office_secret	string ν"
+					],
+					[
+						"office_sco",
+						"office_tenant_scope	string ν"
+					],
+					[
+						"re",
+						"redirect	string ν"
+					],
+					[
+						"Off",
+						"OfficeController	struct ʈ"
+					],
+					[
+						"upda",
+						"UpdateResourceToken	 ƒ"
+					],
+					[
+						"eve",
+						"events	[]models.Event_info ν"
+					],
+					[
+						"value",
+						"value	models.Event_info ν"
+					],
+					[
+						"R",
+						"RFC3339	 Ɩ"
+					],
+					[
+						"up",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"do",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"Update",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"update",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"req",
+						"Request	 ƒ"
+					],
+					[
+						"updatetoke",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"updatet",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"Upda",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"calen",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"getdo",
+						"GetDomainByResourceId	domain []models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"cal",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"resou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"getdoma",
+						"GetDomainInfo	domainInfo models.Calendar_domain_info, errRes error ƒ"
+					],
+					[
+						"con",
+						"console.error();"
+					],
+					[
+						"offic",
+						"OfficeSubcribe	models.Calendar_watch_info ν"
+					],
+					[
+						"ev",
+						"events	[]models.Event_info ν"
+					],
+					[
+						"data",
+						"data	pStruct.MeettingStateInfo ν"
+					],
+					[
+						"send",
+						"SendMessageOnly	[]byte, error ƒ"
+					],
+					[
+						"s",
+						"Summary	string ν"
+					],
+					[
+						"cin",
+						"Cintimeout	string ν"
+					],
+					[
+						"updawa",
+						"UpdateOfficeWatch	 ƒ"
+					],
+					[
+						"add",
+						"AddOfficeResource	 ƒ"
+					],
+					[
+						"nof",
+						"Notify	 ƒ"
+					],
+					[
+						"subcriwa",
+						"SubcribeResourceWatchAction	 ν"
+					],
+					[
+						"no",
+						"Notify	 ƒ"
+					],
+					[
+						"p",
+						"pConst	 package ρ"
+					],
+					[
+						"ca",
+						"CALENDAR_TYPE_OFFICE365	 Ɩ"
+					],
+					[
+						"sy",
+						"sync	 package ρ"
+					],
+					[
+						"i",
+						"I	 ƒ"
+					],
+					[
+						"job",
+						"MAX_JOBS_CALENDAR	 Ɩ"
+					],
+					[
+						"caleresou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"valu",
+						"value	MyJsonTrackValue ν"
+					],
+					[
+						"la",
+						"layout	string ν"
+					],
+					[
+						"lo",
+						"location	string ν"
+					],
+					[
+						"getdom",
+						"GetDomainByResourceId	domain []models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"dele",
+						"deleteSubscription	 ƒ"
+					],
+					[
+						"calde",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"clare",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"sub",
+						"SubcribeOfficeResource	 ƒ"
+					],
+					[
+						"va",
+						"value	MyJsonTrackValue ν"
+					],
+					[
+						"par",
+						"parseEventTime	tstr string, err error ƒ"
+					],
+					[
+						"Ca",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"getto",
+						"GetOfficeToken	office models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"doam",
+						"domains	[]models.Calendar_domain_info ν"
+					],
+					[
+						"gettoke",
+						"GetOfficeToken	office models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"un",
+						"UnSubcribeOfficeResource	 ƒ"
+					],
+					[
+						"res",
+						"ResponseWriter	*context.Response ν"
+					],
+					[
+						"sta",
+						"Status	string ν"
+					],
+					[
+						"tra",
+						"track	MyJsonTrack ν"
+					],
+					[
+						"d",
+						"D	 ƒ"
+					],
+					[
+						"getre",
+						"GetCalendarResourceInfoByResourceid	[]models.Calendar_resource_info, error ƒ"
+					],
+					[
+						"reso",
+						"resourceInfos	[]models.Calendar_resource_info ν"
+					],
+					[
+						"care",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"calere",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"syn",
+						"SyncSubcribeOffice	 ƒ"
+					],
+					[
+						"json",
+						"jsonDomain	JsonDomain ν"
+					],
+					[
+						"su",
+						"subcribe	models.Calendar_watch_info ν"
+					],
+					[
+						"sus",
+						"SubcribeOfficeResource	 ƒ"
+					],
+					[
+						"ser",
+						"ServeJSON	 ƒ"
+					],
+					[
+						"cado",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"calendo",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"wa",
+						"WatchInfo	models.Calendar_watch_info ν"
+					],
+					[
+						"caresou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"cain",
+						"Calendar_resource_info	struct ʈ"
+					],
+					[
+						"Wat",
+						"Calendar_watch_info	struct ʈ"
+					],
+					[
+						"calenre",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"careour",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"er",
+						"err	error ν"
+					],
+					[
+						"C",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"new",
+						"NewNamespace	*beego.Namespace ƒ"
+					],
+					[
+						"upte",
+						"UpdateSubcribeOfficeResource	 ƒ"
+					],
+					[
+						"Sy",
+						"SyncDataAction	 ν"
+					],
+					[
+						"del",
+						"deltaLink	string ν"
+					],
+					[
+						"Eve",
+						"Event_info	struct ʈ"
+					],
+					[
+						"pri",
+						"Println	n int, err error ƒ"
+					],
+					[
+						"f",
+						"Fprintln	n int, err error ƒ"
+					],
+					[
+						"de",
+						"DefaultClient	*http.Client ν"
+					],
+					[
+						"im",
+						"import	import (...) ʂ"
+					],
+					[
+						"se",
+						"secret	 ν"
+					],
+					[
+						"sc",
+						"scope	 ν"
+					],
+					[
+						"sec",
+						"scope	 ν"
+					],
+					[
+						"w",
+						"WriteHeader	 ƒ"
+					],
+					[
+						"wri",
+						"WriteHeader	 ƒ"
+					],
+					[
+						"ur",
+						"RequestURI	string ν"
+					],
+					[
+						"c",
+						"Ctx	*context.Context ν"
+					],
+					[
+						"win",
+						"win64	 ν"
+					],
+					[
+						"rea",
+						"Read	string ƒ"
+					],
+					[
+						"html",
+						"html	.html()"
+					],
+					[
+						"u",
+						"UserId	string ν"
+					],
+					[
+						"team",
+						"teamName	string ν"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/Users/tangzhongliang/src/pythonsrc/tests/mailserver.py",
+					"settings":
+					{
+						"buffer_size": 872,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/src/pythonsrc/tests/server.py",
+					"settings":
+					{
+						"buffer_size": 359,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/src/pythonsrc/tests/tftest.py",
+					"settings":
+					{
+						"buffer_size": 109,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "Anaconda Python Builder",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Anaconda Python Builder",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Anaconda Python Builder",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/GoSublime/GoSublime.sublime-build",
+							""
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/GoSublime/GoSublime.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 219.0,
+				"last_filter": "wra",
+				"selected_items":
+				[
+					[
+						"wra",
+						"Word Wrap: Toggle"
+					],
+					[
+						"GoSublime: pa",
+						"GoSublime: Browse Packages"
+					],
+					[
+						"GoSublime: pak",
+						"GoSublime: Browse Packages"
+					],
+					[
+						"func",
+						"Snippet: Function"
+					],
+					[
+						"w",
+						"Word Wrap: Toggle"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"ip",
+						"Package Control: Install Package"
+					],
+					[
+						"listpa",
+						"Package Control: List Packages"
+					],
+					[
+						"GoSublime: hi",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"GoSublime: godi",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: tode",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: hin",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"GoSublime: tod",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"GoSublime: todi",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: goto",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: de",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: go",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: to",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: ",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: gode",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: usa",
+						"GoSublime: Usage & Tips"
+					],
+					[
+						"GoSublime: do",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"rp",
+						"GoSublime: Add/Remove package"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 432.0
+			},
+			"console":
+			{
+				"height": 174.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/C/Users/tangzhongliang/src/pythonsrc/tests"
+			],
+			"file_history":
+			[
+				"/C/Users/tangzhongliang/Downloads/Ribot_local_win64 (3)/Ribot_local_win64/proxy.txt",
+				"/C/Users/tangzhongliang/Downloads/Ribot_local_win64 (3)/Ribot_local_win64/ricohConf.txt",
+				"/C/Users/tangzhongliang/test.txt",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp08442/root/workspace/src/dingding/routers/router.go",
+				"/C/Users/tangzhongliang/go/src/dingding/officeapp",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/webControllers/office_auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/office_auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/webControllers/office.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/main.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/routers/router.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/office_meeting.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/calendar.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp56216/root/workspace/src/log.txt",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp54322/root/fordocker/persian/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/local.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/models/google.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pFunction/pFunction.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/subcribe.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/meeting.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/google/googleProcess.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pConst/pConst.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/models/office_models.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pStruct/pInfo.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/logic/threadcalendar.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/default.go",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp53762/root/fordocker/ribot-install",
+				"/C/Users/tangzhongliang/go/src/office/controllers/office_meeting.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/ribot_thread_manager - Copy.bak",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/views/logintest.html",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/message_handler.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/static/img/haha.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/default.go",
+				"/C/Users/tangzhongliang/Desktop/sdf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/socketmanager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/ribot_thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/model_crud.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/scanToSlack/RobotScan/cheetahMiniUtil/src/main/java/jp/co/ricoh/advop/mini/cheetahminiutil/ssdk/wrapper/client/RestClient.java",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmutil/log.go",
+				"/C/Users/tangzhongliang/go/src/ribot - Copy/cloud/controllers/ribot_thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/test.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/app_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/user_language.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/slack_api.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/persian_models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/conf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/resourece.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/team_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmmodels/job_modles.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmconstant/constant.go",
+				"/C/Go/src/strconv/itoa.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf/youxia.cer",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/button_message_handle.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/USAGE.md",
+				"/C/Go/src/builtin/builtin.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/company_server_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/base.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/team_models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/company_user_controller.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda_GO.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/anaconda_go/Anaconda_GO.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp04109/home/rits/go/src/nohup.out",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/bot_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/routers/router.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/Go/src/strings/strings.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/main.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/views/login.html",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmutil/conf_util.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/company_user_models.go"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 102.0,
+				"where_history":
+				[
+					"C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>,C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>,C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot",
+					"C:\\Users\\tangzhongliang\\go\\src\\active-directory-node-webapi",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"SNSEPBeans",
+					":=",
+					"token",
+					"pc",
+					"officeapp/controllers/office",
+					"officeAction",
+					"ACT_DELETE_MEETTING",
+					"redirect",
+					"httpGet",
+					"GetResourceEventInfoByDiff",
+					"httpGet",
+					"getTokenByTenant",
+					"SubscriptionID",
+					"layout",
+					"TokenHandleChan",
+					"result",
+					"req_list",
+					"getOfficeDomainByDomain",
+					"getOfficeDomainFromRunning",
+					"parseResponse",
+					"todo",
+					"officeAction",
+					"eventInfo",
+					"models",
+					"GetAccountInfoByLineaccount",
+					"MeettingStateInfo",
+					"ACT_SNS_UPDATAMESSAGE",
+					"SendMessageOnly",
+					"MeettingStateInfo",
+					"Creatormail",
+					"Creatormail =",
+					"Creatormail",
+					"SendMessageOnly",
+					"updatemessage",
+					"ACT_SNS_CONFIM_CANCEL",
+					"ACT_SNS_UPDATAMESSAGE",
+					"ACT_UPDATAMESSAGE",
+					"ACT_SNS_UPDATAMESSAGE",
+					"UpdateMessage",
+					"sendcheck",
+					"Cinremind",
+					"updateSubscription",
+					"SubcribeOfficeResource",
+					"UpdateAllSubcribeOfficeResource",
+					"SubcribeResourceAll",
+					"SyncAllSubcribeOfficeResource",
+					"UpdateAllWatch",
+					"(\\s+)SubcribeOfficeResource",
+					"^SubcribeOfficeResource",
+					"SubcribeOfficeResource",
+					"UpdateResourceWatchAction",
+					"SyncDataAction",
+					"UpdateDataAction",
+					"ChangeMeetingTime",
+					"CalendarActionInfo",
+					"'",
+					"CALENDAR_TYPE_OFFICE365",
+					".CalendarType",
+					"CalendarType",
+					"todo",
+					"<<<(\\s*)HEAD",
+					"HEAD",
+					"msteams",
+					"sync",
+					"<<<(\\s*)HEAD",
+					"HEAD",
+					"pConst",
+					"C",
+					"office365",
+					"CALENDAR_TYPE_OFFICE365 = ",
+					"pConst",
+					"HEAD",
+					"====================",
+					"<<<<<<<<<<<<<<<<<<<<<<",
+					"fmt",
+					"LogE",
+					"LogD",
+					"cmutil",
+					"win32",
+					"sendmessageto",
+					"lineRemiderCancelUpdataMsg",
+					"CallbackIdMap",
+					"MsteamsController",
+					"ACT_SNS_CONFIM_MESSAGE",
+					"*********Msteams Send---eventInfo************",
+					"SendCancelMessage",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsmwAAAA",
+					"Entry/ AfterFunc",
+					"time.AfterFunc trig",
+					"act_set",
+					"act_update",
+					"act_set",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCslwAAAA",
+					"oooooooooooooooooooo",
+					"\"\n",
+					"httpGet",
+					"ooooooooooo",
+					"act_set",
+					"reminder",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCslQAAAA",
+					"ACT_SET_REMIND",
+					"ACT_TRIG_REMIND",
+					"***********DoInBackgroundForSns<---",
+					"sns.Send",
+					"send<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+					"send",
+					"remider2",
+					"test remin",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCskgAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCshQAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiAAAAA",
+					"172.25.78.74",
+					"GetNearlastRemind/ get RemindStrToTime",
+					"GetNearlastRemind/ get GetCalendarRemindInfo",
+					"GetNearlastRemind/ times<------",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsjQAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsjAAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsigAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiwAAAA",
+					"GetRemindStatus",
+					"GetNearlastRemind",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsigAAAA",
+					"StatusMachine GetNextStatus<---",
+					"GetNearlastRemind/ index<------",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiAAAAA",
+					"UpdateEvent/ models.EventInfo.InsertOrUpdateEventInfo",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsfwAAAA",
+					"httpget"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"GetResourceEventInfoByDiff",
+					"GetTokenByTenant",
+					"loadOfficeDomainFromMemory",
+					"UpdateAllWatch",
+					"GetAllOfficeEventList",
+					"SyncResourceDataAction",
+					"UpdateResourceWatchAction",
+					"Calendartype",
+					"E",
+					"D",
+					"pLog",
+					"pLog.E",
+					"models.Calendar_domain_info",
+					"",
+					"msgRes",
+					"persianOrm.",
+					"persian.",
+					"",
+					"createSlackRequest",
+					"",
+					"GetString(command.UserID",
+					"",
+					"ProIWBResume"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "C:\\Users\\tangzhongliang\\src\\pythonsrc\\tests"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/tangzhongliang/src/pythonsrc/tests/mailserver.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 872,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/tangzhongliang/src/pythonsrc/tests/server.py",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 359,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/C/Users/tangzhongliang/src/pythonsrc/tests/tftest.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 109,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										109,
+										109
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".",
+											"selector": "source.go"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
+									"auto_name": "",
+									"syntax": "Packages/Python/Python.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\dingding\\controllers\\office":
+			{
+				"height": 124.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\dingding\\routers":
+			{
+				"height": 124.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office":
+			{
+				"height": 311.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office\\controllers":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office\\routers":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\calendar":
+			{
+				"height": 239.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\calendar\\office":
+			{
+				"height": 303.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\logic":
+			{
+				"height": 347.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\sns":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\sns\\msteams":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\models":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\util\\pFunction":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\web\\routers":
+			{
+				"height": 334.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\web\\webControllers":
+			{
+				"height": 407.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\controllers":
+			{
+				"height": 355.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\models":
+			{
+				"height": 276.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\routers":
+			{
+				"height": 424.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\common\\cmutil":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\local":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snscommon":
+			{
+				"height": 278.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snsplugin":
+			{
+				"height": 513.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 142.0
+			},
+			"output.GsDoc-output-output":
+			{
+				"height": 324.0
+			},
+			"output.exec":
+			{
+				"height": 386.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-32000,-32000,-1,-1,335,75,75,1035",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"pc",
+						"cloud\\util\\pConst\\pConst.go"
+					],
+					[
+						"def",
+						"cloud\\controllers\\default.go"
+					],
+					[
+						"do",
+						"cloud\\views\\download.html"
+					],
+					[
+						"",
+						"cloud\\views\\login.html"
+					],
+					[
+						"app",
+						"cloud\\conf\\app.conf"
+					],
+					[
+						"login",
+						"cloud\\views\\login.html"
+					],
+					[
+						"dow",
+						"cloud\\views\\download.html"
+					],
+					[
+						"down",
+						"cloud\\views\\download.html"
+					],
+					[
+						"socket",
+						"cloud\\controllers\\socketmanager.go"
+					],
+					[
+						"sla",
+						"cloud\\controllers\\slack_api.go"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"showSla",
+						"ShowSlack"
+					]
+				],
+				"width": 416.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 320.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 44,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"init",
+						"InitDbData	 ƒ"
+					],
+					[
+						"Err",
+						"ErrDefine	snsstruct.ErrDefine ν"
+					],
+					[
+						"S",
+						"SErrConfig	snscommon.ErrConfig ν"
+					],
+					[
+						"sns",
+						"snsglobal	 package ρ"
+					],
+					[
+						"E",
+						"ErrDefine	snsstruct.ErrDefine ν"
+					],
+					[
+						"to",
+						"token	string ν"
+					],
+					[
+						"e",
+						"ErrCode	int ν"
+					],
+					[
+						"st",
+						"String	string ƒ"
+					],
+					[
+						"Config",
+						"Configer	interface ¡"
+					],
+					[
+						"config",
+						"Configer	interface ¡"
+					],
+					[
+						"ini",
+						"IniConfig	struct ʈ"
+					],
+					[
+						"snsp",
+						"snsplugin	 package ρ"
+					],
+					[
+						"n",
+						"UnixNano	int64 ƒ"
+					],
+					[
+						"str",
+						"strconv	 package ρ"
+					],
+					[
+						"maxint",
+						"MaxInt32	 Ɩ"
+					],
+					[
+						"in",
+						"Intn	int ƒ"
+					],
+					[
+						"ran",
+						"randNum	*rand.Rand ν"
+					],
+					[
+						"plu",
+						"PluginToken	string ν"
+					],
+					[
+						"sn",
+						"snsstruct	 package ρ"
+					],
+					[
+						"id",
+						"PluginId	string ν"
+					],
+					[
+						"get",
+						"GetBearerFromRequest	token string, err error ƒ"
+					],
+					[
+						"spl",
+						"SplitN	[]string ƒ"
+					],
+					[
+						"err",
+						"errors	 package ρ"
+					],
+					[
+						"gets",
+						"GetSession	interface{} ƒ"
+					],
+					[
+						"dom",
+						"domains	[]models.Calendar_domain_info ν"
+					],
+					[
+						"doma",
+						"domainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"office",
+						"OfficeDomainTokenMap	map[string]models.Calendar_domain_info ν"
+					],
+					[
+						"Office",
+						"OfficeDomainTokenMapLock	sync.RWMutex ν"
+					],
+					[
+						"set",
+						"saveOfficeDomainToMemory	 ƒ"
+					],
+					[
+						"cale",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"off",
+						"office_secret	string ν"
+					],
+					[
+						"office_sco",
+						"office_tenant_scope	string ν"
+					],
+					[
+						"re",
+						"redirect	string ν"
+					],
+					[
+						"Off",
+						"OfficeController	struct ʈ"
+					],
+					[
+						"upda",
+						"UpdateResourceToken	 ƒ"
+					],
+					[
+						"eve",
+						"events	[]models.Event_info ν"
+					],
+					[
+						"value",
+						"value	models.Event_info ν"
+					],
+					[
+						"R",
+						"RFC3339	 Ɩ"
+					],
+					[
+						"up",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"do",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"Update",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"update",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"req",
+						"Request	 ƒ"
+					],
+					[
+						"updatetoke",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"updatet",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"Upda",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"calen",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"getdo",
+						"GetDomainByResourceId	domain []models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"cal",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"resou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"getdoma",
+						"GetDomainInfo	domainInfo models.Calendar_domain_info, errRes error ƒ"
+					],
+					[
+						"con",
+						"console.error();"
+					],
+					[
+						"offic",
+						"OfficeSubcribe	models.Calendar_watch_info ν"
+					],
+					[
+						"ev",
+						"events	[]models.Event_info ν"
+					],
+					[
+						"data",
+						"data	pStruct.MeettingStateInfo ν"
+					],
+					[
+						"send",
+						"SendMessageOnly	[]byte, error ƒ"
+					],
+					[
+						"s",
+						"Summary	string ν"
+					],
+					[
+						"cin",
+						"Cintimeout	string ν"
+					],
+					[
+						"updawa",
+						"UpdateOfficeWatch	 ƒ"
+					],
+					[
+						"add",
+						"AddOfficeResource	 ƒ"
+					],
+					[
+						"nof",
+						"Notify	 ƒ"
+					],
+					[
+						"subcriwa",
+						"SubcribeResourceWatchAction	 ν"
+					],
+					[
+						"no",
+						"Notify	 ƒ"
+					],
+					[
+						"p",
+						"pConst	 package ρ"
+					],
+					[
+						"ca",
+						"CALENDAR_TYPE_OFFICE365	 Ɩ"
+					],
+					[
+						"sy",
+						"sync	 package ρ"
+					],
+					[
+						"i",
+						"I	 ƒ"
+					],
+					[
+						"job",
+						"MAX_JOBS_CALENDAR	 Ɩ"
+					],
+					[
+						"caleresou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"valu",
+						"value	MyJsonTrackValue ν"
+					],
+					[
+						"la",
+						"layout	string ν"
+					],
+					[
+						"lo",
+						"location	string ν"
+					],
+					[
+						"getdom",
+						"GetDomainByResourceId	domain []models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"dele",
+						"deleteSubscription	 ƒ"
+					],
+					[
+						"calde",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"clare",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"sub",
+						"SubcribeOfficeResource	 ƒ"
+					],
+					[
+						"va",
+						"value	MyJsonTrackValue ν"
+					],
+					[
+						"par",
+						"parseEventTime	tstr string, err error ƒ"
+					],
+					[
+						"Ca",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"getto",
+						"GetOfficeToken	office models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"doam",
+						"domains	[]models.Calendar_domain_info ν"
+					],
+					[
+						"gettoke",
+						"GetOfficeToken	office models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"un",
+						"UnSubcribeOfficeResource	 ƒ"
+					],
+					[
+						"res",
+						"ResponseWriter	*context.Response ν"
+					],
+					[
+						"sta",
+						"Status	string ν"
+					],
+					[
+						"tra",
+						"track	MyJsonTrack ν"
+					],
+					[
+						"d",
+						"D	 ƒ"
+					],
+					[
+						"getre",
+						"GetCalendarResourceInfoByResourceid	[]models.Calendar_resource_info, error ƒ"
+					],
+					[
+						"reso",
+						"resourceInfos	[]models.Calendar_resource_info ν"
+					],
+					[
+						"care",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"calere",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"syn",
+						"SyncSubcribeOffice	 ƒ"
+					],
+					[
+						"json",
+						"jsonDomain	JsonDomain ν"
+					],
+					[
+						"su",
+						"subcribe	models.Calendar_watch_info ν"
+					],
+					[
+						"sus",
+						"SubcribeOfficeResource	 ƒ"
+					],
+					[
+						"ser",
+						"ServeJSON	 ƒ"
+					],
+					[
+						"cado",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"calendo",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"wa",
+						"WatchInfo	models.Calendar_watch_info ν"
+					],
+					[
+						"caresou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"cain",
+						"Calendar_resource_info	struct ʈ"
+					],
+					[
+						"Wat",
+						"Calendar_watch_info	struct ʈ"
+					],
+					[
+						"calenre",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"careour",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"er",
+						"err	error ν"
+					],
+					[
+						"C",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"new",
+						"NewNamespace	*beego.Namespace ƒ"
+					],
+					[
+						"upte",
+						"UpdateSubcribeOfficeResource	 ƒ"
+					],
+					[
+						"Sy",
+						"SyncDataAction	 ν"
+					],
+					[
+						"del",
+						"deltaLink	string ν"
+					],
+					[
+						"Eve",
+						"Event_info	struct ʈ"
+					],
+					[
+						"pri",
+						"Println	n int, err error ƒ"
+					],
+					[
+						"f",
+						"Fprintln	n int, err error ƒ"
+					],
+					[
+						"de",
+						"DefaultClient	*http.Client ν"
+					],
+					[
+						"im",
+						"import	import (...) ʂ"
+					],
+					[
+						"se",
+						"secret	 ν"
+					],
+					[
+						"sc",
+						"scope	 ν"
+					],
+					[
+						"sec",
+						"scope	 ν"
+					],
+					[
+						"w",
+						"WriteHeader	 ƒ"
+					],
+					[
+						"wri",
+						"WriteHeader	 ƒ"
+					],
+					[
+						"ur",
+						"RequestURI	string ν"
+					],
+					[
+						"c",
+						"Ctx	*context.Context ν"
+					],
+					[
+						"win",
+						"win64	 ν"
+					],
+					[
+						"rea",
+						"Read	string ƒ"
+					],
+					[
+						"html",
+						"html	.html()"
+					],
+					[
+						"u",
+						"UserId	string ν"
+					],
+					[
+						"team",
+						"teamName	string ν"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;%JAVA_HOME%\\bin\\;%SDK_HOME%\\platform-tools\\;%SDK_HOME%\\tools\\;%NDK_HOME%\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Qt\\Qt5.7.0\\Tools\\mingw530_32\\bin\\;C:\\Qt\\Qt5.7.0\\5.7\\mingw53_32\\bin\\;C:\\Program Files (x86)\\CMake\\bin;%ANT_HOME%\\bin;C:\\work-software\\opencv\\mingw_use\\bin;C:\\work-software\\cscope-15.7a-win32rev18-static\\;C:\\Program Files (x86)\\Git\\mingw32\\bin\\;C:\\work-software\\ctags58\\ctags58\\;%VIM_HOME%\\vim74\\;C:\\Program Files (x86)\\Python\\;C:\\Program Files\\TortoiseSVN\\bin;%NDK_HOME%\\toolchains\\;C:\\Program Files (x86)\\Python\\Scripts\\;C:\\Go\\bin;C:\\Program Files\\MySQL\\MySQL Utilities 1.6\\;C:\\Program Files\\TortoiseGit\\bin;%systemroot%\\System32\\WindowsPowerShell\\v1.0\\;%pm%/",
+					"settings":
+					{
+						"buffer_size": 798,
+						"line_ending": "Windows",
+						"name": "%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\Sy"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/GoSublime/GoSublime.sublime-build",
+							""
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/GoSublime/GoSublime.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 219.0,
+				"last_filter": "wra",
+				"selected_items":
+				[
+					[
+						"wra",
+						"Word Wrap: Toggle"
+					],
+					[
+						"GoSublime: pa",
+						"GoSublime: Browse Packages"
+					],
+					[
+						"GoSublime: pak",
+						"GoSublime: Browse Packages"
+					],
+					[
+						"func",
+						"Snippet: Function"
+					],
+					[
+						"w",
+						"Word Wrap: Toggle"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"ip",
+						"Package Control: Install Package"
+					],
+					[
+						"listpa",
+						"Package Control: List Packages"
+					],
+					[
+						"GoSublime: hi",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"GoSublime: godi",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: tode",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: hin",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"GoSublime: tod",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"GoSublime: todi",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: goto",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: de",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: go",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: to",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: ",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: gode",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: usa",
+						"GoSublime: Usage & Tips"
+					],
+					[
+						"GoSublime: do",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"rp",
+						"GoSublime: Add/Remove package"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 432.0
+			},
+			"console":
+			{
+				"height": 174.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/C/Users/tangzhongliang/Temp"
+			],
+			"file_history":
+			[
+				"/C/Users/tangzhongliang/Downloads/Ribot_local_win64 (3)/Ribot_local_win64/proxy.txt",
+				"/C/Users/tangzhongliang/Downloads/Ribot_local_win64 (3)/Ribot_local_win64/ricohConf.txt",
+				"/C/Users/tangzhongliang/test.txt",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp08442/root/workspace/src/dingding/routers/router.go",
+				"/C/Users/tangzhongliang/go/src/dingding/officeapp",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/webControllers/office_auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/office_auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/webControllers/office.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/main.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/routers/router.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/office_meeting.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/calendar.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp56216/root/workspace/src/log.txt",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp54322/root/fordocker/persian/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/local.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/models/google.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pFunction/pFunction.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/subcribe.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/meeting.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/google/googleProcess.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pConst/pConst.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/models/office_models.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pStruct/pInfo.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/logic/threadcalendar.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/default.go",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp53762/root/fordocker/ribot-install",
+				"/C/Users/tangzhongliang/go/src/office/controllers/office_meeting.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/ribot_thread_manager - Copy.bak",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/views/logintest.html",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/message_handler.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/static/img/haha.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/default.go",
+				"/C/Users/tangzhongliang/Desktop/sdf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/socketmanager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/ribot_thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/model_crud.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/scanToSlack/RobotScan/cheetahMiniUtil/src/main/java/jp/co/ricoh/advop/mini/cheetahminiutil/ssdk/wrapper/client/RestClient.java",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmutil/log.go",
+				"/C/Users/tangzhongliang/go/src/ribot - Copy/cloud/controllers/ribot_thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/test.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/app_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/user_language.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/slack_api.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/persian_models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/conf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/resourece.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/team_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmmodels/job_modles.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmconstant/constant.go",
+				"/C/Go/src/strconv/itoa.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf/youxia.cer",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/button_message_handle.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/USAGE.md",
+				"/C/Go/src/builtin/builtin.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/company_server_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/base.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/team_models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/company_user_controller.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda_GO.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/anaconda_go/Anaconda_GO.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp04109/home/rits/go/src/nohup.out",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/bot_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/routers/router.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/Go/src/strings/strings.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/main.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/views/login.html",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmutil/conf_util.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/company_user_models.go"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 102.0,
+				"where_history":
+				[
+					"C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>,C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>,C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot",
+					"C:\\Users\\tangzhongliang\\go\\src\\active-directory-node-webapi",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"pyth",
+					"SNSEPBeans",
+					":=",
+					"token",
+					"pc",
+					"officeapp/controllers/office",
+					"officeAction",
+					"ACT_DELETE_MEETTING",
+					"redirect",
+					"httpGet",
+					"GetResourceEventInfoByDiff",
+					"httpGet",
+					"getTokenByTenant",
+					"SubscriptionID",
+					"layout",
+					"TokenHandleChan",
+					"result",
+					"req_list",
+					"getOfficeDomainByDomain",
+					"getOfficeDomainFromRunning",
+					"parseResponse",
+					"todo",
+					"officeAction",
+					"eventInfo",
+					"models",
+					"GetAccountInfoByLineaccount",
+					"MeettingStateInfo",
+					"ACT_SNS_UPDATAMESSAGE",
+					"SendMessageOnly",
+					"MeettingStateInfo",
+					"Creatormail",
+					"Creatormail =",
+					"Creatormail",
+					"SendMessageOnly",
+					"updatemessage",
+					"ACT_SNS_CONFIM_CANCEL",
+					"ACT_SNS_UPDATAMESSAGE",
+					"ACT_UPDATAMESSAGE",
+					"ACT_SNS_UPDATAMESSAGE",
+					"UpdateMessage",
+					"sendcheck",
+					"Cinremind",
+					"updateSubscription",
+					"SubcribeOfficeResource",
+					"UpdateAllSubcribeOfficeResource",
+					"SubcribeResourceAll",
+					"SyncAllSubcribeOfficeResource",
+					"UpdateAllWatch",
+					"(\\s+)SubcribeOfficeResource",
+					"^SubcribeOfficeResource",
+					"SubcribeOfficeResource",
+					"UpdateResourceWatchAction",
+					"SyncDataAction",
+					"UpdateDataAction",
+					"ChangeMeetingTime",
+					"CalendarActionInfo",
+					"'",
+					"CALENDAR_TYPE_OFFICE365",
+					".CalendarType",
+					"CalendarType",
+					"todo",
+					"<<<(\\s*)HEAD",
+					"HEAD",
+					"msteams",
+					"sync",
+					"<<<(\\s*)HEAD",
+					"HEAD",
+					"pConst",
+					"C",
+					"office365",
+					"CALENDAR_TYPE_OFFICE365 = ",
+					"pConst",
+					"HEAD",
+					"====================",
+					"<<<<<<<<<<<<<<<<<<<<<<",
+					"fmt",
+					"LogE",
+					"LogD",
+					"cmutil",
+					"win32",
+					"sendmessageto",
+					"lineRemiderCancelUpdataMsg",
+					"CallbackIdMap",
+					"MsteamsController",
+					"ACT_SNS_CONFIM_MESSAGE",
+					"*********Msteams Send---eventInfo************",
+					"SendCancelMessage",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsmwAAAA",
+					"Entry/ AfterFunc",
+					"time.AfterFunc trig",
+					"act_set",
+					"act_update",
+					"act_set",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCslwAAAA",
+					"oooooooooooooooooooo",
+					"\"\n",
+					"httpGet",
+					"ooooooooooo",
+					"act_set",
+					"reminder",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCslQAAAA",
+					"ACT_SET_REMIND",
+					"ACT_TRIG_REMIND",
+					"***********DoInBackgroundForSns<---",
+					"sns.Send",
+					"send<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+					"send",
+					"remider2",
+					"test remin",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCskgAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCshQAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiAAAAA",
+					"172.25.78.74",
+					"GetNearlastRemind/ get RemindStrToTime",
+					"GetNearlastRemind/ get GetCalendarRemindInfo",
+					"GetNearlastRemind/ times<------",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsjQAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsjAAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsigAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiwAAAA",
+					"GetRemindStatus",
+					"GetNearlastRemind",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsigAAAA",
+					"StatusMachine GetNextStatus<---",
+					"GetNearlastRemind/ index<------",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiAAAAA",
+					"UpdateEvent/ models.EventInfo.InsertOrUpdateEventInfo",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsfwAAAA"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"GetResourceEventInfoByDiff",
+					"GetTokenByTenant",
+					"loadOfficeDomainFromMemory",
+					"UpdateAllWatch",
+					"GetAllOfficeEventList",
+					"SyncResourceDataAction",
+					"UpdateResourceWatchAction",
+					"Calendartype",
+					"E",
+					"D",
+					"pLog",
+					"pLog.E",
+					"models.Calendar_domain_info",
+					"",
+					"msgRes",
+					"persianOrm.",
+					"persian.",
+					"",
+					"createSlackRequest",
+					"",
+					"GetString(command.UserID",
+					"",
+					"ProIWBResume"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "C:\\Users\\tangzhongliang\\Temp"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 798,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										644,
+										648
+									]
+								],
+								"settings":
+								{
+									"auto_name": "%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\Sy",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\dingding\\controllers\\office":
+			{
+				"height": 124.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\dingding\\routers":
+			{
+				"height": 124.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office":
+			{
+				"height": 311.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office\\controllers":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office\\routers":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\calendar":
+			{
+				"height": 239.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\calendar\\office":
+			{
+				"height": 303.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\logic":
+			{
+				"height": 347.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\sns":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\sns\\msteams":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\models":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\util\\pFunction":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\web\\routers":
+			{
+				"height": 334.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\web\\webControllers":
+			{
+				"height": 407.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\controllers":
+			{
+				"height": 355.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\models":
+			{
+				"height": 276.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\routers":
+			{
+				"height": 424.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\common\\cmutil":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\local":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snscommon":
+			{
+				"height": 278.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snsplugin":
+			{
+				"height": 513.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 142.0
+			},
+			"output.GsDoc-output-output":
+			{
+				"height": 324.0
+			},
+			"output.exec":
+			{
+				"height": 142.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-32000,-32000,-1,-1,410,150,150,1110",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"pc",
+						"cloud\\util\\pConst\\pConst.go"
+					],
+					[
+						"def",
+						"cloud\\controllers\\default.go"
+					],
+					[
+						"do",
+						"cloud\\views\\download.html"
+					],
+					[
+						"",
+						"cloud\\views\\login.html"
+					],
+					[
+						"app",
+						"cloud\\conf\\app.conf"
+					],
+					[
+						"login",
+						"cloud\\views\\login.html"
+					],
+					[
+						"dow",
+						"cloud\\views\\download.html"
+					],
+					[
+						"down",
+						"cloud\\views\\download.html"
+					],
+					[
+						"socket",
+						"cloud\\controllers\\socketmanager.go"
+					],
+					[
+						"sla",
+						"cloud\\controllers\\slack_api.go"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"showSla",
+						"ShowSlack"
+					]
+				],
+				"width": 416.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 320.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 42,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Snep",
+						"SnsEpAccountEmail	struct ʈ"
+					],
+					[
+						"sns",
+						"snsEpAccountEmail	models.SnsEpAccountEmail ν"
+					],
+					[
+						"find",
+						"FindIndex	loc []int ƒ"
+					],
+					[
+						"fo",
+						"formater	*regexp.Regexp ν"
+					],
+					[
+						"com",
+						"MustCompile	*regexp.Regexp ƒ"
+					],
+					[
+						"id",
+						"AccountId	string ν"
+					],
+					[
+						"acc",
+						"AccountId	string ν"
+					],
+					[
+						"email",
+						"SnsEpAccountEmail	struct ʈ"
+					],
+					[
+						"in",
+						"InsertOrUpdate	err error ƒ"
+					],
+					[
+						"send",
+						"SendContentToEmail	 ƒ"
+					],
+					[
+						"gets",
+						"GetString	string ƒ"
+					],
+					[
+						"init",
+						"InitDbData	 ƒ"
+					],
+					[
+						"Err",
+						"ErrDefine	snsstruct.ErrDefine ν"
+					],
+					[
+						"S",
+						"SErrConfig	snscommon.ErrConfig ν"
+					],
+					[
+						"E",
+						"ErrDefine	snsstruct.ErrDefine ν"
+					],
+					[
+						"to",
+						"token	string ν"
+					],
+					[
+						"e",
+						"ErrCode	int ν"
+					],
+					[
+						"st",
+						"String	string ƒ"
+					],
+					[
+						"Config",
+						"Configer	interface ¡"
+					],
+					[
+						"config",
+						"Configer	interface ¡"
+					],
+					[
+						"ini",
+						"IniConfig	struct ʈ"
+					],
+					[
+						"snsp",
+						"snsplugin	 package ρ"
+					],
+					[
+						"n",
+						"UnixNano	int64 ƒ"
+					],
+					[
+						"str",
+						"strconv	 package ρ"
+					],
+					[
+						"maxint",
+						"MaxInt32	 Ɩ"
+					],
+					[
+						"ran",
+						"randNum	*rand.Rand ν"
+					],
+					[
+						"plu",
+						"PluginToken	string ν"
+					],
+					[
+						"sn",
+						"snsstruct	 package ρ"
+					],
+					[
+						"get",
+						"GetBearerFromRequest	token string, err error ƒ"
+					],
+					[
+						"spl",
+						"SplitN	[]string ƒ"
+					],
+					[
+						"err",
+						"errors	 package ρ"
+					],
+					[
+						"dom",
+						"domains	[]models.Calendar_domain_info ν"
+					],
+					[
+						"doma",
+						"domainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"office",
+						"OfficeDomainTokenMap	map[string]models.Calendar_domain_info ν"
+					],
+					[
+						"Office",
+						"OfficeDomainTokenMapLock	sync.RWMutex ν"
+					],
+					[
+						"set",
+						"saveOfficeDomainToMemory	 ƒ"
+					],
+					[
+						"cale",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"off",
+						"office_secret	string ν"
+					],
+					[
+						"office_sco",
+						"office_tenant_scope	string ν"
+					],
+					[
+						"re",
+						"redirect	string ν"
+					],
+					[
+						"Off",
+						"OfficeController	struct ʈ"
+					],
+					[
+						"upda",
+						"UpdateResourceToken	 ƒ"
+					],
+					[
+						"eve",
+						"events	[]models.Event_info ν"
+					],
+					[
+						"value",
+						"value	models.Event_info ν"
+					],
+					[
+						"R",
+						"RFC3339	 Ɩ"
+					],
+					[
+						"up",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"do",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"Update",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"update",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"req",
+						"Request	 ƒ"
+					],
+					[
+						"updatetoke",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"updatet",
+						"UpdateTokenTask	Update_Token_Task ν"
+					],
+					[
+						"Upda",
+						"Update_Token_Task	struct ʈ"
+					],
+					[
+						"calen",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"getdo",
+						"GetDomainByResourceId	domain []models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"cal",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"resou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"getdoma",
+						"GetDomainInfo	domainInfo models.Calendar_domain_info, errRes error ƒ"
+					],
+					[
+						"con",
+						"console.error();"
+					],
+					[
+						"offic",
+						"OfficeSubcribe	models.Calendar_watch_info ν"
+					],
+					[
+						"ev",
+						"events	[]models.Event_info ν"
+					],
+					[
+						"data",
+						"data	pStruct.MeettingStateInfo ν"
+					],
+					[
+						"s",
+						"Summary	string ν"
+					],
+					[
+						"cin",
+						"Cintimeout	string ν"
+					],
+					[
+						"updawa",
+						"UpdateOfficeWatch	 ƒ"
+					],
+					[
+						"add",
+						"AddOfficeResource	 ƒ"
+					],
+					[
+						"nof",
+						"Notify	 ƒ"
+					],
+					[
+						"subcriwa",
+						"SubcribeResourceWatchAction	 ν"
+					],
+					[
+						"no",
+						"Notify	 ƒ"
+					],
+					[
+						"p",
+						"pConst	 package ρ"
+					],
+					[
+						"ca",
+						"CALENDAR_TYPE_OFFICE365	 Ɩ"
+					],
+					[
+						"sy",
+						"sync	 package ρ"
+					],
+					[
+						"i",
+						"I	 ƒ"
+					],
+					[
+						"job",
+						"MAX_JOBS_CALENDAR	 Ɩ"
+					],
+					[
+						"caleresou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"valu",
+						"value	MyJsonTrackValue ν"
+					],
+					[
+						"la",
+						"layout	string ν"
+					],
+					[
+						"lo",
+						"location	string ν"
+					],
+					[
+						"getdom",
+						"GetDomainByResourceId	domain []models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"dele",
+						"deleteSubscription	 ƒ"
+					],
+					[
+						"calde",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"clare",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"sub",
+						"SubcribeOfficeResource	 ƒ"
+					],
+					[
+						"va",
+						"value	MyJsonTrackValue ν"
+					],
+					[
+						"par",
+						"parseEventTime	tstr string, err error ƒ"
+					],
+					[
+						"Ca",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"getto",
+						"GetOfficeToken	office models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"doam",
+						"domains	[]models.Calendar_domain_info ν"
+					],
+					[
+						"gettoke",
+						"GetOfficeToken	office models.Calendar_domain_info, err error ƒ"
+					],
+					[
+						"un",
+						"UnSubcribeOfficeResource	 ƒ"
+					],
+					[
+						"res",
+						"ResponseWriter	*context.Response ν"
+					],
+					[
+						"sta",
+						"Status	string ν"
+					],
+					[
+						"tra",
+						"track	MyJsonTrack ν"
+					],
+					[
+						"d",
+						"D	 ƒ"
+					],
+					[
+						"getre",
+						"GetCalendarResourceInfoByResourceid	[]models.Calendar_resource_info, error ƒ"
+					],
+					[
+						"reso",
+						"resourceInfos	[]models.Calendar_resource_info ν"
+					],
+					[
+						"care",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"calere",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"syn",
+						"SyncSubcribeOffice	 ƒ"
+					],
+					[
+						"json",
+						"jsonDomain	JsonDomain ν"
+					],
+					[
+						"su",
+						"subcribe	models.Calendar_watch_info ν"
+					],
+					[
+						"sus",
+						"SubcribeOfficeResource	 ƒ"
+					],
+					[
+						"ser",
+						"ServeJSON	 ƒ"
+					],
+					[
+						"cado",
+						"Calendar_domain_info	struct ʈ"
+					],
+					[
+						"calendo",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"wa",
+						"WatchInfo	models.Calendar_watch_info ν"
+					],
+					[
+						"caresou",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"cain",
+						"Calendar_resource_info	struct ʈ"
+					],
+					[
+						"Wat",
+						"Calendar_watch_info	struct ʈ"
+					],
+					[
+						"calenre",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"careour",
+						"CalendarResourceInfo	models.Calendar_resource_info ν"
+					],
+					[
+						"er",
+						"err	error ν"
+					],
+					[
+						"C",
+						"CalendarDomainInfo	models.Calendar_domain_info ν"
+					],
+					[
+						"new",
+						"NewNamespace	*beego.Namespace ƒ"
+					],
+					[
+						"upte",
+						"UpdateSubcribeOfficeResource	 ƒ"
+					],
+					[
+						"Sy",
+						"SyncDataAction	 ν"
+					],
+					[
+						"del",
+						"deltaLink	string ν"
+					],
+					[
+						"Eve",
+						"Event_info	struct ʈ"
+					],
+					[
+						"pri",
+						"Println	n int, err error ƒ"
+					],
+					[
+						"f",
+						"Fprintln	n int, err error ƒ"
+					],
+					[
+						"de",
+						"DefaultClient	*http.Client ν"
+					],
+					[
+						"im",
+						"import	import (...) ʂ"
+					],
+					[
+						"se",
+						"secret	 ν"
+					],
+					[
+						"sc",
+						"scope	 ν"
+					],
+					[
+						"sec",
+						"scope	 ν"
+					],
+					[
+						"w",
+						"WriteHeader	 ƒ"
+					],
+					[
+						"wri",
+						"WriteHeader	 ƒ"
+					],
+					[
+						"ur",
+						"RequestURI	string ν"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snsep/epemailbind.go",
+					"settings":
+					{
+						"buffer_size": 603,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snsep/SNSEPAccountManager.go",
+					"settings":
+					{
+						"buffer_size": 1270,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/controllers/web/snsepauth.go",
+					"settings":
+					{
+						"buffer_size": 2688,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/models/pluginbean.go",
+					"settings":
+					{
+						"buffer_size": 1019,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/controllers/web/snsplugin.go",
+					"settings":
+					{
+						"buffer_size": 1740,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snsplugin/snspluginaccountmanager.go",
+					"settings":
+					{
+						"buffer_size": 2734,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snsinterface/snseper/SNSEPAccountAuther.go",
+					"settings":
+					{
+						"buffer_size": 689,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snscommon/email.go",
+					"settings":
+					{
+						"buffer_size": 1168,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snscommon/sns_common.go",
+					"settings":
+					{
+						"buffer_size": 4129,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/common/synmap.go",
+					"settings":
+					{
+						"buffer_size": 805,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snscommon/token_util.go",
+					"settings":
+					{
+						"buffer_size": 483,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/common/random.go",
+					"settings":
+					{
+						"buffer_size": 507,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snscommon/models_insert_function.go",
+					"settings":
+					{
+						"buffer_size": 169,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/tangzhongliang/go/src/sns/routers/router.go",
+					"settings":
+					{
+						"buffer_size": 2140,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/GoSublime/GoSublime.sublime-build",
+							""
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/GoSublime/GoSublime.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 219.0,
+				"last_filter": "wra",
+				"selected_items":
+				[
+					[
+						"wra",
+						"Word Wrap: Toggle"
+					],
+					[
+						"GoSublime: pa",
+						"GoSublime: Browse Packages"
+					],
+					[
+						"GoSublime: pak",
+						"GoSublime: Browse Packages"
+					],
+					[
+						"func",
+						"Snippet: Function"
+					],
+					[
+						"w",
+						"Word Wrap: Toggle"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"ip",
+						"Package Control: Install Package"
+					],
+					[
+						"listpa",
+						"Package Control: List Packages"
+					],
+					[
+						"GoSublime: hi",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"GoSublime: godi",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: tode",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: hin",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"GoSublime: tod",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"GoSublime: todi",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: goto",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: de",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: go",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: to",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: ",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: gode",
+						"GoSublime: Goto Definition"
+					],
+					[
+						"GoSublime: usa",
+						"GoSublime: Usage & Tips"
+					],
+					[
+						"GoSublime: do",
+						"GoSublime: Show documentation hint"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"rp",
+						"GoSublime: Add/Remove package"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 432.0
+			},
+			"console":
+			{
+				"height": 174.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/C/Users/tangzhongliang/go/src/sns",
+				"/C/Users/tangzhongliang/go/src/sns/common",
+				"/C/Users/tangzhongliang/go/src/sns/common/snsconstant",
+				"/C/Users/tangzhongliang/go/src/sns/common/snsfactory",
+				"/C/Users/tangzhongliang/go/src/sns/common/snsglobal",
+				"/C/Users/tangzhongliang/go/src/sns/common/snsstruct",
+				"/C/Users/tangzhongliang/go/src/sns/controllers",
+				"/C/Users/tangzhongliang/go/src/sns/controllers/snscommon",
+				"/C/Users/tangzhongliang/go/src/sns/controllers/snsep",
+				"/C/Users/tangzhongliang/go/src/sns/controllers/snsimpl",
+				"/C/Users/tangzhongliang/go/src/sns/controllers/snsinterface",
+				"/C/Users/tangzhongliang/go/src/sns/controllers/snsinterface/snseper",
+				"/C/Users/tangzhongliang/go/src/sns/controllers/snsplugin",
+				"/C/Users/tangzhongliang/go/src/sns/controllers/web",
+				"/C/Users/tangzhongliang/go/src/sns/models",
+				"/C/Users/tangzhongliang/go/src/sns/models/beans",
+				"/C/Users/tangzhongliang/go/src/sns/routers",
+				"/C/Users/tangzhongliang/go/src/sns/tests",
+				"/C/Users/tangzhongliang/go/src/sns/tests/controllers",
+				"/C/Users/tangzhongliang/go/src/sns/tests/models",
+				"/C/Users/tangzhongliang/go/src/sns/tests/models/beans",
+				"/C/Users/tangzhongliang/go/src/sns/tests/models/dao"
+			],
+			"file_history":
+			[
+				"/C/Users/tangzhongliang/Downloads/Ribot_local_win64 (3)/Ribot_local_win64/proxy.txt",
+				"/C/Users/tangzhongliang/Downloads/Ribot_local_win64 (3)/Ribot_local_win64/ricohConf.txt",
+				"/C/Users/tangzhongliang/test.txt",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp08442/root/workspace/src/dingding/routers/router.go",
+				"/C/Users/tangzhongliang/go/src/dingding/officeapp",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/webControllers/office_auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/office_auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/webControllers/office.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/main.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/web/routers/router.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/office_meeting.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/calendar.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp56216/root/workspace/src/log.txt",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp54322/root/fordocker/persian/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/local.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/models/google.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pFunction/pFunction.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/subcribe.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/auth.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/meeting.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/google/googleProcess.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pConst/pConst.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/models/office_models.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/util/pStruct/pInfo.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/logic/threadcalendar.go",
+				"/C/Users/tangzhongliang/go/src/persian/cloud/controllers/calendar/office/default.go",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp53762/root/fordocker/ribot-install",
+				"/C/Users/tangzhongliang/go/src/office/controllers/office_meeting.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/ribot_thread_manager - Copy.bak",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/views/logintest.html",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/message_handler.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/static/img/haha.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/default.go",
+				"/C/Users/tangzhongliang/Desktop/sdf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/socketmanager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/ribot_thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/model_crud.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/scanToSlack/RobotScan/cheetahMiniUtil/src/main/java/jp/co/ricoh/advop/mini/cheetahminiutil/ssdk/wrapper/client/RestClient.java",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmutil/log.go",
+				"/C/Users/tangzhongliang/go/src/ribot - Copy/cloud/controllers/ribot_thread_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/test.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/app_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/user_language.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/slack_api.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/persian_models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/conf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf.txt",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/resourece.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/team_manager.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmmodels/job_modles.go",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmconstant/constant.go",
+				"/C/Go/src/strconv/itoa.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf/youxia.cer",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/button_message_handle.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/USAGE.md",
+				"/C/Go/src/builtin/builtin.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/company_server_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/base.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/team_models.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/company_user_controller.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda_GO.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/anaconda_go/Anaconda_GO.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
+				"/C/Users/tangzhongliang/AppData/Local/Temp/scp04109/home/rits/go/src/nohup.out",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/controllers/bot_controller.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/routers/router.go",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+				"/C/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/Go/src/strings/strings.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/main.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/views/login.html",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/conf/app.conf",
+				"/C/Users/tangzhongliang/go/src/ribot/common/cmutil/conf_util.go",
+				"/C/Users/tangzhongliang/go/src/ribot/cloud/models/company_user_models.go"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 102.0,
+				"where_history":
+				[
+					"C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>,C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud",
+					"C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>,C:\\Users\\tangzhongliang\\go\\src\\persian",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot",
+					"C:\\Users\\tangzhongliang\\go\\src\\active-directory-node-webapi",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\",
+					"<current file>",
+					"C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"SNSEPBeans",
+					":=",
+					"token",
+					"pc",
+					"officeapp/controllers/office",
+					"officeAction",
+					"ACT_DELETE_MEETTING",
+					"redirect",
+					"httpGet",
+					"GetResourceEventInfoByDiff",
+					"httpGet",
+					"getTokenByTenant",
+					"SubscriptionID",
+					"layout",
+					"TokenHandleChan",
+					"result",
+					"req_list",
+					"getOfficeDomainByDomain",
+					"getOfficeDomainFromRunning",
+					"parseResponse",
+					"todo",
+					"officeAction",
+					"eventInfo",
+					"models",
+					"GetAccountInfoByLineaccount",
+					"MeettingStateInfo",
+					"ACT_SNS_UPDATAMESSAGE",
+					"SendMessageOnly",
+					"MeettingStateInfo",
+					"Creatormail",
+					"Creatormail =",
+					"Creatormail",
+					"SendMessageOnly",
+					"updatemessage",
+					"ACT_SNS_CONFIM_CANCEL",
+					"ACT_SNS_UPDATAMESSAGE",
+					"ACT_UPDATAMESSAGE",
+					"ACT_SNS_UPDATAMESSAGE",
+					"UpdateMessage",
+					"sendcheck",
+					"Cinremind",
+					"updateSubscription",
+					"SubcribeOfficeResource",
+					"UpdateAllSubcribeOfficeResource",
+					"SubcribeResourceAll",
+					"SyncAllSubcribeOfficeResource",
+					"UpdateAllWatch",
+					"(\\s+)SubcribeOfficeResource",
+					"^SubcribeOfficeResource",
+					"SubcribeOfficeResource",
+					"UpdateResourceWatchAction",
+					"SyncDataAction",
+					"UpdateDataAction",
+					"ChangeMeetingTime",
+					"CalendarActionInfo",
+					"'",
+					"CALENDAR_TYPE_OFFICE365",
+					".CalendarType",
+					"CalendarType",
+					"todo",
+					"<<<(\\s*)HEAD",
+					"HEAD",
+					"msteams",
+					"sync",
+					"<<<(\\s*)HEAD",
+					"HEAD",
+					"pConst",
+					"C",
+					"office365",
+					"CALENDAR_TYPE_OFFICE365 = ",
+					"pConst",
+					"HEAD",
+					"====================",
+					"<<<<<<<<<<<<<<<<<<<<<<",
+					"fmt",
+					"LogE",
+					"LogD",
+					"cmutil",
+					"win32",
+					"sendmessageto",
+					"lineRemiderCancelUpdataMsg",
+					"CallbackIdMap",
+					"MsteamsController",
+					"ACT_SNS_CONFIM_MESSAGE",
+					"*********Msteams Send---eventInfo************",
+					"SendCancelMessage",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsmwAAAA",
+					"Entry/ AfterFunc",
+					"time.AfterFunc trig",
+					"act_set",
+					"act_update",
+					"act_set",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCslwAAAA",
+					"oooooooooooooooooooo",
+					"\"\n",
+					"httpGet",
+					"ooooooooooo",
+					"act_set",
+					"reminder",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCslQAAAA",
+					"ACT_SET_REMIND",
+					"ACT_TRIG_REMIND",
+					"***********DoInBackgroundForSns<---",
+					"sns.Send",
+					"send<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<",
+					"send",
+					"remider2",
+					"test remin",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCskgAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCshQAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiAAAAA",
+					"172.25.78.74",
+					"GetNearlastRemind/ get RemindStrToTime",
+					"GetNearlastRemind/ get GetCalendarRemindInfo",
+					"GetNearlastRemind/ times<------",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsjQAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsjAAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsigAAAA",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiwAAAA",
+					"GetRemindStatus",
+					"GetNearlastRemind",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsigAAAA",
+					"StatusMachine GetNextStatus<---",
+					"GetNearlastRemind/ index<------",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsiAAAAA",
+					"UpdateEvent/ models.EventInfo.InsertOrUpdateEventInfo",
+					"AQMkAGVjNWE4OWEyLWU3NmEtNDk0ZC1hZmUyLTJmM2ZkZThhNWY2ZgBGAAAEicPO7f1UQrUkvnALDO5vBwCy02EmYlSHS4z2C5V1qZhGAAACAQ0AAACy02EmYlSHS4z2C5V1qZhGAAAACXCsfwAAAA",
+					"httpget"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"GetResourceEventInfoByDiff",
+					"GetTokenByTenant",
+					"loadOfficeDomainFromMemory",
+					"UpdateAllWatch",
+					"GetAllOfficeEventList",
+					"SyncResourceDataAction",
+					"UpdateResourceWatchAction",
+					"Calendartype",
+					"E",
+					"D",
+					"pLog",
+					"pLog.E",
+					"models.Calendar_domain_info",
+					"",
+					"msgRes",
+					"persianOrm.",
+					"persian.",
+					"",
+					"createSlackRequest",
+					"",
+					"GetString(command.UserID",
+					"",
+					"ProIWBResume"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "C:\\Users\\tangzhongliang\\go\\src\\sns"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snsep/epemailbind.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 603,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										602,
+										602
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snsep/SNSEPAccountManager.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1270,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										616,
+										616
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 57.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/C/Users/tangzhongliang/go/src/sns/controllers/web/snsepauth.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2688,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1856,
+										1856
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 692.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/C/Users/tangzhongliang/go/src/sns/models/pluginbean.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1019,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										673,
+										673
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/C/Users/tangzhongliang/go/src/sns/controllers/web/snsplugin.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1740,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										251,
+										251
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": -0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 11,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snsplugin/snspluginaccountmanager.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2734,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										248,
+										248
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snsinterface/snseper/SNSEPAccountAuther.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 689,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										552,
+										552
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 12,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snscommon/email.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1168,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										387,
+										387
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snscommon/sns_common.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4129,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										94,
+										94
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 114.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/C/Users/tangzhongliang/go/src/sns/common/synmap.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 805,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										335,
+										335
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 31.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snscommon/token_util.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 483,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										59,
+										59
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "/C/Users/tangzhongliang/go/src/sns/common/random.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 507,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										92,
+										92
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "/C/Users/tangzhongliang/go/src/sns/controllers/snscommon/models_insert_function.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 169,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										142,
+										142
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "/C/Users/tangzhongliang/go/src/sns/routers/router.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2140,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1641,
+										1641
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 160.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 13,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\dingding\\controllers\\office":
+			{
+				"height": 124.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\dingding\\routers":
+			{
+				"height": 124.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office":
+			{
+				"height": 311.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office\\controllers":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\office\\routers":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\calendar":
+			{
+				"height": 239.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\calendar\\office":
+			{
+				"height": 303.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\logic":
+			{
+				"height": 347.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\sns":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\controllers\\sns\\msteams":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\models":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\util\\pFunction":
+			{
+				"height": 130.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\web\\routers":
+			{
+				"height": 334.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\persian\\cloud\\web\\webControllers":
+			{
+				"height": 407.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\controllers":
+			{
+				"height": 355.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\models":
+			{
+				"height": 276.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\cloud\\routers":
+			{
+				"height": 424.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\common\\cmutil":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\ribot\\local":
+			{
+				"height": 142.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snscommon":
+			{
+				"height": 278.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\snsplugin":
+			{
+				"height": 209.0
+			},
+			"output.9o://C:\\Users\\tangzhongliang\\go\\src\\sns\\controllers\\web":
+			{
+				"height": 416.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 142.0
+			},
+			"output.GsDoc-output-output":
+			{
+				"height": 324.0
+			},
+			"output.exec":
+			{
+				"height": 142.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-32000,-32000,-1,-1,335,75,75,1035",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"pc",
+						"cloud\\util\\pConst\\pConst.go"
+					],
+					[
+						"def",
+						"cloud\\controllers\\default.go"
+					],
+					[
+						"do",
+						"cloud\\views\\download.html"
+					],
+					[
+						"",
+						"cloud\\views\\login.html"
+					],
+					[
+						"app",
+						"cloud\\conf\\app.conf"
+					],
+					[
+						"login",
+						"cloud\\views\\login.html"
+					],
+					[
+						"dow",
+						"cloud\\views\\download.html"
+					],
+					[
+						"down",
+						"cloud\\views\\download.html"
+					],
+					[
+						"socket",
+						"cloud\\controllers\\socketmanager.go"
+					],
+					[
+						"sla",
+						"cloud\\controllers\\slack_api.go"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"showSla",
+						"ShowSlack"
+					]
+				],
+				"width": 416.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 320.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 43,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

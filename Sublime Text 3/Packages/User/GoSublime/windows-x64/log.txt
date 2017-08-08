@@ -1,0 +1,3129 @@
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;$HOME\\Code\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"$HOME/Code/go", InstallSuffix:""}
+margo: 2017/05/22 12:57:03 broker.go:105: gocode_calltip#mg9.autoken.2d210a13-a322-4519-8287-ddc72da9a753 PANIC: open C:\Users\tangzhongliang\AppData\Local\Temp\scp55334\home\rits\go\src\ribot\cloud\controllers\: The system cannot find the path specified.
+goroutine 23 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc0420c7120, 0xc04200bf80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc9
+panic(0x86e8e0, 0xc04205e690)
+	C:/Go/src/runtime/panic.go:489 +0x2dd
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc042114e00, 0x6f, 0xc042108c40, 0xb, 0xc0420f8270, 0xc04202d798, 0xc042085cf8)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x577
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc042114e00, 0x6f, 0xc042108c40, 0xb, 0xc042102e80, 0xc04202d838, 0x7917a5, 0xc042114e70)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x6e
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc04200dfc0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x124
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc04200dfc0, 0xc042137500, 0xa3b, 0xa80, 0xc042114e00, 0x6f, 0x41d, 0x1, 0x1, 0xc042114e00, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1ed
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc0420a0790, 0x1, 0x0, 0x0, 0xc04203655a, 0x6, 0xc042109370, 0x1, 0x1, 0xc042137500, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x14d
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc0422a8100, 0xc042137500, 0xa3b, 0xa80, 0xc042114e00, 0x6f, 0x41d, 0x0, 0xa80, 0xc042137500)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x14b
+disposa.blue/cmd/margo_pkg.(*mGocode).calltips(0xc0422a8100, 0xc042137500, 0xa3b, 0xa80, 0xc042114e00, 0x6f, 0x409, 0xc04211c000, 0x454190, 0xc04211c000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:105 +0x1df
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc0422a8100, 0x90dab0, 0xc0420c7120, 0xc04200bf80, 0xc0420f21e0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:74 +0x18f
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc04200bf80, 0xc0420c7120, 0xae6d60, 0xc0422a8100)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0xa1
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xe1
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 1 [syscall, locked to thread]:
+syscall.Syscall6(0x772009a0, 0x5, 0x418, 0xc042120000, 0x1000, 0xc04229577c, 0x0, 0x0, 0x454190, 0xb208e0, ...)
+	C:/Go/src/runtime/syscall_windows.go:174 +0x6b
+syscall.ReadFile(0x418, 0xc042120000, 0x1000, 0x1000, 0xc04229577c, 0x0, 0xc042295798, 0xc042295790)
+	C:/Go/src/syscall/zsyscall_windows.go:311 +0xe6
+syscall.Read(0x418, 0xc042120000, 0x1000, 0x1000, 0xc04211c000, 0x454190, 0xc04211c000)
+	C:/Go/src/syscall/syscall_windows.go:296 +0x6f
+os.(*File).read(0xc042060000, 0xc042120000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	C:/Go/src/os/file_windows.go:289 +0xd0
+os.(*File).Read(0xc042060000, 0xc042120000, 0x1000, 0x1000, 0x454190, 0xc04211c000, 0xc0420f21e0)
+	C:/Go/src/os/file.go:101 +0x7d
+bufio.(*Reader).fill(0xc042034540)
+	C:/Go/src/bufio/bufio.go:97 +0x11e
+bufio.(*Reader).ReadSlice(0xc042034540, 0xc042295a0a, 0xc042295978, 0x4fa2aa, 0xc0422959b0, 0x0, 0xc0422a8100)
+	C:/Go/src/bufio/bufio.go:338 +0xc2
+bufio.(*Reader).ReadBytes(0xc042034540, 0xc04203430a, 0xc042295af8, 0x0, 0x0, 0x0, 0x0)
+	C:/Go/src/bufio/bufio.go:416 +0x6d
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc04200bf80, 0xc0420343c0, 0xc04200bf00)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x53
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc04200bf80, 0x900001)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x152
+disposa.blue/cmd/margo_pkg.Main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x71f
+main.main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x27
+
+goroutine 49 [chan receive]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc042116138)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa8
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x91
+
+goroutine 50 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x93
+created by disposa.blue/cmd/margo_pkg.init.2
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x3c
+
+goroutine 6 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x156
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x46
+
+goroutine 7 [sleep]:
+time.Sleep(0x6fc23ac00)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc04200bf80, 0xc042108610)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x51
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x83c
+
+goroutine 8 [chan receive]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc04200bf80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x8c
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x6f1
+
+goroutine 21 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 22 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 55 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 56 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 57 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 58 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 59 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 60 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 61 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 62 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 63 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 64 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 71 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+
+margo: 2017/05/22 12:57:04 broker.go:105: gocode_calltip#mg9.autoken.b6c5ca58-16ca-4151-bcbf-7797cc979c40 PANIC: open C:\Users\tangzhongliang\AppData\Local\Temp\scp55334\home\rits\go\src\ribot\cloud\controllers\: The system cannot find the path specified.
+goroutine 22 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc042102160, 0xc04200bf80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc9
+panic(0x86e8e0, 0xc0462d0330)
+	C:/Go/src/runtime/panic.go:489 +0x2dd
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc04200b810, 0x6f, 0xc042036ae0, 0xb, 0xc042291818, 0xc042291798, 0xc042291908)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x577
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc04200b810, 0x6f, 0xc042036ae0, 0xb, 0xc042102e80, 0xc042291838, 0x7917a5, 0xc042114e70)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x6e
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc04200dfc0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x124
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc04200dfc0, 0xc0422a2a80, 0xa3b, 0xa80, 0xc04200b810, 0x6f, 0x41d, 0x1, 0x1, 0xc04200b810, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1ed
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc0420a0790, 0x1, 0x0, 0x0, 0xc0421082da, 0x6, 0xc042109bb0, 0x1, 0x1, 0xc0422a2a80, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x14d
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc0422a8000, 0xc0422a2a80, 0xa3b, 0xa80, 0xc04200b810, 0x6f, 0x41d, 0x0, 0xa80, 0xc0422a2a80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x14b
+disposa.blue/cmd/margo_pkg.(*mGocode).calltips(0xc0422a8000, 0xc0422a2a80, 0xa3b, 0xa80, 0xc04200b810, 0x6f, 0x409, 0x42c29d, 0x0, 0x4110ad)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:105 +0x1df
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc0422a8000, 0x90dab0, 0xc042102160, 0xc04200bf80, 0xc0420f2230)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:74 +0x18f
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc04200bf80, 0xc042102160, 0xae6d60, 0xc0422a8000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0xa1
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xe1
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 1 [syscall, locked to thread]:
+syscall.Syscall6(0x772009a0, 0x5, 0x418, 0xc042120000, 0x1000, 0xc04229577c, 0x0, 0x0, 0x5, 0x3, ...)
+	C:/Go/src/runtime/syscall_windows.go:174 +0x6b
+syscall.ReadFile(0x418, 0xc042120000, 0x1000, 0x1000, 0xc04229577c, 0x0, 0xc042295798, 0xc042295790)
+	C:/Go/src/syscall/zsyscall_windows.go:311 +0xe6
+syscall.Read(0x418, 0xc042120000, 0x1000, 0x1000, 0xc042295850, 0x40fecc, 0x851ae0)
+	C:/Go/src/syscall/syscall_windows.go:296 +0x6f
+os.(*File).read(0xc042060000, 0xc042120000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	C:/Go/src/os/file_windows.go:289 +0xd0
+os.(*File).Read(0xc042060000, 0xc042120000, 0x1000, 0x1000, 0xc042122058, 0x3, 0xc042015350)
+	C:/Go/src/os/file.go:101 +0x7d
+bufio.(*Reader).fill(0xc042034540)
+	C:/Go/src/bufio/bufio.go:97 +0x11e
+bufio.(*Reader).ReadSlice(0xc042034540, 0xc042295a0a, 0xc042295978, 0x4fa2aa, 0xc0422959b0, 0x0, 0xc0422a8000)
+	C:/Go/src/bufio/bufio.go:338 +0xc2
+bufio.(*Reader).ReadBytes(0xc042034540, 0xc04203430a, 0xc042295af8, 0x0, 0x0, 0x0, 0x0)
+	C:/Go/src/bufio/bufio.go:416 +0x6d
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc04200bf80, 0xc0420343c0, 0xc04200bf00)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x53
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc04200bf80, 0x900001)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x152
+disposa.blue/cmd/margo_pkg.Main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x71f
+main.main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x27
+
+goroutine 49 [chan receive]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc042116138)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa8
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x91
+
+goroutine 50 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x93
+created by disposa.blue/cmd/margo_pkg.init.2
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x3c
+
+goroutine 6 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x156
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x46
+
+goroutine 7 [sleep]:
+time.Sleep(0x6fc23ac00)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc04200bf80, 0xc042108610)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x51
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x83c
+
+goroutine 8 [chan receive]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc04200bf80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x8c
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x6f1
+
+goroutine 21 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 23 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 55 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 56 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 57 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 58 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 59 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 60 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 61 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 62 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 63 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 64 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 71 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+
+margo: 2017/05/22 12:57:05 broker.go:105: gocode_calltip#mg9.autoken.6ff7e6b4-5bdd-425c-a0db-1470713db9b1 PANIC: open C:\Users\tangzhongliang\AppData\Local\Temp\scp55334\home\rits\go\src\ribot\cloud\controllers\: The system cannot find the path specified.
+goroutine 62 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc042102140, 0xc04200bf80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc9
+panic(0x86e8e0, 0xc0462d03c0)
+	C:/Go/src/runtime/panic.go:489 +0x2dd
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc042114e00, 0x6f, 0xc042036820, 0xb, 0xc04202d818, 0xc04202d798, 0xc04202d908)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x577
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc042114e00, 0x6f, 0xc042036820, 0xb, 0xc042102e80, 0xc04202d838, 0x7917a5, 0xc042114e70)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x6e
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc04200dfc0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x124
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc04200dfc0, 0xc042137500, 0xa3b, 0xa80, 0xc042114e00, 0x6f, 0x41d, 0x1, 0x1, 0xc042114e00, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1ed
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc0420a0790, 0x1, 0x0, 0x0, 0xc0421081fa, 0x6, 0xc042109940, 0x1, 0x1, 0xc042137500, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x14d
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc0422a8080, 0xc042137500, 0xa3b, 0xa80, 0xc042114e00, 0x6f, 0x41d, 0x0, 0xa80, 0xc042137500)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x14b
+disposa.blue/cmd/margo_pkg.(*mGocode).calltips(0xc0422a8080, 0xc042137500, 0xa3b, 0xa80, 0xc042114e00, 0x6f, 0x409, 0x42c29d, 0x0, 0x4110ad)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:105 +0x1df
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc0422a8080, 0x90dab0, 0xc042102140, 0xc04200bf80, 0xc0420f2280)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:74 +0x18f
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc04200bf80, 0xc042102140, 0xae6d60, 0xc0422a8080)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0xa1
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xe1
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 1 [syscall, locked to thread]:
+syscall.Syscall6(0x772009a0, 0x5, 0x418, 0xc042120000, 0x1000, 0xc04229577c, 0x0, 0x0, 0x7, 0x3, ...)
+	C:/Go/src/runtime/syscall_windows.go:174 +0x6b
+syscall.ReadFile(0x418, 0xc042120000, 0x1000, 0x1000, 0xc04229577c, 0x0, 0xc042295798, 0xc042295790)
+	C:/Go/src/syscall/zsyscall_windows.go:311 +0xe6
+syscall.Read(0x418, 0xc042120000, 0x1000, 0x1000, 0xc042295850, 0x40fecc, 0x851ae0)
+	C:/Go/src/syscall/syscall_windows.go:296 +0x6f
+os.(*File).read(0xc042060000, 0xc042120000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	C:/Go/src/os/file_windows.go:289 +0xd0
+os.(*File).Read(0xc042060000, 0xc042120000, 0x1000, 0x1000, 0xc042122058, 0x3, 0xc042016650)
+	C:/Go/src/os/file.go:101 +0x7d
+bufio.(*Reader).fill(0xc042034540)
+	C:/Go/src/bufio/bufio.go:97 +0x11e
+bufio.(*Reader).ReadSlice(0xc042034540, 0xc042295a0a, 0xc042295978, 0x4fa2aa, 0xc0422959b0, 0x0, 0xc0422a8080)
+	C:/Go/src/bufio/bufio.go:338 +0xc2
+bufio.(*Reader).ReadBytes(0xc042034540, 0xc04203430a, 0xc042295af8, 0x0, 0x0, 0x0, 0x0)
+	C:/Go/src/bufio/bufio.go:416 +0x6d
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc04200bf80, 0xc0420343c0, 0xc04200bf00)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x53
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc04200bf80, 0x900001)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x152
+disposa.blue/cmd/margo_pkg.Main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x71f
+main.main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x27
+
+goroutine 49 [chan receive]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc042116138)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa8
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x91
+
+goroutine 50 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x93
+created by disposa.blue/cmd/margo_pkg.init.2
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x3c
+
+goroutine 6 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x156
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x46
+
+goroutine 7 [sleep]:
+time.Sleep(0x6fc23ac00)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc04200bf80, 0xc042108610)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x51
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x83c
+
+goroutine 8 [chan receive]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc04200bf80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x8c
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x6f1
+
+goroutine 21 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 22 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 23 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 55 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 56 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 57 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 58 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 59 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 60 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 61 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 63 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 64 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 71 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04200bf80, 0xc042036430, 0xc0420343c0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go/go", InstallSuffix:""}
+
+** 2017-05-22 13:05:47.588196 **:
+MarGo: MarGo build failed
+cmd: `['C:\\Go\\bin\\go.exe', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r17.03.05-1_go?.exe', 'disposa.blue/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+disposa.blue/margo
+net
+disposa.blue/something-borrowed/types
+disposa.blue/margo/meth/importpaths
+crypto/x509
+vendor/golang_org/x/net/lex/httplex
+net/textproto
+crypto/tls
+mime/multipart
+net/http/httptrace
+net/http
+net/http/pprof
+net/rpc
+disposa.blue/something-borrowed/gocode
+disposa.blue/cmd/margo_pkg
+disposa.blue/cmd/margo
+go install disposa.blue/cmd/margo: open gosublime.margo_r17.03.05-1_go?.exe: The filename, directory name, or volume label syntax is incorrect.
+`
+exception: `None`
+--------------------------------
+
+** 2017-05-22 13:12:25.048196 **:
+MarGo: MarGo build failed
+cmd: `['C:\\Go\\bin\\go.exe', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r17.03.05-1_go?.exe', 'disposa.blue/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+disposa.blue/margo
+net
+disposa.blue/something-borrowed/types
+disposa.blue/margo/meth/importpaths
+vendor/golang_org/x/net/lex/httplex
+crypto/x509
+net/textproto
+mime/multipart
+crypto/tls
+net/http/httptrace
+net/http
+net/http/pprof
+net/rpc
+disposa.blue/something-borrowed/gocode
+disposa.blue/cmd/margo_pkg
+disposa.blue/cmd/margo
+go install disposa.blue/cmd/margo: open gosublime.margo_r17.03.05-1_go?.exe: The filename, directory name, or volume label syntax is incorrect.
+`
+exception: `None`
+--------------------------------
+
+** 2017-05-22 13:17:29.729663 **:
+MarGo: MarGo build failed
+cmd: `['C:\\Go\\bin\\go.exe', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r17.03.05-1_go?.exe', 'disposa.blue/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+net
+disposa.blue/margo
+disposa.blue/something-borrowed/types
+disposa.blue/margo/meth/importpaths
+crypto/x509
+vendor/golang_org/x/net/lex/httplex
+net/textproto
+crypto/tls
+mime/multipart
+net/http/httptrace
+net/http
+net/http/pprof
+net/rpc
+disposa.blue/something-borrowed/gocode
+disposa.blue/cmd/margo_pkg
+disposa.blue/cmd/margo
+go install disposa.blue/cmd/margo: open gosublime.margo_r17.03.05-1_go?.exe: The filename, directory name, or volume label syntax is incorrect.
+`
+exception: `None`
+--------------------------------
+
+** 2017-05-22 14:11:19.271594 **:
+MarGo: MarGo build failed
+cmd: `['C:\\Go\\bin\\go.exe', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r17.03.05-1_go?.exe', 'disposa.blue/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+disposa.blue/margo
+net
+disposa.blue/something-borrowed/types
+disposa.blue/margo/meth/importpaths
+crypto/x509
+vendor/golang_org/x/net/lex/httplex
+net/textproto
+crypto/tls
+mime/multipart
+net/http/httptrace
+net/http
+net/http/pprof
+net/rpc
+disposa.blue/something-borrowed/gocode
+disposa.blue/cmd/margo_pkg
+disposa.blue/cmd/margo
+go install disposa.blue/cmd/margo: open gosublime.margo_r17.03.05-1_go?.exe: The filename, directory name, or volume label syntax is incorrect.
+`
+exception: `None`
+--------------------------------
+Gocode pkg: "ribot/cloud"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmmodels"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "."
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+2017/05/25 17:48:55 MarGo: OOM.
+Memory limit: 1000m
+Memory usage: 1144m
+Number goroutines: 28
+------- begin stack trace ----
+
+goroutine 49 [running, locked to thread]:
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:28 +0x194
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x46
+
+goroutine 1 [syscall, locked to thread]:
+syscall.Syscall6(0x772009a0, 0x5, 0x430, 0xc042102000, 0x1000, 0xc04202b77c, 0x0, 0x0, 0x6, 0x3, ...)
+	C:/Go/src/runtime/syscall_windows.go:174 +0x6b
+syscall.ReadFile(0x430, 0xc042102000, 0x1000, 0x1000, 0xc04202b77c, 0x0, 0xc04202b798, 0xc04202b790)
+	C:/Go/src/syscall/zsyscall_windows.go:311 +0xe6
+syscall.Read(0x430, 0xc042102000, 0x1000, 0x1000, 0xc04202b800, 0x10000000040fecc, 0x851ae0)
+	C:/Go/src/syscall/syscall_windows.go:296 +0x6f
+os.(*File).read(0xc042004010, 0xc042102000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	C:/Go/src/os/file_windows.go:289 +0xd0
+os.(*File).Read(0xc042004010, 0xc042102000, 0x1000, 0x1000, 0xc046793718, 0x3, 0xc042019950)
+	C:/Go/src/os/file.go:101 +0x7d
+bufio.(*Reader).fill(0xc04208c120)
+	C:/Go/src/bufio/bufio.go:97 +0x11e
+bufio.(*Reader).ReadSlice(0xc04208c120, 0xc04202ba0a, 0xc04202b978, 0x4fa2aa, 0xc04202b9b0, 0x0, 0xc046960b00)
+	C:/Go/src/bufio/bufio.go:338 +0xc2
+bufio.(*Reader).ReadBytes(0xc04208c120, 0xc04208c10a, 0xc04202baf8, 0x0, 0x0, 0x0, 0x0)
+	C:/Go/src/bufio/bufio.go:416 +0x6d
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc04210e000, 0xc04208c180, 0xc04210e000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x53
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc04210e000, 0x900001)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x152
+disposa.blue/cmd/margo_pkg.Main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x71f
+main.main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x27
+
+goroutine 19 [chan receive, 4 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc042092158)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa8
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x91
+
+goroutine 20 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x93
+created by disposa.blue/cmd/margo_pkg.init.2
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x3c
+
+goroutine 50 [sleep]:
+time.Sleep(0x6fc23ac00)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc04210e000, 0xc042010050)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x51
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x83c
+
+goroutine 51 [chan receive, 2850 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc04210e000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x8c
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x6f1
+
+goroutine 23 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 24 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 25 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 34 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 35 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 36 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 37 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 38 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 39 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 40 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 41 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 42 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 43 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 44 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 45 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 46 [syscall, 1 minutes, locked to thread]:
+syscall.Syscall(0x772114d0, 0x2, 0x34c, 0xffffffff, 0x0, 0x55db3e, 0x4569c0, 0xc04640bc30)
+	C:/Go/src/runtime/syscall_windows.go:163 +0x6b
+syscall.WaitForSingleObject(0x34c, 0xffffffff, 0xc045d4ab00, 0xc045f63b00, 0x3)
+	C:/Go/src/syscall/zsyscall_windows.go:718 +0x6d
+os.(*Process).wait(0xc042c373b0, 0x0, 0x0, 0x0)
+	C:/Go/src/os/exec_windows.go:18 +0xa0
+os.(*Process).Wait(0xc042c373b0, 0x0, 0x0, 0x90e818)
+	C:/Go/src/os/exec.go:115 +0x32
+os/exec.(*Cmd).Wait(0xc045d4ab00, 0x0, 0x0)
+	C:/Go/src/os/exec/exec.go:435 +0x69
+os/exec.(*Cmd).Run(0xc045d4ab00, 0x2e, 0xc045d4ab00)
+	C:/Go/src/os/exec/exec.go:280 +0x63
+disposa.blue/cmd/margo_pkg.(*mSh).Call(0xc043339b20, 0x90dab0, 0xc0455c59a0, 0xc04210e000, 0xc044c155e0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_sh.go:49 +0x2c6
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc04210e000, 0xc0455c59a0, 0xae7060, 0xc043339b20)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0xa1
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xe1
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 47 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 48 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 81 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 82 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc04210e000, 0xc0420102a0, 0xc04208c180)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 755038 [syscall, 1 minutes, locked to thread]:
+syscall.Syscall6(0x772009a0, 0x5, 0x368, 0xc045e90600, 0x200, 0xc0469ddd3c, 0x0, 0x0, 0x7, 0x3, ...)
+	C:/Go/src/runtime/syscall_windows.go:174 +0x6b
+syscall.ReadFile(0x368, 0xc045e90600, 0x200, 0x200, 0xc0469ddd3c, 0x0, 0xc0469ddd58, 0xc0469ddd50)
+	C:/Go/src/syscall/zsyscall_windows.go:311 +0xe6
+syscall.Read(0x368, 0xc045e90600, 0x200, 0x200, 0x42c596, 0x90d968, 0xc0469dddc0)
+	C:/Go/src/syscall/syscall_windows.go:296 +0x6f
+os.(*File).read(0xc042da5a98, 0xc045e90600, 0x200, 0x200, 0x0, 0x0, 0x0)
+	C:/Go/src/os/file_windows.go:289 +0xd0
+os.(*File).Read(0xc042da5a98, 0xc045e90600, 0x200, 0x200, 0xc0469dde58, 0xc0469085a0, 0xc0469dde60)
+	C:/Go/src/os/file.go:101 +0x7d
+bytes.(*Buffer).ReadFrom(0xc043339b90, 0xae7d20, 0xc042da5a98, 0x2f74670, 0xc043339b90, 0x42c201)
+	C:/Go/src/bytes/buffer.go:179 +0x167
+io.copyBuffer(0xae6aa0, 0xc043339b90, 0xae7d20, 0xc042da5a98, 0x0, 0x0, 0x0, 0xc042019900, 0x0, 0x0)
+	C:/Go/src/io/io.go:384 +0x2d2
+io.Copy(0xae6aa0, 0xc043339b90, 0xae7d20, 0xc042da5a98, 0x90dc20, 0xc0469ddfa0, 0x7b3782)
+	C:/Go/src/io/io.go:360 +0x6f
+os/exec.(*Cmd).writerDescriptor.func1(0x7b386b, 0xc046365320)
+	C:/Go/src/os/exec/exec.go:254 +0x54
+os/exec.(*Cmd).Start.func1(0xc045d4ab00, 0xc045f63b00)
+	C:/Go/src/os/exec/exec.go:371 +0x2e
+created by os/exec.(*Cmd).Start
+	C:/Go/src/os/exec/exec.go:372 +0x55e
+
+goroutine 755037 [runnable, locked to thread]:
+syscall.Syscall6(0x772009a0, 0x5, 0x350, 0xc076d16fff, 0xffe8e01, 0xc046913d3c, 0x0, 0x0, 0x16, 0x3, ...)
+	C:/Go/src/runtime/syscall_windows.go:174 +0x6b
+syscall.ReadFile(0x350, 0xc076d16fff, 0xffe8e01, 0xffe8e01, 0xc046913d3c, 0x0, 0xc046913d58, 0xc046913d50)
+	C:/Go/src/syscall/zsyscall_windows.go:311 +0xe6
+syscall.Read(0x350, 0xc076d16fff, 0xffe8e01, 0xffe8e01, 0x1061, 0x0, 0x0)
+	C:/Go/src/syscall/syscall_windows.go:296 +0x6f
+os.(*File).read(0xc042da5a70, 0xc076d16fff, 0xffe8e01, 0xffe8e01, 0x0, 0x0, 0x0)
+	C:/Go/src/os/file_windows.go:289 +0xd0
+os.(*File).Read(0xc042da5a70, 0xc076d16fff, 0xffe8e01, 0xffe8e01, 0x1061, 0x0, 0x0)
+	C:/Go/src/os/file.go:101 +0x7d
+bytes.(*Buffer).ReadFrom(0xc043339c00, 0xae7d20, 0xc042da5a70, 0x2f74670, 0xc043339c00, 0x42c201)
+	C:/Go/src/bytes/buffer.go:179 +0x167
+io.copyBuffer(0xae6aa0, 0xc043339c00, 0xae7d20, 0xc042da5a70, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0)
+	C:/Go/src/io/io.go:384 +0x2d2
+io.Copy(0xae6aa0, 0xc043339c00, 0xae7d20, 0xc042da5a70, 0x90dc20, 0xc046913fa0, 0x7b3782)
+	C:/Go/src/io/io.go:360 +0x6f
+os/exec.(*Cmd).writerDescriptor.func1(0x7b386b, 0xc046365320)
+	C:/Go/src/os/exec/exec.go:254 +0x54
+os/exec.(*Cmd).Start.func1(0xc045d4ab00, 0xc045f63ac0)
+	C:/Go/src/os/exec/exec.go:371 +0x2e
+created by os/exec.(*Cmd).Start
+	C:/Go/src/os/exec/exec.go:372 +0x55e
+
+
+-------  end stack trace  ----
+
+** 2017-05-25 17:48:56.501548 **:
+MarGo: Cannot talk to MarGo:
+--------------------------------
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmmodels"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "."
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/routers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmmodels"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/models"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/models"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/local"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "."
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmconstant"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "."
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/local"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/local"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "hello/routers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "hello/routers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "hello/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "office"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office"
+Gocode pkg: "office/routers"
+Gocode pkg: "office"
+Gocode pkg: "office/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/routers"
+Gocode pkg: "office"
+Gocode pkg: "office/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "office"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/controllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "office"
+Gocode pkg: "office/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "."
+Gocode pkg: "office/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office"
+Gocode pkg: "office/views"
+Gocode pkg: "office"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "office"
+Gocode pkg: "office/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "office"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "persian/cloud/sns/messagepool"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "office/routers"
+Gocode pkg: "office"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "office"
+Gocode pkg: "office/controllers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "office/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "office/controllers"
+Gocode pkg: "office/models"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "office/controllers/office"
+Gocode pkg: "office/models"
+Gocode pkg: "office/controllers/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "persian/cloud/calendar"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "persian/cloud/calendar"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "ribot/cloud/models"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "."
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/routers"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "."
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/routers"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/routers"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/routers"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/routers"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/routers"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/routers"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp"
+Gocode pkg: "officeapp/routers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "officeapp/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/util/pThread"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/sns/msteams"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns/msteams"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/sns/msteams"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/sns/msteams"
+Gocode pkg: "persian/cloud"
+Gocode pkg: "persian/cloud/controllers/sns/msteams"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/sns/msteams"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/sns/msteams"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/sns/msteams"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/sns/msteams"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/sns/slack"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "ribot/local"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "ribot/local"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/util/pFunction"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/sns"
+Gocode pkg: "persian/cloud/controllers/sns/msteams"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/util/pConst"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/logic"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/controllers/calendar"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "dingding/routers"
+Gocode pkg: "dingding/models"
+Gocode pkg: "dingding/routers"
+Gocode pkg: "dingding/models"
+Gocode pkg: "dingding/routers"
+Gocode pkg: "dingding/models"
+Gocode pkg: "dingding"
+Gocode pkg: "dingding/controllers/office"
+Gocode pkg: "persian/cloud/controllers/calendar/google"
+Gocode pkg: "dingding/controllers/office"
+Gocode pkg: "dingding/models"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "dingding/controllers/office"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "dingding"
+Gocode pkg: "dingding/routers"
+Gocode pkg: "dingding"
+Gocode pkg: "dingding/routers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "ribot/cloud/routers"
+Gocode pkg: "ribot/cloud/controllers"
+Gocode pkg: "ribot/common/cmutil"
+Gocode pkg: "SNS/tests"
+Gocode pkg: "SNS/common/snsfactory"
+Gocode pkg: "SNS/tests"
+Gocode pkg: "sns/tests/common/snsfactory"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "sns/common/snsfactory"
+Gocode pkg: "sns/tests/common/snsfactory"
+margo: 2017/07/11 15:00:37 broker.go:105: gocode_complete#mg9.autoken.e0271876-45b5-4bee-92e4-a8004958f9dd PANIC: open C:\Users\tangzhongliang\go\src\sns\tests\common\snsfactory\: The system cannot find the file specified.
+goroutine 67 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc0420fa080, 0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc9
+panic(0x86e8e0, 0xc0420feba0)
+	C:/Go/src/runtime/panic.go:489 +0x2dd
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc042102a50, 0x4c, 0x0, 0x0, 0x30, 0x8cbe80, 0x890540)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x577
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc042102a50, 0x4c, 0x0, 0x0, 0xc04210ae40, 0xc0422ef968, 0x4088ac, 0x40246c4d)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x6e
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc042095c80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x124
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc042095c80, 0xc042074f20, 0xa8, 0xb0, 0xc042102a50, 0x4c, 0x8, 0x1, 0x1, 0xc042102a50, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1ed
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc042074d10, 0x0, 0x0, 0x0, 0xc042078146, 0x6, 0xc042078210, 0x1, 0x1, 0xc042074f20, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x14d
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc04209c380, 0xc042074f20, 0xa8, 0xb0, 0xc042102a50, 0x4c, 0x8, 0x42c29d, 0x0, 0x0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x14b
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc04209c380, 0x90dab0, 0xc0420fa080, 0xc042118000, 0xc0420fc5a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x30f
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc042118000, 0xc0420fa080, 0xae6d60, 0xc04209c380)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0xa1
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xe1
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 1 [syscall, locked to thread]:
+syscall.Syscall6(0x77a709a0, 0x5, 0x410, 0xc042148000, 0x1000, 0xc04202977c, 0x0, 0x0, 0x1d, 0x3, ...)
+	C:/Go/src/runtime/syscall_windows.go:174 +0x6b
+syscall.ReadFile(0x410, 0xc042148000, 0x1000, 0x1000, 0xc04202977c, 0x0, 0xc042029798, 0xc042029790)
+	C:/Go/src/syscall/zsyscall_windows.go:311 +0xe6
+syscall.Read(0x410, 0xc042148000, 0x1000, 0x1000, 0xc042029850, 0x10000000040fecc, 0x874880)
+	C:/Go/src/syscall/syscall_windows.go:296 +0x6f
+os.(*File).read(0xc042004010, 0xc042148000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	C:/Go/src/os/file_windows.go:289 +0xd0
+os.(*File).Read(0xc042004010, 0xc042148000, 0x1000, 0x1000, 0xc0422bc058, 0x3, 0xc042017350)
+	C:/Go/src/os/file.go:101 +0x7d
+bufio.(*Reader).fill(0xc042088420)
+	C:/Go/src/bufio/bufio.go:97 +0x11e
+bufio.(*Reader).ReadSlice(0xc042088420, 0xc042029a0a, 0xc042029978, 0x4fa2aa, 0xc0420299b0, 0x0, 0xc04209c380)
+	C:/Go/src/bufio/bufio.go:338 +0xc2
+bufio.(*Reader).ReadBytes(0xc042088420, 0xc04208820a, 0xc042029af8, 0x0, 0x0, 0x0, 0x0)
+	C:/Go/src/bufio/bufio.go:416 +0x6d
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc042118000, 0xc0420882a0, 0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x53
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc042118000, 0x900001)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x152
+disposa.blue/cmd/margo_pkg.Main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x71f
+main.main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x27
+
+goroutine 19 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x156
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x46
+
+goroutine 34 [chan receive, 15 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc042100140)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa8
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x91
+
+goroutine 35 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x93
+created by disposa.blue/cmd/margo_pkg.init.2
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x3c
+
+goroutine 20 [sleep]:
+time.Sleep(0x6fc23ac00)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc042118000, 0xc042082c60)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x51
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x83c
+
+goroutine 21 [chan receive, 15 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x8c
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x6f1
+
+goroutine 12 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 71 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 72 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 73 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 36 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 37 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 38 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 39 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 40 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 41 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+
+
+** 2017-07-11 15:00:37.703665 **:
+GsComplete: broker: gocode_complete#mg9.autoken.e0271876-45b5-4bee-92e4-a8004958f9dd PANIC
+--------------------------------
+margo: 2017/07/11 15:00:37 broker.go:105: gocode_complete#mg9.autoken.8ab60815-50a6-4851-b5b3-303aea0c541e PANIC: open C:\Users\tangzhongliang\go\src\sns\tests\common\snsfactory\: The system cannot find the file specified.
+goroutine 73 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc0420fa2c0, 0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc9
+panic(0x86e8e0, 0xc0420feb10)
+	C:/Go/src/runtime/panic.go:489 +0x2dd
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc042102cd0, 0x4c, 0x0, 0x0, 0x30, 0x8cbe80, 0x890540)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x577
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc042102cd0, 0x4c, 0x0, 0x0, 0xc04210ae40, 0xc0422ed968, 0x4088ac, 0xfbd8c88)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x6e
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc042095c80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x124
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc042095c80, 0xc042075080, 0xa9, 0xb0, 0xc042102cd0, 0x4c, 0x8, 0x1, 0x1, 0xc042102cd0, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1ed
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc042074d10, 0x0, 0x0, 0x0, 0xc0420781a6, 0x6, 0xc042078220, 0x1, 0x1, 0xc042075080, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x14d
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc04209c280, 0xc042075080, 0xa9, 0xb0, 0xc042102cd0, 0x4c, 0x8, 0x42c29d, 0x0, 0x4110ad)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x14b
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc04209c280, 0x90dab0, 0xc0420fa2c0, 0xc042118000, 0xc0420153b0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x30f
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc042118000, 0xc0420fa2c0, 0xae6d60, 0xc04209c280)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0xa1
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xe1
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 1 [syscall, locked to thread]:
+syscall.Syscall6(0x77a709a0, 0x5, 0x410, 0xc042148000, 0x1000, 0xc04202977c, 0x0, 0x0, 0x1, 0x3, ...)
+	C:/Go/src/runtime/syscall_windows.go:174 +0x6b
+syscall.ReadFile(0x410, 0xc042148000, 0x1000, 0x1000, 0xc04202977c, 0x0, 0xc042029798, 0xc042029790)
+	C:/Go/src/syscall/zsyscall_windows.go:311 +0xe6
+syscall.Read(0x410, 0xc042148000, 0x1000, 0x1000, 0xc042029850, 0x10000000040fecc, 0x874880)
+	C:/Go/src/syscall/syscall_windows.go:296 +0x6f
+os.(*File).read(0xc042004010, 0xc042148000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	C:/Go/src/os/file_windows.go:289 +0xd0
+os.(*File).Read(0xc042004010, 0xc042148000, 0x1000, 0x1000, 0xc0422ee058, 0x3, 0xc042016050)
+	C:/Go/src/os/file.go:101 +0x7d
+bufio.(*Reader).fill(0xc042088420)
+	C:/Go/src/bufio/bufio.go:97 +0x11e
+bufio.(*Reader).ReadSlice(0xc042088420, 0xc042029a0a, 0xc042029978, 0x4fa2aa, 0xc0420299b0, 0x0, 0xc04209c280)
+	C:/Go/src/bufio/bufio.go:338 +0xc2
+bufio.(*Reader).ReadBytes(0xc042088420, 0xc04208820a, 0xc042029af8, 0x0, 0x0, 0x0, 0x0)
+	C:/Go/src/bufio/bufio.go:416 +0x6d
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc042118000, 0xc0420882a0, 0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x53
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc042118000, 0x900001)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x152
+disposa.blue/cmd/margo_pkg.Main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x71f
+main.main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x27
+
+goroutine 19 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x156
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x46
+
+goroutine 34 [chan receive, 15 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc042100140)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa8
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x91
+
+goroutine 35 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x93
+created by disposa.blue/cmd/margo_pkg.init.2
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x3c
+
+goroutine 20 [sleep]:
+time.Sleep(0x6fc23ac00)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc042118000, 0xc042082c60)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x51
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x83c
+
+goroutine 21 [chan receive, 15 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x8c
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x6f1
+
+goroutine 12 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 71 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 72 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 36 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 37 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 38 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 39 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 40 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 41 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+
+
+** 2017-07-11 15:00:37.813665 **:
+GsComplete: broker: gocode_complete#mg9.autoken.8ab60815-50a6-4851-b5b3-303aea0c541e PANIC
+--------------------------------
+margo: 2017/07/11 15:00:38 broker.go:105: gocode_complete#mg9.autoken.226de990-513a-4eb9-98cb-b51afae124fa PANIC: open C:\Users\tangzhongliang\go\src\sns\tests\common\snsfactory\: The system cannot find the file specified.
+goroutine 12 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc0420fa0e0, 0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc9
+panic(0x86e8e0, 0xc0420feb70)
+	C:/Go/src/runtime/panic.go:489 +0x2dd
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc042102be0, 0x4c, 0x0, 0x0, 0x30, 0x8cbe80, 0x890540)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x577
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc042102be0, 0x4c, 0x0, 0x0, 0xc04210ae40, 0xc0422e9968, 0x4088ac, 0x70d34b94)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x6e
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc042095c80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x124
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc042095c80, 0xc042074f20, 0xaa, 0xb0, 0xc042102be0, 0x4c, 0x8, 0x1, 0x1, 0xc042102be0, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1ed
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc042074d10, 0x0, 0x0, 0x0, 0xc042106216, 0x6, 0xc042106300, 0x1, 0x1, 0xc042074f20, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x14d
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc04209c380, 0xc042074f20, 0xaa, 0xb0, 0xc042102be0, 0x4c, 0x8, 0x42c29d, 0x0, 0x0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x14b
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc04209c380, 0x90dab0, 0xc0420fa0e0, 0xc042118000, 0xc042014910)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x30f
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc042118000, 0xc0420fa0e0, 0xae6d60, 0xc04209c380)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0xa1
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xe1
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 1 [syscall, locked to thread]:
+syscall.Syscall6(0x77a709a0, 0x5, 0x410, 0xc042148000, 0x1000, 0xc04202977c, 0x0, 0x0, 0x1d, 0x3, ...)
+	C:/Go/src/runtime/syscall_windows.go:174 +0x6b
+syscall.ReadFile(0x410, 0xc042148000, 0x1000, 0x1000, 0xc04202977c, 0x0, 0xc042029798, 0xc042029790)
+	C:/Go/src/syscall/zsyscall_windows.go:311 +0xe6
+syscall.Read(0x410, 0xc042148000, 0x1000, 0x1000, 0xc042029850, 0x10000000040fecc, 0x874880)
+	C:/Go/src/syscall/syscall_windows.go:296 +0x6f
+os.(*File).read(0xc042004010, 0xc042148000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	C:/Go/src/os/file_windows.go:289 +0xd0
+os.(*File).Read(0xc042004010, 0xc042148000, 0x1000, 0x1000, 0xc0422ee058, 0x3, 0xc042018650)
+	C:/Go/src/os/file.go:101 +0x7d
+bufio.(*Reader).fill(0xc042088420)
+	C:/Go/src/bufio/bufio.go:97 +0x11e
+bufio.(*Reader).ReadSlice(0xc042088420, 0xc042029a0a, 0xc042029978, 0x4fa2aa, 0xc0420299b0, 0x0, 0xc04209c380)
+	C:/Go/src/bufio/bufio.go:338 +0xc2
+bufio.(*Reader).ReadBytes(0xc042088420, 0xc04208820a, 0xc042029af8, 0x0, 0x0, 0x0, 0x0)
+	C:/Go/src/bufio/bufio.go:416 +0x6d
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc042118000, 0xc0420882a0, 0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x53
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc042118000, 0x900001)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x152
+disposa.blue/cmd/margo_pkg.Main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x71f
+main.main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x27
+
+goroutine 19 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x156
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x46
+
+goroutine 34 [chan receive, 15 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc042100140)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa8
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x91
+
+goroutine 35 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x93
+created by disposa.blue/cmd/margo_pkg.init.2
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x3c
+
+goroutine 20 [sleep]:
+time.Sleep(0x6fc23ac00)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc042118000, 0xc042082c60)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x51
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x83c
+
+goroutine 21 [chan receive, 15 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x8c
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x6f1
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 71 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 72 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 73 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 36 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 37 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 38 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 39 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 40 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 41 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+
+
+** 2017-07-11 15:00:38.006665 **:
+GsComplete: broker: gocode_complete#mg9.autoken.226de990-513a-4eb9-98cb-b51afae124fa PANIC
+--------------------------------
+margo: 2017/07/11 15:00:38 broker.go:105: gocode_complete#mg9.autoken.3b28834e-2d38-439a-93ad-abbdbe09c557 PANIC: open C:\Users\tangzhongliang\go\src\sns\tests\common\snsfactory\: The system cannot find the file specified.
+goroutine 13 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc0420fa260, 0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc9
+panic(0x86e8e0, 0xc0420feba0)
+	C:/Go/src/runtime/panic.go:489 +0x2dd
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc042102cd0, 0x4c, 0x0, 0x0, 0x30, 0x8cbe80, 0x890540)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x577
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc042102cd0, 0x4c, 0x0, 0x0, 0xc04210ae40, 0xc0422ed968, 0x4088ac, 0x1957ca9b)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x6e
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc042095c80)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x124
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc042095c80, 0xc042075080, 0xab, 0xb0, 0xc042102cd0, 0x4c, 0x8, 0x1, 0x1, 0xc042102cd0, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1ed
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc042074d10, 0x0, 0x0, 0x0, 0xc0421062e6, 0x6, 0xc042106360, 0x1, 0x1, 0xc042075080, ...)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x14d
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc04209c280, 0xc042075080, 0xab, 0xb0, 0xc042102cd0, 0x4c, 0x8, 0x42c29d, 0x0, 0x0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x14b
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc04209c280, 0x90dab0, 0xc0420fa260, 0xc042118000, 0xc042102370)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x30f
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc042118000, 0xc0420fa260, 0xae6d60, 0xc04209c280)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0xa1
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xe1
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 1 [syscall, locked to thread]:
+syscall.Syscall6(0x77a709a0, 0x5, 0x410, 0xc042148000, 0x1000, 0xc04202977c, 0x0, 0x0, 0x1c, 0x3, ...)
+	C:/Go/src/runtime/syscall_windows.go:174 +0x6b
+syscall.ReadFile(0x410, 0xc042148000, 0x1000, 0x1000, 0xc04202977c, 0x0, 0xc042029798, 0xc042029790)
+	C:/Go/src/syscall/zsyscall_windows.go:311 +0xe6
+syscall.Read(0x410, 0xc042148000, 0x1000, 0x1000, 0xc042029850, 0x10000000040fecc, 0x874880)
+	C:/Go/src/syscall/syscall_windows.go:296 +0x6f
+os.(*File).read(0xc042004010, 0xc042148000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	C:/Go/src/os/file_windows.go:289 +0xd0
+os.(*File).Read(0xc042004010, 0xc042148000, 0x1000, 0x1000, 0xc0422ee058, 0x3, 0xc042018650)
+	C:/Go/src/os/file.go:101 +0x7d
+bufio.(*Reader).fill(0xc042088420)
+	C:/Go/src/bufio/bufio.go:97 +0x11e
+bufio.(*Reader).ReadSlice(0xc042088420, 0xc042029a0a, 0xc042029978, 0x4fa2aa, 0xc0420299b0, 0x0, 0xc04209c280)
+	C:/Go/src/bufio/bufio.go:338 +0xc2
+bufio.(*Reader).ReadBytes(0xc042088420, 0xc04208820a, 0xc042029af8, 0x0, 0x0, 0x0, 0x0)
+	C:/Go/src/bufio/bufio.go:416 +0x6d
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc042118000, 0xc0420882a0, 0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x53
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc042118000, 0x900001)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x152
+disposa.blue/cmd/margo_pkg.Main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x71f
+main.main()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x27
+
+goroutine 19 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x156
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x46
+
+goroutine 34 [chan receive, 15 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc042100140)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa8
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x91
+
+goroutine 35 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x93
+created by disposa.blue/cmd/margo_pkg.init.2
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x3c
+
+goroutine 20 [sleep]:
+time.Sleep(0x6fc23ac00)
+	C:/Go/src/runtime/time.go:59 +0x107
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc042118000, 0xc042082c60)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x51
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x83c
+
+goroutine 21 [chan receive, 15 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc042118000)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x8c
+created by disposa.blue/cmd/margo_pkg.Main
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x6f1
+
+goroutine 12 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 71 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 72 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 73 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 36 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 37 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 38 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 39 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 40 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+goroutine 41 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc042118000, 0xc042082bf0, 0xc0420882a0)
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x91
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	C:/Users/tangzhongliang/AppData/Roaming/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x120
+
+
+
+** 2017-07-11 15:00:38.115665 **:
+GsComplete: broker: gocode_complete#mg9.autoken.3b28834e-2d38-439a-93ad-abbdbe09c557 PANIC
+--------------------------------
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "persian/cloud/web/routers"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "sns/models"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/models/beans"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsimpl/sns"
+Gocode pkg: "sns/controllers/snsimpl"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/tests/models/dao"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/util/snserror"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/util/snserror"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/sns"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/sns"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "persian/cloud/web/webControllers"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/sns"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/sns"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/sns"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/sns"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/sns"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/tests/models/dao"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/common/snsconstant"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/util/arrayutil"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/models/dao"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/models/dao"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/models/beans"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "persian/cloud/controllers/calendar/office"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/web"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/routers"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/tests/controllers/sns"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns"
+Gocode pkg: "sns/routers"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/models"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/routers"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/routers"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/routers"
+Gocode pkg: "sns/routers"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "github.com/astaxie/beego/cache"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "sns/util"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "sns/common"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/common/snsstruct"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/util"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/common/snsglobal"
+Gocode pkg: "sns/common"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/common"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "github.com/astaxie/beego/cache"
+Gocode pkg: "sns/common"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/common/snsfactory"
+Gocode env: gocode.margoEnv{LibPath:"C:\\Go\\pkg\\windows_amd64;C:\\Users\\tangzhongliang\\go\\pkg\\windows_amd64", GOOS:"windows", GOARCH:"amd64", Compiler:"gc", GOROOT:"C:\\Go\\", GOPATH:"C:\\Users\\tangzhongliang\\go", InstallSuffix:""}
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/routers"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/routers"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/routers"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/routers"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snsinterface/snseper"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns"
+Gocode pkg: "sns/controllers/web"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsep"
+Gocode pkg: "sns/controllers/snscommon"
+Gocode pkg: "sns/controllers/snsplugin"
+Gocode pkg: "sns/controllers/web"
