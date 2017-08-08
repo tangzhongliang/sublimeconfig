@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+	.content {
+        display: table;
+        padding: 10px;
+        /*border: 2px solid #999;*/
+    }
+
+    .left-box {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .right-box {
+    	display: table-cell;
+    	padding: 10px;
+    	width: 100%;
+    	vertical-align: top;
+    	/*border: 1px solid #ccc;*/
+    }
+
+    .grid-container{
+    	width: 100%; 
+    	max-width: 1200px; 
+    }
+    /*-- our cleafix hack -- */ 
+    .row:before, 
+    .row:after {
+    	content:"";
+    	display: table ;
+    	clear:both;
+    }
+    [class*='col-'] {
+    	float: left; 
+    	min-height: 1px; 
+    	width: 16.66%; 
+    	/*-- our gutter -- */
+    	padding: 12px; 
+    	background-color: #FFDCDC;
+    }
+    .col-1{ width: 16.66%; }
+    .col-2{ width: 33.33%; }
+    .col-3{ width: 50%; }
+    .col-4{ width: 66.66%; }
+    .col-5{ width: 83.33%; }
+    .col-6{ width: 100%; }
+    .outline, .outline *{
+    	outline: 1px solid #F6A1A1; 
+    }
+    /*-- some extra column content styling --*/
+    [class*='col-'] > p {
+    	background-color: #FFC2C2; 
+    	padding: 0;
+    	margin: 0;
+    	text-align: center; 
+    	color: white; 
+    }
+
+    @media all and (max-width:800px){
+    	.col-1{ width: 33.33%; }
+    	.col-2{ width: 50%; }
+    	.col-3{ width: 83.33%; }
+    	.col-4{ width: 100%; }
+    	.col-5{ width: 100%; }
+    	.col-6{ width: 100%; }
+    	.row .col-2:last-of-type{
+    		width: 100%; 
+    	}
+    	.row .col-5 ~ .col-1{
+    		width: 100%; 
+    	}
+    }
+
+    @media all and (max-width:650px){
+    	.col-1{ width: 50%; }
+    	.col-2{ width: 100%; }
+    	.col-3{ width: 100%; }
+    	.col-4{ width: 100%; }
+    	.col-5{ width: 100%; }
+    	.col-6{ width: 100%; }
+    }
+</style>
+</head>
+
+<body>
+
+	<div class="grid-container outline">
+		<div class="row">
+			<div class="col-1"><p>col-1</p></div> 
+			<div class="col-1"><p>col-1</p></div> 
+			<div class="col-1"><p>col-1</p></div> 
+			<div class="col-1"><p>col-1</p></div> 
+			<div class="col-1"><p>col-1</p></div> 
+			<!-- <div class="col-1"><p>col-1</p></div>  -->
+		</div> 
+		<div class="row">
+			<div class="col-2"><p>col-2</p></div> 
+			<div class="col-2"><p>col-2</p></div> 
+			<div class="col-2"><p>col-2</p></div> 
+		</div> 
+		<div class="row">
+			<div class="col-3"><p>col-3</p></div> 
+			<div class="col-3"><p>col-3</p></div> 
+		</div> 
+		<div class="row">
+			<div class="col-4"><p>col-4</p></div> 
+			<div class="col-2"><p>col-2</p></div> 
+		</div> 
+		<div class="row">
+			<div class="col-5"><p>col-5</p></div> 
+			<div class="col-1"><p>col-1</p></div> 
+		</div> 
+		<div class="row">
+			<div class="col-6"><p>col-6</p></div> 
+		</div> 
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	var accountType = "slack"
+	$('#submit').click(function() {
+		/* Act on the event */
+		email = $('#email').val()
+		account = $('#account').val()
+		$.ajax({
+			url: '/api/ep/url/check/get',
+			type: 'POST',
+			contentType:"application/json; charset=utf-8",	
+			dataType: 'json',
+			data: JSON.stringify({'email': email,
+				'account':account,
+				'account_type':accountType
+			}),
+		})
+		.done(function(data) {
+			console.log("success"+data);
+			data = JSON.parse(data)
+			window.location.replace(data.url)
+		})
+		.fail(function() {
+			alert("error");
+		})
+		.always(function() {
+			console.log("complete");
+		});
+
+	});
+  	$('.dropdown .dropdown-menu li').click(function() {
+  		/* Act on the event */
+  		accountType = $(this).find('a').text();
+  		$(this).parent().parent().find('.dropdown-toggle').text(accountType)
+  		// this.parent('.dropdown-toggle').val(accountType)
+  	});
+  </script>
+  <script src="../static/js/custom/common.js"></script>
+</html>

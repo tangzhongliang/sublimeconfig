@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>{{i18n .Lang "index.title"}}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Meta, title, CSS, favicons, etc. -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="index.js"></script>
+	<script>
+			console.info("start");
+			console.info(DingTalkPC.ua);
+			var d = new Date();
+var n = d.getTime();
+			DingTalkPC.config({
+    agentId: '110226551', // 必填，微应用ID
+    corpId: 'ding3005d2d7b3298ae135c2f4657eb6378f',//必填，企业ID
+    timeStamp: n, // 必填，生成签名的时间戳
+    nonceStr: 'sdfasdfasdf', // 必填，生成签名的随机串
+    signature: 'tangzhongliang', // 必填，签名
+    jsApiList: ['device.notification.alert', 'device.notification.confirm'] // 必填，需要使用的jsapi列表
+});
+			DingTalkPC.ready(function(res){
+  /*{
+      authorizedAPIList: ['device.notification.alert'], //已授权API列表
+      unauthorizedAPIList: [''], //未授权API列表
+  }*/
+   // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
+   console.info("onSuccess");
+});
+
+			DingTalkPC.error(function(error){
+
+  /*{
+      errorCode: 1001, //错误码
+      errorMessage: '', //错误信息
+  }*/
+  // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开调试窗口的 console查看，也可以在返回的res参数中查看。
+  console.error("onFail");
+});
+		var preview = function(){
+			DingTalkPC.biz.cspace.preview({
+        corpId:"dingf8b3508f3073b265",
+        spaceId:"13557022",
+        fileId:"11452819",
+        fileName:"钉盘快速入门.pdf",
+        fileSize:1024,
+        fileType:"pdf",
+        onSuccess: function() {
+        	console.info("onSuccess");
+            //无，直接在弹窗页面显示文件详细信息
+        },
+        onFail: function(err) {
+        	console.error("onFail");
+         /*{
+            errorCode: 1001, //错误码
+            errorMessage: '', //错误信息
+         }*/
+        }
+    });
+		}
+	</script>
+</head>
+
+<body class="jumbotron">
+	
+</body>
+
+</html>

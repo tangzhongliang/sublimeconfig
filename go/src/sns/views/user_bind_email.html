@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container">
+		<h1>My First Bootstrap Page</h1>
+		<div id="form">
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{{.accountTypeText}}
+					<span class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li class="type_item"><a href="#" value="ep_slack">Slack</a></li>
+						<li class="type_item"><a href="#" value="ep_line">Line</a></li>
+						<li class="type_item"><a href="#" value="ep_team">Teams</a></li>
+					</ul>
+				</div>
+			<!-- <div class="form-group"  id="emailContent">
+				<label for="usr">Email:</label>
+				<input type="text" class="form-control" id="email" >
+			</div> -->
+
+			<!-- <div class="form-group" id="emailContent" style="display:none">
+				<label for="pwd">Account:</label>
+				<input type="text" class="form-control" id="account" readonly="readonly" value="{{.userId}}"/>
+			</div> -->
+			<div class="form-group" id="lineAuth" style="display:none">
+				<img src="/static/img/lineauth.png">
+			</div>
+			<button type="button" class="btn btn-primary" id="submit" style="margin-top:30px">submit</button>
+		</div>
+	</div>
+
+</body>
+<script src="/static/js/custom/common.js"></script>
+<script type="text/javascript">
+	var accountType = "ep_slack"
+	var userId = {{.userId}}
+	$('#submit').click(function() {
+		/* Act on the event */
+		email = $('#email').val()
+		account = $('#account').val()
+		$.ajax({
+			url: '/api/ep/url/check/get',
+			type: 'POST',
+			contentType:"application/json; charset=utf-8",	
+			dataType: 'json',
+			data: JSON.stringify({'email': email,
+				'account':account,
+				'account_type':accountType
+			}),
+		})
+		.done(function(data) {
+			// console.log("success"+data);
+			// data = JSON.parse(data)
+			window.location.replace(data.url)
+		})
+		.fail(function() {
+			alert("error");
+		})
+		.always(function() {
+			console.log("complete");
+		});
+
+	});
+	$('.dropdown .dropdown-menu li').click(function() {
+  		/* Act on the event */
+  		accountType = $(this).find('a').attr("value");
+  		accountTypeText = $(this).find('a').text();
+  		$(this).parent().parent().find('.dropdown-toggle').text(accountTypeText);
+  		// this.parent('.dropdown-toggle').val(accountType)
+  		console.info(accountType);
+  		if (accountType=="ep_line"){
+  			if (userId == ""){
+  				$('#userContent').css("display","none");
+  				$('#lineAuth').css("display","block");
+  				$('#submit').css("display","none");
+  			}else{
+  				$('#userContent').css("display","block");
+  				$('#lineAuth').css("display","none");
+  				$('#submit').css("display","block");
+  			}
+  		}else{
+  			userId = "";
+  			$('#userContent').css("display","none");
+  			$('#lineAuth').css("display","none");
+  			$('#submit').css("display","block");
+  		}
+  		$('#submit').css("display","block");
+  	});
+
+  	function init(){
+  		accountType = {{.accountType}};
+  		$(this).parent().parent().find('.dropdown-toggle').text({{.accountTypeText}});
+  		console.info(accountType);
+  		if (accountType=="ep_line"){
+  			if (userId == ""){
+  				$('#userContent').css("display","none");
+  				$('#lineAuth').css("display","block");
+  				$('#submit').css("display","none");
+  				$('#emailContent').css("display","none");
+  			}else{
+  				$('#emailContent').css("display","block");
+  				$('#userContent').css("display","block");
+  				$('#lineAuth').css("display","none");
+  				$('#submit').css("display","block");
+  			}
+  		}else{
+  			$('#emailContent').css("display","block");
+  			$('#userContent').css("display","none");
+  			$('#lineAuth').css("display","none");
+  			$('#submit').css("display","block");
+  		}
+  	}
+  	init();
+  </script>
+   
+</html>

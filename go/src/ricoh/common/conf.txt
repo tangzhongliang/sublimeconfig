@@ -1,0 +1,36 @@
+[default]
+path= c:/go
+version = 1.44
+runmode = hk
+
+[dev]
+host = 172.25.78.55:3080
+useproxy = true
+sql = user:iser@tcp(172.25.78.55:3306)/ribot?charset=utf8
+addSlackUrl=https://slack.com/oauth/authorize?&client_id=161770720688.189647181617&scope=commands,bot
+[hk]
+host = rocket.hezhensh.com
+useproxy = false
+sql = user:user@tcp(47.52.33.241:20110)/ribot?charset=utf8
+persian_sql = user:user@tcp(47.52.33.241:20110)/forbeego?charset=utf8
+HTTPSCertFile = conf/214084043340045.pem
+HTTPSKeyFile = conf/214084043340045.key
+client_id=161770720688.189647181617
+client_secret=809d5143366268c483b9e6a42b0fc86f
+addSlackUrl=https://slack.com/oauth/authorize?&client_id=161770720688.189647181617&scope=commands,bot
+addSlackBtn=<a href="https://slack.com/oauth/authorize?&client_id=161770720688.189647181617&scope=commands,bot"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+[aws]
+host = rocket2.hezhensh.com
+httpport = 3080
+EnableHTTPS = true
+EnableHttpTLS = true
+HTTPSPort = 3443
+HTTPSCertFile = conf/214084204170045.pem
+HTTPSKeyFile = conf/214084204170045.key
+useproxy = false
+sql = root:rst200233T@/ribot?charset=utf8
+persian_sql = root:root@/forbeego?charset=utf8
+client_id=165324505703.172862234305
+client_secret=0866b36854b329e448cafcb2fa4a388c
+addSlackUrl=https://slack.com/oauth/authorize?scope=bot&client_id=165324505703.172862234305
+addSlackBtn=<a href="https://slack.com/oauth/authorize?scope=bot&client_id=165324505703.172862234305"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"/></a>
