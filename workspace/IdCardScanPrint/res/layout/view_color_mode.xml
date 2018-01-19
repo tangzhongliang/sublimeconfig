@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="864dp"
+        android:layout_height="63dp" >
+
+        <ImageView
+            android:id="@+id/bg_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_bt_com_01" />
+
+        <ImageView
+            android:id="@+id/iv_cm_item_lasticon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/cs_long_light_listview_item" />
+
+        <TextView
+            android:id="@+id/tx_cm_item"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:gravity="left"
+            android:text="@string/tx_init_setting_file_name"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="24px" />
+
+        <RelativeLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="774dp" >
+
+            <ImageView
+                android:id="@+id/iv_cm_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+            </ImageView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

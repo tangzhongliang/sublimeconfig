@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Webdav applied wording(start)  -->
+    <string name="txid_sending">Skickar...</string>
+    <string name="txid_scan_g_running_original_num">Original</string>
+    <string name="txid_scan_g_running_dest_num">Mottagare</string>
+    <string name="txid_scan_g_running_remain_memory">Återståen. minne</string>
+    <string name="txid_scan_g_running_scan">Skannar...</string>
+    <string name="button_stop">Stopp</string>
+    <string name="dialog_state_connect">Ansluter...</string>
+    <string name="dialog_loginmessage">Ange användarnamn och lösenord.</string>
+    <string name="dialog_sender_email_info_1">Placera nästa original och tryck på [Skanna nästa original]. Tryck på [Starta överföring] när det sista originalet har skannats. </string>
+    <string name="dialog_sender_email_info_2">Väntetid för nästa original\nÅterstående sekunder: %1$s</string>
+    <string name="dialog_sender_email_btn_2">Skanna nästa original</string>
+    <string name="dialog_sender_email_btn_3">Starta överföring</string>
+    <string name="dialog_sender_email_btn_4">Ändra inställningar</string>
+    <string name="err_input">Ange %s.</string>
+    <string name="dialog_delete_info_1">Är du säker på att du vill radera %1$s\?\n</string>
+    <string name="txid_login_url_notice">URL: %s</string>
+    <string name="txid_login_id_notice">Användarnamn: %s</string>
+    <string name="txid_login_password_notice">Lösenord: %s</string>
+    <string name="dialog_delete_btn_1">Avbryt</string>
+    <string name="dialog_delete_btn_2">Radera</string>
+    <string name="txid_stop1">Ja</string>
+    <string name="txid_stop2">Nej</string>
+    <!-- Webdav applied wording(end)  -->
+
+    <string name="SCAN_MEMORY_OVER">Minnet är fullt, skanning avbröts.</string>
+    <string name="SCAN_RESOURCES_ARE_NOT_READY">De resurser som krävs för att skanna är inte tillgängliga.</string>
+    <string name="SCAN_INTERNAL_ERROR">Ett fel har inträffat.</string>
+    <string name="SCAN_ORIGINAL_SET_ERROR">Kan inte skanna originalet. Placera det igen, korrekt.</string>
+    <string name="SCAN_TIMEOUT">Eftersom ingen åtgärd har utförts under en viss tidsperiod har skanning avbrutits.</string>
+    <string name="SCAN_OTHER_PROCESS_ERROR">Skanning har avbrutits.</string>
+    <string name="SCAN_EXCEEDED_MAX_EMAIL_SIZE">Överstiger max storlek att skicka. </string>
+    <string name="SCAN_EXCEEDED_MAX_PAGE_COUNT">Överstiger max antal sidor att skicka. </string>
+    <string name="SCAN_CHARGE_UNIT_LIMIT">Skanning avbröts eftersom du har nått avgiftsbegränsning.</string>
+    <string name="SCAN_PREPARING_JOB_START">Startar...</string>
+    <string name="SCAN_SCANNER_JAM">Originalet matades fel under skanning.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL">Placera nästa original.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL_AND_CONTINUE">Placera nästa original för att fortsätta skanning.</string>
+    <string name="SCAN_CANNOT_DETECT_ORIGINAL_SIZE">Kan inte identifiera original.</string>
+    <string name="SCAN_EXCEEDED_MAX_DATA_CAPACITY">Datakapaciteten överstiger max.</string>
+    <string name="SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION">Kan inte skanna original i den här riktningen.</string>
+    <string name="SCAN_TOO_SMALL_SCAN_SIZE">Kan inte skanna eftersom originalets format är för litet.</string>
+    <string name="SCAN_TOO_LARGE_SCAN_SIZE">Kan inte skanna eftersom originalets format är för stort.</string>
+    <string name="SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION">Maskinen förbereder för förhandsgranskning. Vänta.</string>
+    <string name="SCAN_USER_REQUEST">Användaren har avbrutit skanning.</string>
+    <string name="job_stop_fail">Kunde inte avbryta skanning.</string>
+    <string name="job_start_fail">Kunde inte starta skanning.</string>
+    <string name="job_end_fail">Kunde inte slutföra skanning. Tryck på [Avbryt].</string>
+    <string name="job_continue_fail">Kunde inte fortsätta skanning. Tryck på [Avbryt].</string>
+    <string name="job_cancel_fail">Kunde inte avbryta skanning.</string>
+    <string name="error_login_failed">Auktorisering misslyckades.</string>
+    <string name="error_not_input_authentication">Det finns ingen information för autentisering.</string>
+    <string name="error_not_authorized">Du har inte behörighet att utföra den här funktionen.</string>
+    <string name="error_system_busy">Systemet är upptaget.</string>
+    <string name="scan_fail">Skanning misslyckades.</string>
+    <string name="error_permission_denied">Du har inte behörighet att utföra det här.</string>
+    <string name="error_path_no_exist">Kan inte hitta angiven mapp.</string>
+    <string name="dialog_sender_protocol_type">Protokolltyp:</string>
+    <string name="dialog_sender_path">Mappsökväg:</string>
+    <string name="dialog_sender_name">Inloggad användare:</string>
+    <string name="dialog_password">Lösenord</string>
+    <string name="txid_scmn_b_012">Skicka</string>
+    <string name="txid_scan_g_running_print">Skriver ut...</string>
+    <string name="txid_scmn_f_user_code">Användarkod</string>
+    <string name="txid_scmn_f_user_code_tip_1">Ange användarkod och tryck på [OK].</string>
+    <string name="txid_scmn_f_user_code_tip_2">Användarkoden är inte korrekt. Försök igen.</string>
+    <string name="txid_scmn_f_user_code_tip_3">Användarkod nekas. Försök igen.</string>
+    <string name="bt_cancel">Avbryt</string>
+    <string name="bt_logout">Logga ut</string>
+    <string name="bt_next">Nästa</string>
+    <string name="bt_back">Tillbaka</string>
+    <string name="txid_scmn_f_user_code_tip_4">Angiven användarkod är inte registrerad i adressboken. Vill du registrera den\?</string>
+    <string name="dialog_id">ID</string>
+    <string name="bt_ok">OK</string>
+    <string name="dialog_contain_character">Ett filnamn får inte innehålla något av följande tecken:</string>
+    <string name="dialog_print_count_not_in_range">Antal uppsättningar för utskrift är inte mellan %1$s till %2$s.</string>
+    <string name="dialog_domain_wrong">Domännamnet kan endast innehålla siffrorna 0 till 9 och bokstäverna A till Z.</string>
+    <string name="preview_stop_message">Är du säker på att du vill radera alla bilder\?</string>
+
+    <string name="txid_ppp_b_app_information">Om applikationen</string>
+    <string name="txid_ppp_g_app_information_ver_label">Version</string>
+    <string name="txid_ppp_b_app_information_show_oss">Licensinformation OSS</string>
+    <string name="txid_scmn_d_device_not_supported">Betalningsenheten är inte ansluten och kan inte användas.</string>
+</resources>

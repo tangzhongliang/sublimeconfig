@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- リスト画面1列 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_cccccc" >
+
+    <include layout="@layout/title_base" />
+
+    <RelativeLayout
+        android:id="@+id/layout_list01"
+        android:layout_width="687dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:gravity="center_horizontal" >
+
+        <ListView
+            android:id="@+id/listview_1row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="12dp"
+            android:listSelector="@drawable/selector_list_selector"
+            android:requiresFadingEdge="vertical"
+            android:scrollbarDefaultDelayBeforeFade="500"
+            android:scrollbarThumbVertical="@drawable/scroll_bar" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

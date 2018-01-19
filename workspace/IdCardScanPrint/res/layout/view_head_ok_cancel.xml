@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="59dp"
+    android:background="#b4b4b4" >
+
+    <TextView
+        android:id="@+id/tx_title_h_ok_cancel"
+        android:layout_width="613dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:textSize="24px" />
+
+    <Button
+        android:id="@+id/btn_cancel_h_okcancel"
+        android:layout_width="187dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="634dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/cs_selector_button_cancel"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="24px" />
+
+    <Button
+        android:id="@+id/btn_ok_h_okcancel"
+        android:layout_width="187dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="827dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/cs_selector_button_ok"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24px" />
+
+</RelativeLayout>

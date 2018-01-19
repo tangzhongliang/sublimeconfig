@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Webdav applied wording(start)  -->
+    <string name="txid_sending">Sender...</string>
+    <string name="txid_scan_g_running_original_num">Original(er)</string>
+    <string name="txid_scan_g_running_dest_num">Destination(er)</string>
+    <string name="txid_scan_g_running_remain_memory">Rest. hukom.</string>
+    <string name="txid_scan_g_running_scan">Scanner...</string>
+    <string name="button_stop">Stop</string>
+    <string name="dialog_state_connect">Tilslutter...</string>
+    <string name="dialog_loginmessage">Indtast brugernavn og password.</string>
+    <string name="dialog_sender_email_info_1">Ilæg næste original(er), og tryk på [Scan næste original]. Tryk på [Start afsendelse], når sidste original er scannet.</string>
+    <string name="dialog_sender_email_info_2">Ventetid for næste original\nResterende sekunder: %1$s</string>
+    <string name="dialog_sender_email_btn_2">Scan næste original</string>
+    <string name="dialog_sender_email_btn_3">Start afsendelse</string>
+    <string name="dialog_sender_email_btn_4">Skift indstillinger</string>
+    <string name="err_input">Angiv %s.</string>
+    <string name="dialog_delete_info_1">Er du sikker på, at du slette %1$s\?\n</string>
+    <string name="txid_login_url_notice">URL: %s</string>
+    <string name="txid_login_id_notice">Brugernavn: %s</string>
+    <string name="txid_login_password_notice">Password: %s</string>
+    <string name="dialog_delete_btn_1">Annullér</string>
+    <string name="dialog_delete_btn_2">Slet</string>
+    <string name="txid_stop1">Ja</string>
+    <string name="txid_stop2">Nej</string>
+    <!-- Webdav applied wording(end)  -->
+
+    <string name="SCAN_MEMORY_OVER">Hukommelsen er fuld. Scanning blev afbrudt.</string>
+    <string name="SCAN_RESOURCES_ARE_NOT_READY">De påkrævede ressourcer for scanning er ikke klar.</string>
+    <string name="SCAN_INTERNAL_ERROR">Der er opstået en fejl.</string>
+    <string name="SCAN_ORIGINAL_SET_ERROR">Kan ikke scanne originalen. Placér originalen korrekt.</string>
+    <string name="SCAN_TIMEOUT">Scanning er annulleret, da der ikke er foretaget nogen handling i et stykke tid.</string>
+    <string name="SCAN_OTHER_PROCESS_ERROR">Scanningen er afbrudt.</string>
+    <string name="SCAN_EXCEEDED_MAX_EMAIL_SIZE">Maks.størrelsen for afsendelse er overskredet.</string>
+    <string name="SCAN_EXCEEDED_MAX_PAGE_COUNT">Antal sider for scanning er overskredet.</string>
+    <string name="SCAN_CHARGE_UNIT_LIMIT">Scanningen blev afbrudt, da forbrugsgrænsen er nået.</string>
+    <string name="SCAN_PREPARING_JOB_START">Starter...</string>
+    <string name="SCAN_SCANNER_JAM">Der opstod originalstop under scanningen.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL">Ilæg næste original.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL_AND_CONTINUE">Ilæg næste original for at fortsætte scanning. </string>
+    <string name="SCAN_CANNOT_DETECT_ORIGINAL_SIZE">Kan ikke registrere originalen.</string>
+    <string name="SCAN_EXCEEDED_MAX_DATA_CAPACITY">Datakapaciteten er overskredet.</string>
+    <string name="SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION">Kan ikke scanne med denne originalretning.</string>
+    <string name="SCAN_TOO_SMALL_SCAN_SIZE">Kan ikke scanne, da originalformatet er for lille.</string>
+    <string name="SCAN_TOO_LARGE_SCAN_SIZE">Kan ikke scanne, da originalformatet er for stort.</string>
+    <string name="SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION">Maskinen forbereder eksempelvisning. Vent venligst.</string>
+    <string name="SCAN_USER_REQUEST">Scanning er stoppet af brugeren. </string>
+    <string name="job_stop_fail">Kunne ikke stoppe scanning.</string>
+    <string name="job_start_fail">Kunne ikke starte scanning.</string>
+    <string name="job_end_fail">Kunne ikke afslutte scanning. Tryk på [Annullér].</string>
+    <string name="job_continue_fail">Kunne ikke fortsætte scanning. Tryk på [Annullér].</string>
+    <string name="job_cancel_fail">Kunne ikke annullere scanning.</string>
+    <string name="error_login_failed">Godkendelse mislykkedes.</string>
+    <string name="error_not_input_authentication">Der findes ingen godkendelsesoplysninger.</string>
+    <string name="error_not_authorized">Du har ikke rettigheder til at bruge denne funktion. </string>
+    <string name="error_system_busy">Systemet er optaget. </string>
+    <string name="scan_fail">Scanning mislykkedes. </string>
+    <string name="error_permission_denied">Du har ikke rettigheder til at bruge denne funktion. </string>
+    <string name="error_path_no_exist">Kan ikke finde den angivne mappe.</string>
+    <string name="dialog_sender_protocol_type">Protokoltype:</string>
+    <string name="dialog_sender_path">Mappesti:</string>
+    <string name="dialog_sender_name">Login-brugernavn:</string>
+    <string name="dialog_password">Password</string>
+    <string name="txid_scmn_b_012">Send</string>
+    <string name="txid_scan_g_running_print">Udskriver...</string>
+    <string name="txid_scmn_f_user_code">Brugerkode</string>
+    <string name="txid_scmn_f_user_code_tip_1">Indtast brugerkode, og tryk på [OK].</string>
+    <string name="txid_scmn_f_user_code_tip_2">Brugerkoden er forkert. Genindtast venligst.</string>
+    <string name="txid_scmn_f_user_code_tip_3">Brugerkoden er ugyldig. Genindtast venligst.</string>
+    <string name="bt_cancel">Annullér</string>
+    <string name="bt_logout">Log ud</string>
+    <string name="bt_next">Næste</string>
+    <string name="bt_back">Tilbage</string>
+    <string name="txid_scmn_f_user_code_tip_4">Den angivne brugerkode er ikke registreret i adressebogen. Vil du registrere den\?</string>
+    <string name="dialog_id">ID</string>
+    <string name="bt_ok">OK</string>
+    <string name="dialog_contain_character">Filnavne må ikke indeholde følgende tegn:</string>
+    <string name="dialog_print_count_not_in_range">Antal print er ikke mellem %1$s og %2$s.</string>
+    <string name="dialog_domain_wrong">Domænenavnet må kun indeholde tal fra 0 til 9 og bogstaver fra A til Z.</string>
+    <string name="preview_stop_message">Er du sikker på, at du vil slette alle billeder\?</string>
+
+    <string name="txid_ppp_b_app_information">Om applikationen</string>
+    <string name="txid_ppp_g_app_information_ver_label">Version</string>
+    <string name="txid_ppp_b_app_information_show_oss">OSS-licensoplysninger</string>
+    <string name="txid_scmn_d_device_not_supported">Den installerede betalingsenhed kan ikke anvendes.</string>
+</resources>

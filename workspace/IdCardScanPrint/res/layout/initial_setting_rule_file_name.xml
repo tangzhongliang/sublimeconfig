@@ -1,0 +1,398 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc" >
+
+    <jp.co.ricoh.advop.idcardscanprint.ui.view.HeaderOkCancel
+        android:id="@+id/init_filename_rule_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/bg_filename_01" >
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="19dp"
+            android:gravity="left"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:text="@string/tx_init_setting_section_print_file_name"
+            android:textColor="#000000"
+            android:textSize="24px" />
+
+        <RelativeLayout
+            android:layout_width="780dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="187dp"
+            android:layout_marginTop="9dp"
+            android:background="#E6E6E6"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tx_file_name"
+                android:layout_width="748dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp "
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="24px" />
+
+            <TextView
+                android:id="@+id/tx_rule_file_name"
+                android:layout_width="748dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="42dp"
+                android:alpha="0.7"
+                android:singleLine="true"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:textSize="18px" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="168dp"
+        android:singleLine="true"
+        android:gravity="left"
+        android:text="@string/tx_init_setting_section_print_file_name_stratum"
+        android:textColor="#555555"
+        android:textSize="20px" />
+
+    <RelativeLayout
+        android:id="@+id/init_filename_rule_reset_btn"
+        android:layout_width="172dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="844dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/selector_bt_com_12" >
+
+        <ImageView
+            android:id="@+id/fst_iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/icon_pict_reset" />
+
+        <TextView
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="@string/btn_init_setting_section_scan_reset"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_20" />
+        <ImageView
+            android:id="@+id/img_section_line2"
+            android:layout_width="1dp"
+            android:layout_marginLeft="170dp"
+            android:layout_height="36dp"
+            android:background="@color/line_color" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/stratum01_layout"
+        android:layout_width="413dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/selector_bt_com_01" >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+              android:layout_centerVertical="true"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/tx_init_setting_section_print_file_name_stratum01"
+            android:textColor="#000000"
+            android:textSize="24px" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="13dp"
+            android:alpha="0.15"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/stratum01_tx"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="123dp"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="24px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/stratum02_layout"
+        android:layout_width="413dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="278dp"
+        android:background="@drawable/selector_bt_com_01" >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/tx_init_setting_section_print_file_name_stratum02"
+            android:textColor="#000000"
+            android:textSize="24px" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="13dp"
+            android:alpha="0.15"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/stratum02_tx"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="123dp"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="24px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/stratum03_layout"
+        android:layout_width="413dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="349dp"
+        android:background="@drawable/selector_bt_com_01" >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+           android:layout_centerVertical="true"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/tx_init_setting_section_print_file_name_stratum03"
+            android:textColor="#000000"
+            android:textSize="24px" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="13dp"
+            android:alpha="0.15"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/stratum03_tx"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginLeft="123dp"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="24px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/stratum04_layout"
+        android:layout_width="413dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="536dp"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/selector_bt_com_01" >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+           android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:gravity="left"
+            android:text="@string/tx_init_setting_section_print_file_name_stratum04"
+            android:textColor="#000000"
+            android:textSize="24px" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="13dp"
+            android:alpha="0.15"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/stratum04_tx"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="123dp"
+            android:singleLine="true"
+         android:layout_centerVertical="true"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="24px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/stratum05_layout"
+        android:layout_width="413dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="536dp"
+        android:layout_marginTop="278dp"
+        android:background="@drawable/selector_bt_com_01" >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+          android:layout_centerVertical="true"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/tx_init_setting_section_print_file_name_stratum05"
+            android:textColor="#000000"
+            android:textSize="24px" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="13dp"
+            android:alpha="0.15"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/stratum05_tx"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="123dp"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="24px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/stratum06_layout"
+        android:layout_width="413dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="536dp"
+        android:layout_marginTop="349dp"
+        android:background="@drawable/selector_bt_com_01" >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/tx_init_setting_section_print_file_name_stratum06"
+            android:textColor="#000000"
+            android:textSize="24px" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="13dp"
+            android:alpha="0.15"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/stratum06_tx"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="123dp"
+         android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="24px" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="423dp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="@string/tx_init_setting_section_print_file_name_Separator"
+        android:textColor="#555555"
+        android:textSize="19px" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="455dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Separator1"
+            android:layout_width="92dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:background="@drawable/selector_bt_com_01"
+            android:gravity="center"
+            android:text="."
+            android:textColor="#000000"
+            android:textSize="20px" />
+
+        <Button
+            android:id="@+id/Separator2"
+            android:layout_width="92dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:background="@drawable/selector_bt_com_01"
+            android:gravity="center"
+            android:text="_"
+            android:textColor="#000000"
+            android:textSize="20px" />
+
+        <Button
+            android:id="@+id/Separator3"
+            android:layout_width="92dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:background="@drawable/selector_bt_com_01"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="#000000"
+            android:textSize="20px" />
+    </LinearLayout>
+
+</RelativeLayout>

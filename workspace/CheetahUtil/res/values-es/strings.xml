@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Webdav applied wording(start)  -->
+    <string name="txid_sending">Enviando...</string>
+    <string name="txid_scan_g_running_original_num">Original(es)</string>
+    <string name="txid_scan_g_running_dest_num">Destino(s)</string>
+    <string name="txid_scan_g_running_remain_memory">Memoria restante</string>
+    <string name="txid_scan_g_running_scan">Escaneando...</string>
+    <string name="button_stop">Detener</string>
+    <string name="dialog_state_connect">Conectando...</string>
+    <string name="dialog_loginmessage">Introduzca el nombre de usuario y la contraseña.</string>
+    <string name="dialog_sender_email_info_1">Coloque el siguiente original(es) y pulse [Escanear siguiente original]. Después de escanear el último original, pulse [Iniciar envío].</string>
+    <string name="dialog_sender_email_info_2">Tiempo de espera del siguiente original\nSegundos restantes: %1$s</string>
+    <string name="dialog_sender_email_btn_2">Escanear siguiente orig.</string>
+    <string name="dialog_sender_email_btn_3">Iniciar envío</string>
+    <string name="dialog_sender_email_btn_4">Cambiar ajustes</string>
+    <string name="err_input">Introduzca %s.</string>
+    <string name="dialog_delete_info_1">¿Seguro que quiere eliminar %1$s\?\n</string>
+    <string name="txid_login_url_notice">URL: %s</string>
+    <string name="txid_login_id_notice">Nombre de usuario: %s</string>
+    <string name="txid_login_password_notice">Contraseña: %s</string>
+    <string name="dialog_delete_btn_1">Cancelar</string>
+    <string name="dialog_delete_btn_2">Eliminar</string>
+    <string name="txid_stop1">Sí</string>
+    <string name="txid_stop2">No</string>
+    <!-- Webdav applied wording(end)  -->
+
+    <string name="SCAN_MEMORY_OVER">Memoria llena, se ha detenido el escaneo.</string>
+    <string name="SCAN_RESOURCES_ARE_NOT_READY">Los recursos requeridos para escanear no están listos.</string>
+    <string name="SCAN_INTERNAL_ERROR">Se ha producido un error.</string>
+    <string name="SCAN_ORIGINAL_SET_ERROR">No se puede escanear el original. Colóquelo de nuevo correctamente.</string>
+    <string name="SCAN_TIMEOUT">Debido a que no se ha realizado ninguna acción durante un determinado periodo de tiempo, se ha cancelado el escaneo.</string>
+    <string name="SCAN_OTHER_PROCESS_ERROR">Se ha detenido el escaneo.</string>
+    <string name="SCAN_EXCEEDED_MAX_EMAIL_SIZE">Tamaño máximo para enviar superado.</string>
+    <string name="SCAN_EXCEEDED_MAX_PAGE_COUNT">Máximo de páginas para escanear superado.</string>
+    <string name="SCAN_CHARGE_UNIT_LIMIT">El escaneo se ha detenido porque ha alcanzado el límite de crédito.</string>
+    <string name="SCAN_PREPARING_JOB_START">Iniciando...</string>
+    <string name="SCAN_SCANNER_JAM">El original se ha atascado mientras se escaneaba.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL">Coloque el siguiente original.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL_AND_CONTINUE">Para seguir escaneando, coloque el siguiente original.</string>
+    <string name="SCAN_CANNOT_DETECT_ORIGINAL_SIZE">No se puede detectar el original.</string>
+    <string name="SCAN_EXCEEDED_MAX_DATA_CAPACITY">La capacidad de datos ha superado el máximo.</string>
+    <string name="SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION">No se puede escanear el original con esta orientación.</string>
+    <string name="SCAN_TOO_SMALL_SCAN_SIZE">No se puede escanear el tamaño del original porque es demasiado pequeño.</string>
+    <string name="SCAN_TOO_LARGE_SCAN_SIZE">No se puede escanear el tamaño del original porque es demasiado grande.</string>
+    <string name="SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION">La máquina se está preparando para la vista previa. Espere.</string>
+    <string name="SCAN_USER_REQUEST">El usuario ha detenido el escaneo.</string>
+    <string name="job_stop_fail">No se ha podido detener el escaneo.</string>
+    <string name="job_start_fail">No se ha podido iniciar el escaneo.</string>
+    <string name="job_end_fail">No se ha podido finalizar el escaneo. Pulse [Cancelar].</string>
+    <string name="job_continue_fail">No se ha podido continuar escaneando. Pulse [Cancelar].</string>
+    <string name="job_cancel_fail">No se ha podido cancelar el escaneo.</string>
+    <string name="error_login_failed">Ha fallado la autorización.</string>
+    <string name="error_not_input_authentication">No hay información para la autenticación.</string>
+    <string name="error_not_authorized">No tiene privilegios para utilizar esta función.</string>
+    <string name="error_system_busy">El sistema está ocupado.</string>
+    <string name="scan_fail">No se ha podido escanear.</string>
+    <string name="error_permission_denied">No tiene privilegios para utilizar esto.</string>
+    <string name="error_path_no_exist">No se ha encontrado la carpeta especificada.</string>
+    <string name="dialog_sender_protocol_type">Tipo de protocolo:</string>
+    <string name="dialog_sender_path">Ruta de carpeta:</string>
+    <string name="dialog_sender_name">Nombre inic.sesión usu.:</string>
+    <string name="dialog_password">Contraseña</string>
+    <string name="txid_scmn_b_012">Enviar</string>
+    <string name="txid_scan_g_running_print">Imprimiendo...</string>
+    <string name="txid_scmn_f_user_code">Código de usuario</string>
+    <string name="txid_scmn_f_user_code_tip_1">Introduzca el código de usuario y pulse [OK].</string>
+    <string name="txid_scmn_f_user_code_tip_2">Código de usuario incorrecto. Vuelva a introducirlo.</string>
+    <string name="txid_scmn_f_user_code_tip_3">Código de usuario denegado. Vuelva a introducirlo.</string>
+    <string name="bt_cancel">Cancelar</string>
+    <string name="bt_logout">Cerrar sesión</string>
+    <string name="bt_next">Sig.</string>
+    <string name="bt_back">Atrás</string>
+    <string name="txid_scmn_f_user_code_tip_4">Código usuario intr. no registrado en la Libreta direc. ¿Quiere registrarlo\?</string>
+    <string name="dialog_id">ID</string>
+    <string name="bt_ok">OK</string>
+    <string name="dialog_contain_character">Un nombre de archivo no puede contener ninguno de los siguientes caracteres:</string>
+    <string name="dialog_print_count_not_in_range">La cantidad de impresión no está entre %1$s y %2$s.</string>
+    <string name="dialog_domain_wrong">El nombre de dominio solo puede contener números del 0 al 9 y letras de la A a la Z.</string>
+    <string name="preview_stop_message">¿Seguro que quiere eliminar todas las imágenes\?</string>
+
+    <string name="txid_ppp_b_app_information">Acerca de la aplicación</string>
+    <string name="txid_ppp_g_app_information_ver_label">Versión</string>
+    <string name="txid_ppp_b_app_information_show_oss">Información de licencia OSS</string>
+    <string name="txid_scmn_d_device_not_supported">La unidad de carga conectada no se puede utilizar.</string>
+</resources>

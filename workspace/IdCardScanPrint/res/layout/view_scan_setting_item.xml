@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_cm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical" >
+<!-- 
+    <RelativeLayout
+        android:id="@+id/layout_cm_header"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#b4b4b4" >
+
+        <TextView
+            android:id="@+id/tx_cm_header"
+            android:layout_width="613dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="11dp"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:text="@string/btn_init_setting_section_scan_color_mode"
+            android:textColor="#000000"
+            android:textSize="24px" />
+
+        <Button
+            android:id="@+id/btn_cm_ok"
+            android:layout_width="187dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="827dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/cs_selector_button_cancel"
+            android:gravity="center"
+            android:text="@string/btn_init_setting_section_scan_ok"
+            android:textColor="#000000"
+            android:textSize="24px" />
+    </RelativeLayout>
+ -->
+    <RelativeLayout
+        android:id="@+id/layout_cm_header"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#b4b4b4" >
+
+        <RelativeLayout
+            android:id="@+id/btn_cm_ok"
+            android:layout_width="76dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/selector_bt_com_01" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/icon_act_arrowleft_01_n" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tx_cm_header"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="14dp"
+            android:singleLine="true"
+            android:gravity="left"
+            android:text="@string/btn_init_setting_section_scan_color_mode"
+            android:textColor="#000000"
+            android:textSize="24px" />
+    </RelativeLayout>
+    
+    <ListView
+        android:id="@+id/smtp_authentication_group_id"
+        android:layout_width="864dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="140dp" 
+        android:dividerHeight="9dp"
+        android:divider="#cccccc"
+        android:requiresFadingEdge="vertical"
+        android:listSelector="@drawable/bt_com_01_w" >
+    </ListView>
+
+</RelativeLayout>

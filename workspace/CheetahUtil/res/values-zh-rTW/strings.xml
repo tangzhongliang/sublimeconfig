@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Webdav applied wording(start)  -->
+    <string name="txid_sending">正在傳送...</string>
+    <string name="txid_scan_g_running_original_num">原稿</string>
+    <string name="txid_scan_g_running_dest_num">目的地</string>
+    <string name="txid_scan_g_running_remain_memory">剩餘記憶體</string>
+    <string name="txid_scan_g_running_scan">正在掃描...</string>
+    <string name="button_stop">停止</string>
+    <string name="dialog_state_connect">正在連接...</string>
+    <string name="dialog_loginmessage">輸入使用者名稱與密碼。</string>
+    <string name="dialog_sender_email_info_1">放置下一份原稿，然後按下[掃描下一份原稿]。掃描最後一份原稿後按下[開始傳送]。</string>
+    <string name="dialog_sender_email_info_2">等候下一份原稿\n剩餘秒數：%1$s</string>
+    <string name="dialog_sender_email_btn_2">掃描下一份原稿</string>
+    <string name="dialog_sender_email_btn_3">開始傳送</string>
+    <string name="dialog_sender_email_btn_4">變更設定</string>
+    <string name="err_input">輸入%s。</string>
+    <string name="dialog_delete_info_1">您確定要刪除%1$s嗎？\n</string>
+    <string name="txid_login_url_notice">URL：%s</string>
+    <string name="txid_login_id_notice">使用者名稱：%s</string>
+    <string name="txid_login_password_notice">密碼：%s</string>
+    <string name="dialog_delete_btn_1">取消</string>
+    <string name="dialog_delete_btn_2">刪除</string>
+    <string name="txid_stop1">是</string>
+    <string name="txid_stop2">否</string>
+    <!-- Webdav applied wording(end)  -->
+
+    <string name="SCAN_MEMORY_OVER">記憶體已滿，掃描停止。</string>
+    <string name="SCAN_RESOURCES_ARE_NOT_READY">掃描需要的資源未就緒。</string>
+    <string name="SCAN_INTERNAL_ERROR">發生錯誤。</string>
+    <string name="SCAN_ORIGINAL_SET_ERROR">無法掃描原稿。請再正確放置。</string>
+    <string name="SCAN_TIMEOUT">因為有某一段時間沒有執行動作，掃描已被取消。</string>
+    <string name="SCAN_OTHER_PROCESS_ERROR">掃描已停止。</string>
+    <string name="SCAN_EXCEEDED_MAX_EMAIL_SIZE">超過要傳送的大小上限。</string>
+    <string name="SCAN_EXCEEDED_MAX_PAGE_COUNT">超過要掃描的頁數上限。</string>
+    <string name="SCAN_CHARGE_UNIT_LIMIT">掃描被停止因為您已到達收費限制。</string>
+    <string name="SCAN_PREPARING_JOB_START">正在啟動...</string>
+    <string name="SCAN_SCANNER_JAM">正在掃描時原稿夾紙。</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL">放置下一張原稿。</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL_AND_CONTINUE">要繼續掃描，放置下一份原稿。 </string>
+    <string name="SCAN_CANNOT_DETECT_ORIGINAL_SIZE">無法偵測原稿。</string>
+    <string name="SCAN_EXCEEDED_MAX_DATA_CAPACITY">資料容量已超上限。</string>
+    <string name="SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION">無法以此方向掃描原稿。</string>
+    <string name="SCAN_TOO_SMALL_SCAN_SIZE">無法掃描因為原稿的尺寸太小。</string>
+    <string name="SCAN_TOO_LARGE_SCAN_SIZE">無法掃描因為原稿的尺寸太大。</string>
+    <string name="SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION">機器正在準備預覽。請稍候。</string>
+    <string name="SCAN_USER_REQUEST">使用者已停止掃描。 </string>
+    <string name="job_stop_fail">開始掃描失敗。</string>
+    <string name="job_start_fail">開始掃描失敗。</string>
+    <string name="job_end_fail">完成掃描失敗。按下[取消]。</string>
+    <string name="job_continue_fail">繼續掃描失敗。按下[取消]。</string>
+    <string name="job_cancel_fail">取消掃描失敗。</string>
+    <string name="error_login_failed">驗證已失敗。</string>
+    <string name="error_not_input_authentication">沒有驗證資訊。</string>
+    <string name="error_not_authorized">您沒有權限使用此功能。 </string>
+    <string name="error_system_busy">系統忙碌中。 </string>
+    <string name="scan_fail">掃描已失敗。 </string>
+    <string name="error_permission_denied">您沒有權限使用此項。 </string>
+    <string name="error_path_no_exist">找不到指定的資料夾。</string>
+    <string name="dialog_sender_protocol_type">通訊協定種類：</string>
+    <string name="dialog_sender_path">資料夾路徑：</string>
+    <string name="dialog_sender_name">登入使用者的名稱：</string>
+    <string name="dialog_password">密碼</string>
+    <string name="txid_scmn_b_012">傳送</string>
+    <string name="txid_scan_g_running_print">正在列印...</string>
+    <string name="txid_scmn_f_user_code">使用者代碼</string>
+    <string name="txid_scmn_f_user_code_tip_1">輸入使用者代碼，然後按下[確定]。</string>
+    <string name="txid_scmn_f_user_code_tip_2">使用者代碼不正確。請重新輸入。</string>
+    <string name="txid_scmn_f_user_code_tip_3">使用者代碼被拒絕。請重新輸入。</string>
+    <string name="bt_cancel">取消</string>
+    <string name="bt_logout">登出</string>
+    <string name="bt_next">下一步</string>
+    <string name="bt_back">返回</string>
+    <string name="txid_scmn_f_user_code_tip_4">輸入的使用者代碼未登記於通訊錄中。您要登記嗎？</string>
+    <string name="dialog_id">ID</string>
+    <string name="bt_ok">確定</string>
+    <string name="dialog_contain_character">檔案名稱不能包含任何下列字元：</string>
+    <string name="dialog_print_count_not_in_range">列印數量不是介於%1$s至%2$s。</string>
+    <string name="dialog_domain_wrong">網域名稱僅可包含0至9的數字與A至Z的字母。</string>
+    <string name="preview_stop_message">您確定要刪除全部影像嗎？</string>
+
+    <string name="txid_ppp_b_app_information">關於應用程式</string>
+    <string name="txid_ppp_g_app_information_ver_label">版本</string>
+    <string name="txid_ppp_b_app_information_show_oss">OSS授權資訊</string>
+    <string name="txid_scmn_d_device_not_supported">無法使用已連接的收費單元。</string>
+</resources>

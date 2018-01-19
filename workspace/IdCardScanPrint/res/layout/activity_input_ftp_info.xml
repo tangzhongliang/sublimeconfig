@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_cccccc" >
+
+    <jp.co.ricoh.advop.idcardscanprint.ui.view.HeaderOkCancel
+        android:id="@+id/input_ftp_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </jp.co.ricoh.advop.idcardscanprint.ui.view.HeaderOkCancel>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_ftp_header"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp"
+        android:requiresFadingEdge="vertical"
+        android:scrollbars="none" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <FrameLayout
+                android:id="@+id/ftp_item_hostname"
+                android:layout_width="864dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="84dp"
+                android:layout_marginTop="23dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal" >
+			<TextView
+                    android:layout_width="413dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/ftp_item_server"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+                
+
+               <View
+                    android:layout_width="2dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="431dp"
+                    android:layout_marginTop="13dp"
+                    android:alpha="0.15"
+                    android:background="#000000" />
+
+                <EditText
+                    android:id="@+id/edit_ftp_item_hostname"
+                    android:layout_width="415dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="441dp"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:hint="@string/hint_init_setting_input"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="19dp"
+                    android:layout_height="6dp"
+                    android:layout_marginLeft="840dp"
+                    android:layout_marginTop="52dp"
+                    android:src="@drawable/icon_act_pop_01" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/ftp_item_path"
+                android:layout_width="864dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="84dp"
+                android:layout_marginTop="95dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="413dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/server_path"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="431dp"
+                    android:layout_marginTop="13dp"
+                    android:alpha="0.15"
+                    android:background="#000000" />
+
+                <EditText
+                    android:id="@+id/edit_ftp_item_path"
+                    android:layout_width="415dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="441dp"
+                    android:hint="@string/hint_init_setting_input"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="19dp"
+                    android:layout_height="6dp"
+                    android:layout_marginLeft="840dp"
+                    android:layout_marginTop="52dp"
+                    android:src="@drawable/icon_act_pop_01" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/ftp_item_username"
+                android:layout_width="864dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="84dp"
+                android:layout_marginTop="166dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="413dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/smtp_user_code"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="431dp"
+                    android:layout_marginTop="13dp"
+                    android:alpha="0.15"
+                    android:background="#000000" />
+
+                <EditText
+                    android:id="@+id/edit_ftp_item_username"
+                    android:layout_width="415dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="441dp"
+                    android:hint="@string/hint_init_setting_input"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="19dp"
+                    android:layout_height="6dp"
+                    android:layout_marginLeft="840dp"
+                    android:layout_marginTop="52dp"
+                    android:src="@drawable/icon_act_pop_01" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/ftp_item_password"
+                android:layout_width="864dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="84dp"
+                android:layout_marginTop="239dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="413dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/smtp_password"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="431dp"
+                    android:layout_marginTop="13dp"
+                    android:alpha="0.15"
+                    android:background="#000000" />
+
+                <EditText
+                    android:id="@+id/edit_ftp_item_password"
+                    android:layout_width="415dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="441dp"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:hint="@string/hint_init_setting_input"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="19dp"
+                    android:layout_height="6dp"
+                    android:layout_marginLeft="840dp"
+                    android:layout_marginTop="52dp"
+                    android:src="@drawable/icon_act_pop_01" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/ftp_item_encoding"
+                android:layout_width="864dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="84dp"
+                android:layout_marginTop="311dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="413dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/ftp_item_encoding"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="2dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="431dp"
+                    android:layout_marginTop="13dp"
+                    android:alpha="0.15"
+                    android:background="#000000" />
+
+                <TextView
+                    android:id="@+id/text_ftp_item_encoding"
+                    android:layout_width="415dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="441dp"
+                    android:gravity="left"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="840dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/icon_act_slide_01" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/ftp_item_port"
+                android:layout_width="864dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="84dp"
+                android:layout_marginTop="383dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="413dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/smtp_server_port"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="431dp"
+                    android:layout_marginTop="13dp"
+                    android:alpha="0.15"
+                    android:background="#000000" />
+
+                <EditText
+                    android:id="@+id/edit_ftp_item_port"
+                    android:layout_width="415dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="441dp"
+                    android:background="@null"
+                    android:digits="1234567890"
+                    android:gravity="left"                   
+                    android:imeOptions="actionDone"
+                    android:hint="@string/hint_init_setting_input"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:maxLength="5"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="19dp"
+                    android:layout_height="6dp"
+                    android:layout_marginLeft="840dp"
+                    android:layout_marginTop="52dp"
+                    android:src="@drawable/icon_act_pop_01" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/ftp_connect_test"
+                android:layout_width="432dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="516dp"
+                android:layout_marginTop="455dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="415dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="9dp"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="@string/smtp_send_test"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+            </FrameLayout>
+        </FrameLayout>
+    </ScrollView>
+
+</RelativeLayout>

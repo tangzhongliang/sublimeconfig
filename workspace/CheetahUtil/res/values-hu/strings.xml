@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Webdav applied wording(start)  -->
+    <string name="txid_sending">Küldés...</string>
+    <string name="txid_scan_g_running_original_num">Eredeti</string>
+    <string name="txid_scan_g_running_dest_num">Célállomás(ok)</string>
+    <string name="txid_scan_g_running_remain_memory">Maradék mem.</string>
+    <string name="txid_scan_g_running_scan">Szkennelés...</string>
+    <string name="button_stop">Stop</string>
+    <string name="dialog_state_connect">Kapcsolódás...</string>
+    <string name="dialog_loginmessage">Adja meg a felhasználói nevét és a jelszavát.</string>
+    <string name="dialog_sender_email_info_1">Tegye be a következő eredetit, majd nyomja meg a [Köv. eredeti beolvasása]-t. Az utolsó eredeti beolvasása után nyomja meg a [Küldés indítása]-t.</string>
+    <string name="dialog_sender_email_info_2">Várakozási idő a köv. eredetire\nFennmaradó másodperc: %1$s</string>
+    <string name="dialog_sender_email_btn_2">Köv. eredeti beolvasása</string>
+    <string name="dialog_sender_email_btn_3">Küldés indítása</string>
+    <string name="dialog_sender_email_btn_4">Beáll. módosítása</string>
+    <string name="err_input">Adja meg: %s.</string>
+    <string name="dialog_delete_info_1">Valóban törli a %1$s szervert\?\n</string>
+    <string name="txid_login_url_notice">URL: %s</string>
+    <string name="txid_login_id_notice">Felhasználói név: %s</string>
+    <string name="txid_login_password_notice">Jelszó: %s</string>
+    <string name="dialog_delete_btn_1">Mégsem</string>
+    <string name="dialog_delete_btn_2">Töröl</string>
+    <string name="txid_stop1">Igen</string>
+    <string name="txid_stop2">Nem</string>
+    <!-- Webdav applied wording(end)  -->
+
+    <string name="SCAN_MEMORY_OVER">Megtelt a memória, a szkennelés leállt.</string>
+    <string name="SCAN_RESOURCES_ARE_NOT_READY">A szkenneléshez szükséges források nem állnak készen.</string>
+    <string name="SCAN_INTERNAL_ERROR">Hiba történt.</string>
+    <string name="SCAN_ORIGINAL_SET_ERROR">Nem lehet beolvasni az eredetit. Kérem, tegye be újra helyesen.</string>
+    <string name="SCAN_TIMEOUT">Mivel nem történt művelet a megadott időn belül, a szkennelés törlődött.</string>
+    <string name="SCAN_OTHER_PROCESS_ERROR">A szkennelés leállt.</string>
+    <string name="SCAN_EXCEEDED_MAX_EMAIL_SIZE">Túllépte a maximális elküldhető méretet.</string>
+    <string name="SCAN_EXCEEDED_MAX_PAGE_COUNT">Túllépte a szkennelhető lapok maximális számát.</string>
+    <string name="SCAN_CHARGE_UNIT_LIMIT">Leállt a szkennelés, mert elérte a terhelési korlátot.</string>
+    <string name="SCAN_PREPARING_JOB_START">Indítás...</string>
+    <string name="SCAN_SCANNER_JAM">Beolvasás közben elakadt az eredeti.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL">Tegye be a következő eredetit.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL_AND_CONTINUE">A szkennelés folytatásához tegye be a következő eredetit.</string>
+    <string name="SCAN_CANNOT_DETECT_ORIGINAL_SIZE">Nem ismerhető fel az eredeti.</string>
+    <string name="SCAN_EXCEEDED_MAX_DATA_CAPACITY">Az adatkapacitás elérte a maximumot.</string>
+    <string name="SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION">Ezzel a tájolással nem tudja beolvasni az eredetit.</string>
+    <string name="SCAN_TOO_SMALL_SCAN_SIZE">Nem tud szkennelni, mert túl kicsi az eredeti mérete.</string>
+    <string name="SCAN_TOO_LARGE_SCAN_SIZE">Nem tud szkennelni, mert túl nagy az eredeti mérete.</string>
+    <string name="SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION">A készülék felkészül az előnézetre. Kérem, várjon.</string>
+    <string name="SCAN_USER_REQUEST">A felhasználó leállította a szkennelést.</string>
+    <string name="job_stop_fail">Nem sikerült leállítani a szkennelést.</string>
+    <string name="job_start_fail">Nem sikerült elindítani a szkennelést.</string>
+    <string name="job_end_fail">Nem sikerült befejezni a szkennelést. Nyomja meg a [Mégsem] gombot.</string>
+    <string name="job_continue_fail">Nem sikerült folytatni a szkennelést. Nyomja meg a [Mégsem] gombot.</string>
+    <string name="job_cancel_fail">Nem sikerült törölni a szkennelést.</string>
+    <string name="error_login_failed">Sikertelen a hitelesítés.</string>
+    <string name="error_not_input_authentication">Nincs hitelesítési információ.</string>
+    <string name="error_not_authorized">Nincs jogosultsága e funkció használatához.</string>
+    <string name="error_system_busy">A rendszer foglalt.</string>
+    <string name="scan_fail">Sikertelen a szkennelés.</string>
+    <string name="error_permission_denied">Nincs jogosultsága ennek használatához.</string>
+    <string name="error_path_no_exist">A megadott mappa nem található.</string>
+    <string name="dialog_sender_protocol_type">Protokoll típusa:</string>
+    <string name="dialog_sender_path">Mappa útvonala:</string>
+    <string name="dialog_sender_name">Felh. belépési neve:</string>
+    <string name="dialog_password">Jelszó</string>
+    <string name="txid_scmn_b_012">Küldés</string>
+    <string name="txid_scan_g_running_print">Nyomtatás...</string>
+    <string name="txid_scmn_f_user_code">Felhasználói kód</string>
+    <string name="txid_scmn_f_user_code_tip_1">Adja meg a felhasználói kódot, majd nyomja meg az [OK] gombot.</string>
+    <string name="txid_scmn_f_user_code_tip_2">A felhasználói kód helytelen. Adja meg újra.</string>
+    <string name="txid_scmn_f_user_code_tip_3">A felhasználói kód elutasítva. Adja meg újra.</string>
+    <string name="bt_cancel">Mégsem</string>
+    <string name="bt_logout">Kilépés</string>
+    <string name="bt_next">Követk.</string>
+    <string name="bt_back">Vissza</string>
+    <string name="txid_scmn_f_user_code_tip_4">A megadott felhasználói kód nincs regisztrálva a címjegyzékben. Szeretné regisztrálni\?</string>
+    <string name="dialog_id">Azonosító</string>
+    <string name="bt_ok">OK</string>
+    <string name="dialog_contain_character">A fájlnév nem tartalmazhatja a következő karaktereket:</string>
+    <string name="dialog_print_count_not_in_range">A nyomtatási mennyiség nem %1$s és %2$s között van.</string>
+    <string name="dialog_domain_wrong">A tartománynév csak számokat (0-9) és betűket (A-Z) tartalmazhat.</string>
+    <string name="preview_stop_message">Valóban ki szeretné törölni az összes képet\?</string>
+
+    <string name="txid_ppp_b_app_information">Alkalmazás névjegye</string>
+    <string name="txid_ppp_g_app_information_ver_label">Verzió</string>
+    <string name="txid_ppp_b_app_information_show_oss">OSS licencadatok</string>
+    
+    <string name="txid_scmn_d_device_not_supported">A csatlakoztatott töltőegység nem használható.</string>
+</resources>

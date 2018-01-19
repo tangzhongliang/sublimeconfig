@@ -1,0 +1,382 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/init_setting_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc" >
+
+    <!-- go back -->
+
+    <LinearLayout
+        android:id="@+id/init_setting_goback_layout"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#b4b4b4"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/init_setting_goback_btn"
+            android:layout_width="76dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/selector_bt_com_01" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/icon_act_arrowleft_01_n" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="730dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:singleLine="true"
+            android:gravity="left"
+            android:text="@string/tx_init_setting"
+            android:textColor="#000000"
+            android:textSize="24px" />
+
+        <Button
+            android:id="@+id/btn_ok_h_okcancel"
+            android:layout_width="187dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/cs_selector_button_ok"
+            android:gravity="center"
+            android:text="@string/bt_ok"
+            android:textColor="#FFFFFF"
+            android:textSize="24px" />
+    </LinearLayout>
+
+    <!-- initial setting item -->
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/init_setting_goback_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:requiresFadingEdge="vertical"       
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/init_setting_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <!-- addressee -->
+
+            <LinearLayout
+                android:id="@+id/init_setting_item_addressee"
+                android:layout_width="@dimen/setting_item_width1"
+                android:layout_height="@dimen/setting_item_height1"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">"
+
+                <TextView
+                    android:layout_width="650dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:text="@string/tx_init_setting_addressee"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="173dp"
+                 
+                    android:src="@drawable/icon_act_slide_01" />
+            </LinearLayout>
+
+            <!-- scan_setting -->
+
+            <LinearLayout
+                android:id="@+id/init_setting_item_scan_settings"
+                android:layout_width="@dimen/setting_item_width1"
+                android:layout_height="@dimen/setting_item_height1"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal" 
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="650dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="16dp"
+                
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:text="@string/tx_init_setting_scan"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="173dp"
+                    android:src="@drawable/icon_act_slide_01" />
+            </LinearLayout>
+
+            <!-- Print_setting -->
+
+            <LinearLayout
+                android:id="@+id/init_setting_item_print_setting"
+                android:layout_width="@dimen/setting_item_width1"
+                android:layout_height="@dimen/setting_item_height1"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"   >
+
+                <TextView
+                    android:layout_width="650dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="16dp"
+                  
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:text="@string/tx_init_setting_print"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="173dp"
+                    android:src="@drawable/icon_act_slide_01" />
+            </LinearLayout>
+
+            <!-- the rule of setting message name -->
+
+            <LinearLayout
+                android:id="@+id/init_setting_item_rule_set_name"
+                android:layout_width="@dimen/setting_item_width1"
+                android:layout_height="@dimen/setting_item_height1"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="650dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="16dp"
+                  
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:text="@string/tx_init_setting_rule_file_name"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="173dp"
+                  
+                    android:src="@drawable/icon_act_slide_01" />
+            </LinearLayout>
+
+            <!-- messenger -->
+
+            <LinearLayout
+                android:id="@+id/init_setting_item_messenger"
+                android:layout_width="@dimen/setting_item_width1"
+                android:layout_height="@dimen/setting_item_height1"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal" 
+                 android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="650dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:text="@string/tx_init_setting_messenger"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="173dp"
+                    android:src="@drawable/icon_act_slide_01" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/init_setting_item_smtp"
+                android:layout_width="@dimen/setting_item_width1"
+                android:layout_height="@dimen/setting_item_height1"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"   >
+
+                <TextView
+                    android:layout_width="650dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                  
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:text="@string/smtp_title"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="173dp"
+                    android:src="@drawable/icon_act_slide_01" />
+            </LinearLayout>
+
+            <!-- setting subject -->
+
+            <RelativeLayout
+                android:id="@+id/init_setting_item_set_file_name"
+                android:layout_width="@dimen/setting_item_width1"
+                android:layout_height="@dimen/setting_item_height1"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/selector_bt_com_01" >
+
+                <TextView
+                    android:id="@+id/tx_init_setting_item_set_file_name"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:text="@string/tx_init_setting_file_name"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <View
+                    android:id="@+id/v_init_setting_item_set_file_name"
+                    android:layout_width="2dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="253dp"
+                    android:alpha="0.15"
+                    android:background="#000000" />
+
+                <EditText
+                    android:id="@+id/et_init_setting_item_set_file_name"
+                    android:layout_width="550dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="264dp"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:hint="@string/hint_init_setting_input"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textSize="20px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="840dp"
+                    android:layout_marginTop="52dp"
+                    android:src="@drawable/icon_act_pop_01" />
+            </RelativeLayout>
+
+            <!-- setting domain -->
+
+            <RelativeLayout
+                android:id="@+id/init_setting_item_set_domain"
+                android:layout_width="@dimen/setting_item_width1"
+                android:layout_height="@dimen/setting_item_height1"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/selector_bt_com_01" >
+
+                <TextView
+                    android:id="@+id/tx_init_setting_item_set_domain"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:text="@string/tx_init_setting_domain"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <View
+                    android:id="@+id/v_init_setting_item_set_domain"
+                    android:layout_width="2dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="253dp"
+                    android:alpha="0.15"
+                    android:background="#000000" />
+
+                <EditText
+                    android:id="@+id/et_init_setting_item_set_domain"
+                    android:layout_width="550dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="264dp"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:hint="@string/hint_init_setting_input"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:maxLength="64"
+                    android:textSize="20px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="840dp"
+                    android:layout_marginTop="52dp"
+                    android:src="@drawable/icon_act_pop_01" />
+            </RelativeLayout>
+            
+            <!-- about -->
+            <LinearLayout
+                android:id="@+id/init_setting_item_about"
+                android:layout_width="@dimen/setting_item_width1"
+                android:layout_height="@dimen/setting_item_height1"
+                android:background="@drawable/selector_bt_com_01"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="650dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="17dp"
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:text="@string/txid_ppp_b_app_information"
+                    android:textColor="#000000"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="173dp"
+                    android:layout_marginTop="19dp"
+                    android:src="@drawable/icon_act_slide_01" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

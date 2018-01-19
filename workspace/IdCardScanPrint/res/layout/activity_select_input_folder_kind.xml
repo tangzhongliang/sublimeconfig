@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_cccccc"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/init_setting_goback_layout"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#b4b4b4"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/folder_kind_goback_btn"
+            android:layout_width="76dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/selector_bt_com_01" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/icon_act_arrowleft_01_n" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tx_title_h_ok_cancel"
+            android:layout_width="730dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:gravity="left"
+            android:layout_gravity="center_vertical"
+            android:text="@string/input_folder_title"
+            android:textColor="#000000"
+            android:textSize="24px" />
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/list_folder_kind"
+        android:layout_width="864dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="28dp"
+        android:cacheColorHint="#00000000"
+        android:columnWidth="864dp"
+        android:drawSelectorOnTop="false"
+        android:horizontalSpacing="0dp"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none"
+        android:requiresFadingEdge="vertical"
+        android:stretchMode="none"
+        android:divider="#cccccc"
+        android:dividerHeight="9dp">
+    </ListView>
+
+</LinearLayout>

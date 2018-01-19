@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Webdav applied wording(start)  -->
+    <string name="txid_sending">Отправка...</string>
+    <string name="txid_scan_g_running_original_num">Оригинал(ы)</string>
+    <string name="txid_scan_g_running_dest_num">Адресат(ы)</string>
+    <string name="txid_scan_g_running_remain_memory">Оставш.память</string>
+    <string name="txid_scan_g_running_scan">Сканирование...</string>
+    <string name="button_stop">Стоп</string>
+    <string name="dialog_state_connect">Подключение...</string>
+    <string name="dialog_loginmessage">Введите имя пользователя и пароль.</string>
+    <string name="dialog_sender_email_info_1">Установите следующий оригинал(ы), затем нажмите [Сканиров.след.оригинал]. После сканирования последнего оригинала нажмите [Начать отправку].</string>
+    <string name="dialog_sender_email_info_2">Время ожидания для следующего оригинала\nОставшиеся секунды: %1$s</string>
+    <string name="dialog_sender_email_btn_2">Сканиров.след.оригинал</string>
+    <string name="dialog_sender_email_btn_3">Начать отправку</string>
+    <string name="dialog_sender_email_btn_4">Изменить настр.</string>
+    <string name="err_input">Введите %s.</string>
+    <string name="dialog_delete_info_1">Удалить %1$s\?\n</string>
+    <string name="txid_login_url_notice">URL: %s</string>
+    <string name="txid_login_id_notice">Имя пользователя: %s</string>
+    <string name="txid_login_password_notice">Пароль: %s</string>
+    <string name="dialog_delete_btn_1">Отмена</string>
+    <string name="dialog_delete_btn_2">Удалить</string>
+    <string name="txid_stop1">Да</string>
+    <string name="txid_stop2">Нет</string>
+    <!-- Webdav applied wording(end)  -->
+
+    <string name="SCAN_MEMORY_OVER">Память переполнена. Сканирование остановлено.</string>
+    <string name="SCAN_RESOURCES_ARE_NOT_READY">Необходимые для сканирования ресурсы не готовы.</string>
+    <string name="SCAN_INTERNAL_ERROR">Произошла ошибка.</string>
+    <string name="SCAN_ORIGINAL_SET_ERROR">Невозможно сканировать оригинал. Разместите его правильно.</string>
+    <string name="SCAN_TIMEOUT">Сканирование отменено из-за отсутствия действий в течение некоторого времени.</string>
+    <string name="SCAN_OTHER_PROCESS_ERROR">Сканирование остановлено.</string>
+    <string name="SCAN_EXCEEDED_MAX_EMAIL_SIZE">Превышен максимально допустимый размер для отправки.</string>
+    <string name="SCAN_EXCEEDED_MAX_PAGE_COUNT">Превышено максимально допустимое количество страниц для сканирования.</string>
+    <string name="SCAN_CHARGE_UNIT_LIMIT">Сканирование остановлено, так как превышен доступный объем.</string>
+    <string name="SCAN_PREPARING_JOB_START">Запуск...</string>
+    <string name="SCAN_SCANNER_JAM">В процессе сканирования произошло замятие оригинала.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL">Поместите следующий оригинал.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL_AND_CONTINUE">Чтобы продолжить сканирование, поместите следующий оригинал.</string>
+    <string name="SCAN_CANNOT_DETECT_ORIGINAL_SIZE">Невозможно обнаружить оригинал.</string>
+    <string name="SCAN_EXCEEDED_MAX_DATA_CAPACITY">Превышен максимально допустимый объем данных.</string>
+    <string name="SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION">Сканирование оригинала в этой ориентации невозможно.</string>
+    <string name="SCAN_TOO_SMALL_SCAN_SIZE">Сканирование невозможно, т.к. формат оригинала слишком мал.</string>
+    <string name="SCAN_TOO_LARGE_SCAN_SIZE">Сканирование невозможно, т.к. формат оригинала слишком велик.</string>
+    <string name="SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION">Аппарат выполняет подготовку к предпросмотру. Подождите.</string>
+    <string name="SCAN_USER_REQUEST">Пользователь остановил сканирование.</string>
+    <string name="job_stop_fail">Не удалось остановить сканирование.</string>
+    <string name="job_start_fail">Не удалось начать сканирование.</string>
+    <string name="job_end_fail">Не удалось завершить сканирование. Нажмите [Отмена].</string>
+    <string name="job_continue_fail">Не удалось продолжить сканирование. Нажмите [Отмена］.</string>
+    <string name="job_cancel_fail">Не удалось отменить сканирование.</string>
+    <string name="error_login_failed">Не удалось выполнить авторизацию.</string>
+    <string name="error_not_input_authentication">Сведения для аутентификации отсутствуют.</string>
+    <string name="error_not_authorized">У вас нет прав на использование этой функции.</string>
+    <string name="error_system_busy">Система занята.</string>
+    <string name="scan_fail">Не удалось выполнить сканирование.</string>
+    <string name="error_permission_denied">У вас нет прав на использование этой функции.</string>
+    <string name="error_path_no_exist">Невозможно найти указанную папку.</string>
+    <string name="dialog_sender_protocol_type">Тип протокола:</string>
+    <string name="dialog_sender_path">Путь к папке:</string>
+    <string name="dialog_sender_name">Имя пользов.для входа:</string>
+    <string name="dialog_password">Пароль</string>
+    <string name="txid_scmn_b_012">Отправ.</string>
+    <string name="txid_scan_g_running_print">Печать...</string>
+    <string name="txid_scmn_f_user_code">Код пользователя</string>
+    <string name="txid_scmn_f_user_code_tip_1">Введите код пользователя и нажмите [ОК].</string>
+    <string name="txid_scmn_f_user_code_tip_2">Код пользователя неверен. Повторите ввод.</string>
+    <string name="txid_scmn_f_user_code_tip_3">Код пользователя отклонен. Повторите ввод.</string>
+    <string name="bt_cancel">Отмена</string>
+    <string name="bt_logout">Выйти</string>
+    <string name="bt_next">Далее</string>
+    <string name="bt_back">Назад</string>
+    <string name="txid_scmn_f_user_code_tip_4">Введенный код пользователя не зарегистрирован в адресной книге. Зарегистрировать его\?</string>
+    <string name="dialog_id">ID</string>
+    <string name="bt_ok">ОК</string>
+    <string name="dialog_contain_character">Имя файла не должно содержать следующие символы:</string>
+    <string name="dialog_print_count_not_in_range">Количество для печати не входит в диапазон от %1$s до %2$s.</string>
+    <string name="dialog_domain_wrong">Имя домена должно содержать только цифры от 0 до 9 и буквы от A до Z.</string>
+    <string name="preview_stop_message">Удалить все изображения\?</string>
+
+    <string name="txid_ppp_b_app_information">О приложении</string>
+    <string name="txid_ppp_g_app_information_ver_label">Версия</string>
+    <string name="txid_ppp_b_app_information_show_oss">Сведения о лицензии OSS</string>
+    <string name="txid_scmn_d_device_not_supported">Невозможно использовать подключенный блок тарификации.</string>
+</resources>

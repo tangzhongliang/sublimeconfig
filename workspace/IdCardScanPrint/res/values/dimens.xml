@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="font_18">18px</dimen>
+    <dimen name="font_20">20px</dimen>
+    <dimen name="font_24">24px</dimen>
+    <dimen name="font_28">28px</dimen>
+    <dimen name="font_30">30px</dimen>
+
+    <dimen name="setting_item_width1">864px</dimen>
+    <dimen name="setting_item_height1">63px</dimen>
+    <dimen name="setting_item_width2">687px</dimen>
+    <dimen name="setting_item_height2">80px</dimen>
+</resources>

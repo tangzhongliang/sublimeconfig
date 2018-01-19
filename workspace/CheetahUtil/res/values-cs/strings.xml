@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Webdav applied wording(start)  -->
+    <string name="txid_sending">Odesílání ...</string>
+    <string name="txid_scan_g_running_original_num">Originál(y)</string>
+    <string name="txid_scan_g_running_dest_num">Cíl(e)</string>
+    <string name="txid_scan_g_running_remain_memory">Zbývající paměť</string>
+    <string name="txid_scan_g_running_scan">Skenování ...</string>
+    <string name="button_stop">Stop</string>
+    <string name="dialog_state_connect">Připojování ...</string>
+    <string name="dialog_loginmessage">Zadej uživ. jméno a heslo.</string>
+    <string name="dialog_sender_email_info_1">Vlož další originály, pak stiskni tl. [Skenovat další originál]. Po naskenování posledního originálu stiskni tl. [Spustit odeslání].</string>
+    <string name="dialog_sender_email_info_2">Časový limit pro další originál\nZbývající čas v sek.: %1$s</string>
+    <string name="dialog_sender_email_btn_2">Naskenovat další originál</string>
+    <string name="dialog_sender_email_btn_3">Spustit odeslání</string>
+    <string name="dialog_sender_email_btn_4">Změnit nastavení</string>
+    <string name="err_input">Zadat %s.</string>
+    <string name="dialog_delete_info_1">Chceš smazat %1$s\?\n</string>
+    <string name="txid_login_url_notice">URL: %s</string>
+    <string name="txid_login_id_notice">Uživ. jméno: %s</string>
+    <string name="txid_login_password_notice">Heslo: %s</string>
+    <string name="dialog_delete_btn_1">Zrušit</string>
+    <string name="dialog_delete_btn_2">Smazat</string>
+    <string name="txid_stop1">Ano</string>
+    <string name="txid_stop2">Ne</string>
+    <!-- Webdav applied wording(end)  -->
+
+    <string name="SCAN_MEMORY_OVER">Paměť je plná, skenování bylo zastaveno.</string>
+    <string name="SCAN_RESOURCES_ARE_NOT_READY">Zdroje potřebné ke skenování nejsou připraveny.</string>
+    <string name="SCAN_INTERNAL_ERROR">Došlo k chybě</string>
+    <string name="SCAN_ORIGINAL_SET_ERROR">Nelze skenovat originál. Vlož jej znovu správně.</string>
+    <string name="SCAN_TIMEOUT">Protože po určitou dobu nebyla provedena žádná akce, skenování bylo zrušeno.</string>
+    <string name="SCAN_OTHER_PROCESS_ERROR">Skenování bylo zastaveno.</string>
+    <string name="SCAN_EXCEEDED_MAX_EMAIL_SIZE">Překročena maximální velikost pro odeslání.</string>
+    <string name="SCAN_EXCEEDED_MAX_PAGE_COUNT">Překročen max. počet stran pro skenování.</string>
+    <string name="SCAN_CHARGE_UNIT_LIMIT">Skenování bylo zastaveno, protože jste dosáhli limitu poplatků.</string>
+    <string name="SCAN_PREPARING_JOB_START">Spouštění ...</string>
+    <string name="SCAN_SCANNER_JAM">Došlo k uvíznutí originálu při skenování.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL">Vlož další originál.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL_AND_CONTINUE">Pro pokračování skenování vlož další originál.</string>
+    <string name="SCAN_CANNOT_DETECT_ORIGINAL_SIZE">Nelze detekovat originál.</string>
+    <string name="SCAN_EXCEEDED_MAX_DATA_CAPACITY">Kapacita dat dosáhla maxima.</string>
+    <string name="SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION">Nelze skenovat originál s touto orientací.</string>
+    <string name="SCAN_TOO_SMALL_SCAN_SIZE">Nelze skenovat, formát originálu je příliš malý.</string>
+    <string name="SCAN_TOO_LARGE_SCAN_SIZE">Nelze skenovat, formát originálu je příliš velký.</string>
+    <string name="SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION">Zařízení připravuje náhled. Čekej prosím.</string>
+    <string name="SCAN_USER_REQUEST">Uživatel zastavil skenování.</string>
+    <string name="job_stop_fail">Chyba při zastavení skenování.</string>
+    <string name="job_start_fail">Chyba při spuštění skenování.</string>
+    <string name="job_end_fail">Chyba při dokončení skenování. Stiskni [Zrušit］</string>
+    <string name="job_continue_fail">Chyba při pokračování skenování. Stiskni [Zrušit］</string>
+    <string name="job_cancel_fail">Chyba při zrušení skenování.</string>
+    <string name="error_login_failed">Chyba při ověření.</string>
+    <string name="error_not_input_authentication">Nejsou informace pro ověření.</string>
+    <string name="error_not_authorized">Nemáš oprávnění pro použití této funkce.</string>
+    <string name="error_system_busy">Systém je zaneprázdněn.</string>
+    <string name="scan_fail">Chyba při skenování</string>
+    <string name="error_permission_denied">Nemáš oprávnění toto použít.</string>
+    <string name="error_path_no_exist">Nelze nalézt zadanou složku.</string>
+    <string name="dialog_sender_protocol_type">Typ protokolu:</string>
+    <string name="dialog_sender_path">Cesta ke složce:</string>
+    <string name="dialog_sender_name">Přihlašovací uživ. jméno:</string>
+    <string name="dialog_password">Heslo</string>
+    <string name="txid_scmn_b_012">Odeslat</string>
+    <string name="txid_scan_g_running_print">Tisk ...</string>
+    <string name="txid_scmn_f_user_code">Uživ. kód</string>
+    <string name="txid_scmn_f_user_code_tip_1">Zadej uživ. kód a stiskni [OK].</string>
+    <string name="txid_scmn_f_user_code_tip_2">Uživ. kód je neplatný. Zadej ho znovu.</string>
+    <string name="txid_scmn_f_user_code_tip_3">Uživ. kód odmítnut. Zadej ho znovu.</string>
+    <string name="bt_cancel">Zrušit</string>
+    <string name="bt_logout">Odhlášení</string>
+    <string name="bt_next">Další</string>
+    <string name="bt_back">Předch.</string>
+    <string name="txid_scmn_f_user_code_tip_4">Zadaný uživ. kód není v adresáři zaregistrován. Chceš jej zaregistrovat\?</string>
+    <string name="dialog_id">ID</string>
+    <string name="bt_ok">OK</string>
+    <string name="dialog_contain_character">Název souboru nesmí obsahovat žádný z následujících znaků:</string>
+    <string name="dialog_print_count_not_in_range">Počet výtisků není mezi %1$s-%2$s</string>
+    <string name="dialog_domain_wrong">Název domény může obsahovat pouze číslice 0-9 a písmena A-Z.</string>
+    <string name="preview_stop_message">Chceš smazat všechny obrazy\?</string>
+
+	<string name="txid_ppp_b_app_information">O aplikaci</string>
+    <string name="txid_ppp_g_app_information_ver_label">Verze</string>
+    <string name="txid_ppp_b_app_information_show_oss">Informace o licenci OSS</string>
+
+    <string name="txid_scmn_d_device_not_supported">Nabíjecí jednotku, která byla připojena, nelze použít.</string>
+</resources>

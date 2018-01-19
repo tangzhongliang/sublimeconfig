@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flipper_running_anim"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0001" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0002" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0003" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0004" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0005" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0006" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0007" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0008" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0009" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0010" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0011" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0012" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0013" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0014" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/sim_icon_runningbox_anm_scan_0015" />
+</ViewFlipper>

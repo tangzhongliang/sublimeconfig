@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="606dp"
+        android:layout_height="430dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <jp.co.ricoh.advop.cheetahutil.preview.PreviewImageView
+        android:id="@+id/preview_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix" />
+
+</RelativeLayout>

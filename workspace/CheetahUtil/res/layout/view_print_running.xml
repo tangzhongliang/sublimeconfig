@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_print_running"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_back_black01" >
+
+    <ImageView
+        android:layout_width="960dp"
+        android:layout_height="497dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/sim_back_running" />
+
+    <TextView
+        android:id="@+id/txt_running_print"
+        android:layout_width="452dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="44dp"
+        android:alpha="0.7"
+        android:gravity="left"
+        android:shadowColor="#50ffffff"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+        android:text="@string/txid_scan_g_running_print"
+        android:textColor="#000000"
+        android:textSize="28px" />
+
+    <!-- 静止画(MFP)を表示するレイアウト -->
+
+    <ImageView
+        android:layout_width="179dp"
+        android:layout_height="210dp"
+        android:layout_marginLeft="454dp"
+        android:layout_marginTop="273dp"
+        android:src="@drawable/icon_running_printer_box" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="455dp"
+        android:layout_marginTop="146dp"
+        android:src="@drawable/icon_running_printer_org" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="412dp"
+        android:src="@drawable/icon_running_printer_ground" />
+
+    <FrameLayout
+        android:id="@+id/print_container_anime"
+        android:layout_width="377dp"
+        android:layout_height="337dp"
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="146dp" />
+
+    <!-- インデックス紙 -->
+
+    <TextView
+        android:id="@+id/running_index_paper_textview"
+        android:layout_width="146dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="470dp"
+        android:layout_marginTop="433dp"
+        android:textColor="@color/black"
+        android:textSize="18px" />
+    <!-- トレイ関連の情報を表示するレイアウト -->
+
+    <FrameLayout
+        android:layout_width="179px"
+        android:layout_height="210px"
+        android:layout_gravity="left"
+        android:layout_marginLeft="454dp"
+        android:layout_marginTop="273dp" >
+
+        <!-- トレイ指定時の要素を配置するレイアウト -->
+
+        <FrameLayout
+            android:id="@+id/running_tray_specified_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="0px"
+            android:visibility="visible" >
+
+            <!-- トレイの文字 -->
+
+            <TextView
+                android:id="@+id/running_tray_textview"
+                android:layout_width="80px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="43dp"
+                android:gravity="left"
+                
+                android:textColor="@color/black"
+                android:textSize="18px" 
+                android:visibility="gone"/>
+
+            <!-- 用紙残量の画像 -->
+
+            <ImageView
+                android:id="@+id/running_tray_remain_paper_imageview"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="102px"
+                android:layout_marginTop="37px" />
+
+            <!-- 用紙の向きの画像 -->
+
+            <ImageView
+                android:id="@+id/running_tray_paper_orientation_imageview"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="134px"
+                android:layout_marginTop="37px" />
+
+            <!-- 用紙サイズのテキストを配置するレイアウト(１行表示用) -->
+
+            <FrameLayout
+                android:id="@+id/running_tray_paper_size_1line_layout"
+                android:layout_width="146px"
+                android:layout_height="72px"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="72px"
+                android:visibility="invisible" >
+
+                <!-- 用紙サイズのテキスト -->
+
+                <TextView
+                    android:id="@+id/running_tray_paper_size_1line_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="36px" />
+            </FrameLayout>
+
+            <!-- 用紙サイズのテキストを配置するレイアウト(２行表示用) -->
+
+            <FrameLayout
+                android:id="@+id/running_tray_paper_size_2line_layout"
+                android:layout_width="146px"
+                android:layout_height="72px"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="72px"
+                android:visibility="invisible" >
+
+                <!-- 用紙サイズのテキスト -->
+
+                <TextView
+                    android:id="@+id/running_tray_paper_size_2line1_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textSize="36px" />
+
+                <TextView
+                    android:id="@+id/running_tray_paper_size_2line2_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="36px"
+                    android:textColor="@color/black"
+                    android:textSize="36px" />
+            </FrameLayout>
+
+            <!-- 用紙種別のテキストを配置するレイアウト(heightは6px増やし、margintopは6px減らしている) -->
+
+            <FrameLayout
+                android:layout_width="146px"
+                android:layout_height="24px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16px"
+                android:layout_marginTop="154px" >
+
+                <!-- 用紙種別のテキスト -->
+
+                <TextView
+                    android:id="@+id/running_tray_paper_type_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textSize="18px" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="162dp"
+        android:layout_height="93dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="651dp"
+        android:layout_marginTop="146dp" >
+
+        <!-- 原稿枚数を表示する領域の吹き出し -->
+
+        <ImageView
+            android:id="@+id/running_numberoforiginals_imageview"
+            android:layout_width="162dp"
+            android:layout_height="93dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:rotation="180"
+            android:scaleType="fitXY"
+            android:src="@drawable/sim_icon_runninballoon_scan" 
+            android:visibility="gone"/>
+
+        <!-- 原稿枚数のテキスト(heightは6dp増やし、margintopは6dp減らしている) -->
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_height="26dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="12dp" 
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/running_numberoforiginals_title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"                
+                android:textColor="@color/white"
+                android:textSize="20px" />
+        </FrameLayout>
+
+        <!-- 原稿枚数(heightは6dp増やし、margintopは6dp減らしている) -->
+
+        <FrameLayout
+            android:layout_width="98dp"
+            android:layout_height="46dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="40dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/running_numberoforiginals_number_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="9999"
+                android:textColor="@color/white"
+                android:textSize="40px" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <!-- コピー枚数を表示するレイアウト -->
+
+    <FrameLayout
+        android:layout_width="162dp"
+        android:layout_height="93dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="361dp" >
+
+        <!-- コピー枚数を表示する領域の吹き出し -->
+
+        <ImageView
+            android:layout_width="162dp"
+            android:layout_height="93dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sim_icon_runninballoon_scan"
+            android:visibility="gone" />
+
+        <!-- コピー枚数のテキスト(heightは6dp増やし、margintopは6dp減らしている) -->
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_height="26dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="11dp" 
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/running_numberofprints_title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"                
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </FrameLayout>
+
+        <!-- コピー枚数(heightは6dp増やし、margintopは6dp減らしている) -->
+
+        <FrameLayout
+            android:layout_width="98dp"
+            android:layout_height="46dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="45dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/running_numberofprints_number_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="9999"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="84dp"
+        android:layout_height="26dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="456dp" >
+
+        <TextView
+            android:id="@+id/running_numberofquantities_title_textview"
+            style="@style/shadow04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"            
+            android:textSize="20px"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <!-- 部数を表示するレイアウト(heightは6dp増やし、margintopは6dp減らしている)(292, 446) -->
+
+    <FrameLayout
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="456dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/running_numberofquantities_number_textview"
+            style="@style/shadow04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="9999"
+            android:textSize="40px" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/print_bt_stop"
+        android:layout_width="256dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="705dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/selector_bt_stop_01"
+        android:text="@string/button_stop"
+        android:textSize="@dimen/font_28" />
+
+</RelativeLayout>

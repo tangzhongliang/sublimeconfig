@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">ICCardSample</string>
+    
+    <string name="alert_common_ok">OK</string>
+    <string name="alert_common_cancel">Cancel</string>
+    
+    <string name="act_announce_please_register">Please register application.</string>
+    <string name="act_announce_please_attache">Please attach IC card.</string>
+    <string name="act_announce_card_attached">Card attached.</string>
+    
+    <string name="act_btn_register">Register&#8230;</string>
+    <string name="act_btn_unregister">Unregister</string>
+    <string name="act_btn_get_info">Get Info</string>
+    
+    <string name="act_txt_title_card_info">Card Information</string>
+    <string name="act_txt_title_card_status">Status:</string>
+    <string name="act_txt_title_card_id">Card ID:</string>
+    <string name="act_txt_title_support_type">Support types:</string>
+    <string name="act_txt_title_card_type">Card type:</string>
+    <string name="act_txt_title_device_id">Device ID:</string>
+    <string name="act_txt_title_info_type">Info type:</string>
+    <string name="act_txt_val_attached">attached</string>
+    <string name="act_txt_val_detached">detached</string>
+    <string name="act_txt_val_user_id">USER_ID</string>
+    
+    <string name="alert_title_card_attached">Card attached\n</string>
+    <string name="alert_title_card_detached">Card detached\n</string>
+    <string name="alert_msg_card_support_type">Support Type: %s\n</string>
+    <string name="alert_msg_card_card_type">Card type: %s\n</string>
+    <string name="alert_msg_card_device_id">Device ID: %s\n</string>
+    <string name="alert_msg_card_card_id">Card ID: %s\n</string>
+    
+    <string name="alert_title_device_state_changed">Device state changed\n</string>
+    <string name="alert_msg_device_id">Device ID: %s\n</string>
+    <string name="alert_msg_device_support_types">Support types: %s\n</string>
+    <string name="alert_msg_device_plugged">Plugged: %s\n</string>
+    
+    <string name="alert_title_pin_required">Pin required\n</string>
+    <string name="alert_msg_pin_required">Please input pin</string>
+    <string name="alert_msg_pin_request_id">Request ID: %s\n</string>
+    
+    <string name="alert_title_pin_verified">Pin verified\n</string>
+    <string name="alert_msg_pin_result">Result: %s\n</string>
+    <string name="alert_msg_pin_cancelled">Cancelled: %s\n</string>
+    <string name="alert_msg_pin_error_code">Error code: %d\n</string>
+    
+    <string name="alert_title_plugin_state_changed">Plugin state changed\n</string>
+    <string name="alert_msg_plugin_id">Package name: %s\n</string>
+    <string name="alert_msg_plugin_support_types">Support types: %s\n</string>
+    <string name="alert_msg_plugin_available">Available: %s\n</string>
+    
+    <string name="alert_title_lock_state_changed">Lock state changed\n</string>
+    <string name="alert_msg_lock_state">Lock state: %d\n</string>
+    <string name="alert_msg_lock_access_token">Access token: %s\n</string>
+    <string name="alert_msg_lock_error_code">Error code: %d\n</string>
+    
+    <string name="alert_title_res_info">Card info\n</string>
+    <string name="alert_msg_res_info_result">Result: %s\n</string>
+    <string name="alert_msg_res_info_access_token">Access token: %s\n</string>
+    <string name="alert_msg_res_info_info_type">Info type: %s\n</string>
+    <string name="alert_msg_res_info_info">Info: %s\n</string>
+    <string name="alert_msg_res_info_error_code">Error code: %d\n</string>
+    
+    <string name="alert_title_register_app">Please Select support type(s).</string>
+    <string name="alert_btn_register">Register</string>
+    
+    <string name="alert_title_res_register_app">Register application\n</string>
+    <string name="alert_msg_res_register_result">Result: %s\n</string>
+    <string name="alert_msg_res_register_support_types">Support types: %s\n</string>
+    <string name="alert_msg_res_register_error_code">Error code: %d\n</string>
+    
+    <string name="alert_title_res_unregister_app">Unregister application\n</string>
+    <string name="alert_msg_res_unregister_result">Result: %s\n</string>
+    <string name="alert_msg_res_unregister_error_code">Error code: %d\n</string>
+
+</resources>

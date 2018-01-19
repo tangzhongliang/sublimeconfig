@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dalp spec="3.0" version= "1.0" href="ICCardSample.dalp">
+<product-id>1679844352</product-id>
+<information>
+	<title>ICCardSample</title>
+	<vendor>Ricoh</vendor>
+	<application-ver>1.03.00</application-ver>
+</information>
+<information locale="en_US"> 
+	<title>ICCardSample</title>
+	<vendor>Ricoh</vendor>
+	<application-ver>1.03.00</application-ver>
+</information>
+<information locale="ja_JP">
+	<title>ICCardSample</title>
+	<vendor>（株）リコー</vendor>
+	<application-ver>1.03.00</application-ver>
+</information>
+<resources>
+	<apk href="./ICCardSample.apk"/>
+</resources>
+</dalp>

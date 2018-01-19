@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Webdav applied wording(start)  -->
+    <string name="txid_sending">Αποστολή...</string>
+    <string name="txid_scan_g_running_original_num">Πρωτότυπο (α)</string>
+    <string name="txid_scan_g_running_dest_num">Προορισμός(οί)</string>
+    <string name="txid_scan_g_running_remain_memory">Εναπομ.Μνήμη</string>
+    <string name="txid_scan_g_running_scan">Σάρωση...</string>
+    <string name="button_stop">Διακοπή</string>
+    <string name="dialog_state_connect">Σύνδεση...</string>
+    <string name="dialog_loginmessage">Εισάγετε όνομα χρήστη και κωδικό πρόσβασης.</string>
+    <string name="dialog_sender_email_info_1">Τοποθετήστε το(α) επόμενο(α) πρωτότυπο(α) και έπειτα πιέστε [Σάρωση Επόμενου Πρωτοτύπου]. Μετά τη σάρωση του τελευταίου πρωτοτύπου πιέστε [Έναρξη Αποστολής].</string>
+    <string name="dialog_sender_email_info_2">Χρόνος Αναμονής για το Επόμενο Πρωτότυπο\nΕναπομείναντα Δευτερόλεπτα: %1$s</string>
+    <string name="dialog_sender_email_btn_2">Σάρωσ Επόμ Πρωτ</string>
+    <string name="dialog_sender_email_btn_3">Έναρξη Αποστολής</string>
+    <string name="dialog_sender_email_btn_4">Αλλαγή ρυθμίσεων</string>
+    <string name="err_input">Εισάγετε %s.</string>
+    <string name="dialog_delete_info_1">Είστε βέβαιοι ότι θέλετε να διαγράψετε %1$s;\n</string>
+    <string name="txid_login_url_notice">URL: %s</string>
+    <string name="txid_login_id_notice">Όνομα Χρήστη: %s</string>
+    <string name="txid_login_password_notice">Κωδικός πρόσβασης: %s</string>
+    <string name="dialog_delete_btn_1">Ακύρωση</string>
+    <string name="dialog_delete_btn_2">Διαγραφή</string>
+    <string name="txid_stop1">Ναι</string>
+    <string name="txid_stop2">Όχι</string>
+    <!-- Webdav applied wording(end)  -->
+
+    <string name="SCAN_MEMORY_OVER">Η μνήμη είναι πλήρης, η σάρωση σταμάτησε.</string>
+    <string name="SCAN_RESOURCES_ARE_NOT_READY">Οι πόροι που απαιτούνται για τη σάρωση δεν είναι έτοιμοι.</string>
+    <string name="SCAN_INTERNAL_ERROR">Παρουσιάστηκε σφάλμα.</string>
+    <string name="SCAN_ORIGINAL_SET_ERROR">Αδυναμία σάρωσης του πρωτοτύπου. Παρακαλώ επανατοποθετήστε το σωστά.</string>
+    <string name="SCAN_TIMEOUT">Η σάρωση ακυρώθηκε διότι δεν πραγματοποιήθηκε καμία ενέργεια για συγκεκριμένο χρονικό διάστημα.</string>
+    <string name="SCAN_OTHER_PROCESS_ERROR">Η σάρωση σταμάτησε.</string>
+    <string name="SCAN_EXCEEDED_MAX_EMAIL_SIZE">Υπέρβαση μέγιστου μεγέθους για αποστολή.</string>
+    <string name="SCAN_EXCEEDED_MAX_PAGE_COUNT">Υπέρβαση μέγιστου αριθμού σελίδων για σάρωση.</string>
+    <string name="SCAN_CHARGE_UNIT_LIMIT">Η σάρωση σταμάτησε γιατί φτάσατε το όριο χρέωσης.</string>
+    <string name="SCAN_PREPARING_JOB_START">Εκκίνηση...</string>
+    <string name="SCAN_SCANNER_JAM">Παρουσιάστηκε εμπλοκή του πρωτοτύπου κατά τη σάρωσή του.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL">Τοποθετήστε το επόμενο πρωτότυπο.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL_AND_CONTINUE">Για να συνεχίσετε τη σάρωση τοποθετήστε το επόμενο πρωτότυπο.</string>
+    <string name="SCAN_CANNOT_DETECT_ORIGINAL_SIZE">Αδυναμία εντοπισμού του πρωτοτύπου.</string>
+    <string name="SCAN_EXCEEDED_MAX_DATA_CAPACITY">Η χωρητικότητα δεδομένων έχει υπερβεί το μέγιστο όριο.</string>
+    <string name="SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION">Αδυναμία σάρωσης του πρωτοτύπου με αυτόν τον προσανατολισμό.</string>
+    <string name="SCAN_TOO_SMALL_SCAN_SIZE">Αδυναμία σάρωσης λόγω μικρού μεγέθους του πρωτοτύπου.</string>
+    <string name="SCAN_TOO_LARGE_SCAN_SIZE">Αδυναμία σάρωσης λόγω μεγάλου μεγέθους του πρωτοτύπου.</string>
+    <string name="SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION">Προετοιμασία του μηχανήματος για προεπισκόπηση. Παρακαλώ περιμένετε.</string>
+    <string name="SCAN_USER_REQUEST">Ο χρήστης σταμάτησε τη σάρωση.</string>
+    <string name="job_stop_fail">Αποτυχία διακοπής της σάρωσης.</string>
+    <string name="job_start_fail">Αποτυχία έναρξης της σάρωσης.</string>
+    <string name="job_end_fail">Αποτυχία τερματισμού της σάρωσης. Πατήστε [Ακύρωση].</string>
+    <string name="job_continue_fail">Αποτυχία συνέχειας της σάρωσης. Πατήστε [Ακύρωση].</string>
+    <string name="job_cancel_fail">Αποτυχία ακύρωσης της σάρωσης.</string>
+    <string name="error_login_failed">Αποτυχία εξουσιοδότησης.</string>
+    <string name="error_not_input_authentication">Δεν υπάρχουν πληροφορίες πιστοποίησης.</string>
+    <string name="error_not_authorized">Δεν έχετε δικαιώματα χρήσης αυτής της λειτουργίας.</string>
+    <string name="error_system_busy">Το σύστημα είναι απασχολημένο.</string>
+    <string name="scan_fail">Αποτυχία σάρωσης.</string>
+    <string name="error_permission_denied">Δεν έχετε δικαιώματα χρήσης αυτής της λειτουργίας.</string>
+    <string name="error_path_no_exist">Αδυναμία εύρεσης του καθορισμένου φακέλου.</string>
+    <string name="dialog_sender_protocol_type">Τύπος Πρωτοκόλλου:</string>
+    <string name="dialog_sender_path">Διαδρ Φακέλ:</string>
+    <string name="dialog_sender_name">Όνομα Σύνδεσ Χρήστη:</string>
+    <string name="dialog_password">Κωδικ. Πρόσβασης</string>
+    <string name="txid_scmn_b_012">Αποστολή</string>
+    <string name="txid_scan_g_running_print">Γίνεται εκτύπωση...</string>
+    <string name="txid_scmn_f_user_code">Κωδικός Χρήστη</string>
+    <string name="txid_scmn_f_user_code_tip_1">Εισάγετε κωδικό χρήστη, στη συνέχεια πατήστε [OK].</string>
+    <string name="txid_scmn_f_user_code_tip_2">Ο κωδικός χρήστη δεν είναι σωστός. Παρακαλώ επανεισάγετε.</string>
+    <string name="txid_scmn_f_user_code_tip_3">Ο κωδικός χρήστη δεν έγινε δεκτός. Παρακαλώ επανεισάγετε.</string>
+    <string name="bt_cancel">Ακύρωση</string>
+    <string name="bt_logout">Αποσύνδεση</string>
+    <string name="bt_next">Επόμενο</string>
+    <string name="bt_back">ΠροηΟθ</string>
+    <string name="txid_scmn_f_user_code_tip_4">Ο κωδικός χρήστη που έχει εισαχθεί δεν είναι καταχωρημένος στο Βιβλίο Διευθύνσεων. Θέλετε να τον καταχωρήσετε;</string>
+    <string name="dialog_id">ID</string>
+    <string name="bt_ok">OK</string>
+    <string name="dialog_contain_character">Ένα όνομα αρχείου δεν μπορεί να περιέχει κανέναν από τους παρακάτω χαρακτήρες:</string>
+    <string name="dialog_print_count_not_in_range">Η ποσότητα εκτύπωσης δεν είναι μεταξύ %1$s και %2$s.</string>
+    <string name="dialog_domain_wrong">Το όνομα domain μπορεί να περιέχει μόνο αριθμούς από το 0 ως το 9 και γράμματα από το A ως το Z.</string>
+    <string name="preview_stop_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε όλες τις εικόνες;</string>
+
+    <string name="txid_ppp_b_app_information">Σχετικά με την Εφαρμογή</string>
+    <string name="txid_ppp_g_app_information_ver_label">Έκδοση</string>
+    <string name="txid_ppp_b_app_information_show_oss">Πληροφορίες Άδειας OSS</string>
+    
+    <string name="txid_scmn_d_device_not_supported">Δεν είναι δυνατή η χρήση της μονάδας χρεώσεων που έχει συνδεθεί.</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flipper_running_print_anim"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0001" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0002" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0003" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0004" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0004" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0005" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0006" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0007" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0008" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0009" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0010" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0011" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0012" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0013" />
+    <FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/icon_running_printer_0014" />
+</ViewFlipper>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcccccc"
+    android:clickable="true" >
+
+    <Button
+        android:id="@+id/preview_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="323dp"
+        android:background="@drawable/bt_page_04_n"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/preview_txt_back"
+        android:layout_width="72dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="423dp"
+        android:gravity="center"
+        android:text="@string/bt_back"
+        android:textColor="@color/text_color_555555"
+        android:textSize="20px"
+        android:visibility="visible" />
+    <!-- 画像スクロール領域. ページめくりはViewFlipperで表現する(スクロールでのページめくりはしない前提) -->
+
+    <ViewFlipper
+        android:id="@+id/flipper_preview"
+        android:layout_width="772dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" >
+    </ViewFlipper>
+
+    <!-- ページめくりキー -->
+
+    <FrameLayout
+        android:id="@+id/btn_page_prev"
+        android:layout_width="67dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="215dp"        
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/btn_page_next"
+        android:layout_width="67dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="702dp"
+        android:layout_marginTop="215dp"       
+        android:visibility="gone" />
+    <!-- ズームイン・アウト -->
+
+    <FrameLayout
+        android:id="@+id/btn_zoom_out"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/selector_sim_bt_previewzoomout" />
+
+    <FrameLayout
+        android:id="@+id/btn_zoom_in"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="687dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/selector_sim_bt_previewzoomin" />
+
+    <!-- 右ペイン背景 -->
+
+    <FrameLayout
+        android:layout_width="245dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="779dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back_rightframe" >
+
+        <FrameLayout
+            android:id="@+id/preview_btn_print"
+            android:layout_width="213dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/selector_bt_com_02"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/preview_title_check02"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/selector_icon_title_check02" />
+
+            <TextView
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="41dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="HGSMarugothicM"
+                android:singleLine="true"
+                android:gravity="center"
+                android:text="@string/txid_job_property_print"
+                android:textColor="#000000"
+                android:textSize="20px" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/preview_set_print"
+            android:layout_width="194dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="158dp"
+            android:background="@color/lightgray"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/preview_txt_print_color"
+                android:layout_width="130dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="HGMarugothicM"
+                android:singleLine="true"
+                android:gravity="left"
+                android:text="@string/txid_scan_b_top_full_color_text_photo"
+                android:textColor="#000000"
+                android:textSize="20px" />
+
+            <ImageView
+                android:id="@+id/preview_img_print_color"
+                android:layout_width="36dp"
+                android:layout_height="36dp" 
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/icon_setting_color_02" />
+
+            <TextView
+                android:id="@+id/preview_txt_print_copies"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="47dp"
+                android:fontFamily="HGMarugothicM"
+                android:singleLine="true"
+                android:gravity="left"
+                android:text="@string/btn_init_setting_section_print_count"
+                android:textColor="#000000"
+                android:textSize="20px"/>
+
+            <TextView
+                android:id="@+id/preview_txt_print_copies_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="47dp"
+                android:singleLine="true"
+                android:gravity="right"
+                android:fontFamily="HGMarugothicM"
+                android:text="888"
+                android:textColor="#000000"
+                android:textSize="20px" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fy_print_set"
+            android:layout_width="194dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="246dp"
+            android:background="@drawable/selector_bt_com_02"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:singleLine="true"
+                android:fontFamily="HGMarugothicM"
+                android:text="@string/tx_init_setting_print"
+                android:textColor="#000000"
+                android:textSize="20px" />
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="6dp"
+                android:layout_marginLeft="168dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/icon_act_pop_01" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <!-- スタートボタン -->
+
+    <FrameLayout
+        android:id="@+id/preview_btn_start"
+        android:layout_width="168dp"
+        android:layout_height="169dp"
+        android:layout_marginLeft="822dp"
+        android:layout_marginTop="306dp" >
+
+        <ImageView
+            android:id="@+id/preview_img_start"
+            android:layout_width="168dp"
+            android:layout_height="169dp" />
+
+        <TextView
+            android:id="@+id/preview_txt_start"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/txid_scmn_b_012"
+            android:textColor="#FFFFFF"
+            android:textSize="28px" />
+    </FrameLayout>
+
+    <!-- スタートボタンエフェクト -->
+
+    <FrameLayout
+        android:id="@+id/preview_img_startkey_effect_layout"
+        android:layout_width="158dp"
+        android:layout_height="158dp"
+        android:layout_marginLeft="822dp"
+        android:layout_marginTop="306dp" >
+
+        <ImageView
+            android:id="@+id/preview_img_startkey_effect"
+            android:layout_width="168dp"
+            android:layout_height="169dp" />
+    </FrameLayout>
+
+    <!-- スタートボタン押下反応エリア -->
+
+    <FrameLayout
+        android:id="@+id/preview_btn_start_area"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="836dp"
+        android:layout_marginTop="320dp" />
+
+</RelativeLayout>

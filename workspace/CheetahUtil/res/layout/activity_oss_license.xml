@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc">
+
+    <!-- タイトル、タブ -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="59px"
+        android:layout_marginTop="0px"
+        android:background="@color/header_background_color1">
+
+        <RelativeLayout
+            android:id="@+id/btn_back"
+            android:layout_width="200px"
+            android:layout_height="60px" >
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="76px"
+                android:layout_height="43px"
+                android:layout_marginLeft="9px"
+                android:layout_marginTop="7px"
+                android:background="@drawable/selector_bt_com_01" />
+
+            <!-- icon_pict_arrowleft -->
+            <ImageView
+                android:layout_width="37px"
+                android:layout_height="37px"
+                android:layout_marginLeft="28px"
+                android:layout_marginTop="8px"
+                android:background="@drawable/icon_act_arrowleft_01_n"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="500px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="99px"
+            android:layout_marginTop="14px"
+            android:fontFamily="HGSMarugothicM"
+            android:textColor="#000000"
+            android:textSize="24px"
+            android:text="@string/txid_ppp_b_app_information_show_oss"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_marginTop="80px"
+        android:layout_marginLeft="200px"
+        android:layout_width="630px"
+        android:layout_height="430px"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarDefaultDelayBeforeFade="2000"
+        android:scrollbarFadeDuration="500"
+        android:scrollbarThumbVertical="@drawable/scrollbar"
+        android:requiresFadingEdge="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/oss_lisence_text"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:padding="10px"
+            />
+
+    </ScrollView>
+
+</RelativeLayout>

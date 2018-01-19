@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Webdav applied wording(start)  -->
+    <string name="txid_sending">Bezig met verzenden...</string>
+    <string name="txid_scan_g_running_original_num">Originelen</string>
+    <string name="txid_scan_g_running_dest_num">Bestemming(en)</string>
+    <string name="txid_scan_g_running_remain_memory">Resterende geh.</string>
+    <string name="txid_scan_g_running_scan">Bezig met scannen...</string>
+    <string name="button_stop">Stoppen</string>
+    <string name="dialog_state_connect">Bezig met verbinding maken...</string>
+    <string name="dialog_loginmessage">Voer gebruikersnaam en wachtwoord in.</string>
+    <string name="dialog_sender_email_info_1">Plaats de volgende originelen, druk dan op [Volgende origineel scannen]. Druk na het scannen van het laatste origineel op [Verzenden starten].</string>
+    <string name="dialog_sender_email_info_2">Wachttijd tot volgende origineel\nResterende seconden: %1$s</string>
+    <string name="dialog_sender_email_btn_2">Volg. origineel scannen</string>
+    <string name="dialog_sender_email_btn_3">Verzenden starten</string>
+    <string name="dialog_sender_email_btn_4">Instell. wijzigen</string>
+    <string name="err_input">Voer %s in.</string>
+    <string name="dialog_delete_info_1">Weet u zeker dat u %1$s wilt verwijderen\?\n</string>
+    <string name="txid_login_url_notice">URL: %s</string>
+    <string name="txid_login_id_notice">Gebruikersnaam: %s</string>
+    <string name="txid_login_password_notice">Wachtwoord: %s</string>
+    <string name="dialog_delete_btn_1">Annuleren</string>
+    <string name="dialog_delete_btn_2">Verwijderen</string>
+    <string name="txid_stop1">Ja</string>
+    <string name="txid_stop2">Nee</string>
+    <!-- Webdav applied wording(end)  -->
+
+    <string name="SCAN_MEMORY_OVER">Het geheugen is vol. Het scannen is gestopt.</string>
+    <string name="SCAN_RESOURCES_ARE_NOT_READY">De bronnen die vereist zijn voor het scannen, zijn niet gereed.</string>
+    <string name="SCAN_INTERNAL_ERROR">Er is een fout opgetreden.</string>
+    <string name="SCAN_ORIGINAL_SET_ERROR">Kan het origineel niet scannen. Plaats deze opnieuw en juist.</string>
+    <string name="SCAN_TIMEOUT">Omdat er een bepaalde tijd geen actie is uitgevoerd, is het scannen geannuleerd.</string>
+    <string name="SCAN_OTHER_PROCESS_ERROR">Het scannen is gestopt.</string>
+    <string name="SCAN_EXCEEDED_MAX_EMAIL_SIZE">Het maximale formaat dat kan worden verzonden, is overschreden.</string>
+    <string name="SCAN_EXCEEDED_MAX_PAGE_COUNT">Het maximum aantal pagina\'s dat kan worden verzonden, is overschreden.</string>
+    <string name="SCAN_CHARGE_UNIT_LIMIT">Het scannen is gestopt, omdat u de betalingslimiet heeft bereikt.</string>
+    <string name="SCAN_PREPARING_JOB_START">Bezig met opstarten...</string>
+    <string name="SCAN_SCANNER_JAM">Het origineel is vastgelopen tijdens het scannen.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL">Plaats het volgende origineel.</string>
+    <string name="SCAN_WAIT_FOR_NEXT_ORIGINAL_AND_CONTINUE">Plaats het volgende origineel om door te gaan met scannen.</string>
+    <string name="SCAN_CANNOT_DETECT_ORIGINAL_SIZE">Kan het origineel niet detecteren.</string>
+    <string name="SCAN_EXCEEDED_MAX_DATA_CAPACITY">De gegevenscapaciteit heeft de maximum overschreden.</string>
+    <string name="SCAN_NOT_SUITABLE_ORIGINAL_ORIENTATION">Kan het origineel met deze richting niet scannen.</string>
+    <string name="SCAN_TOO_SMALL_SCAN_SIZE">Kan niet scannen, omdat het origineelformaat te klein is.</string>
+    <string name="SCAN_TOO_LARGE_SCAN_SIZE">Kan niet scannen, omdat het origineelformaat te groot is.</string>
+    <string name="SCAN_WAIT_FOR_ORIGINAL_PREVIEW_OPERATION">Het apparaat bereidt zich voor op de voorvertoning. Even geduld a.u.b.</string>
+    <string name="SCAN_USER_REQUEST">De gebruiker heeft het scannen gestopt.</string>
+    <string name="job_stop_fail">Kan het scannen niet stoppen.</string>
+    <string name="job_start_fail">Kan het scannen niet starten.</string>
+    <string name="job_end_fail">Kan het scannen niet voltooien. Druk op [Annuleren].</string>
+    <string name="job_continue_fail">Kan niet doorgaan met scannen. Druk op [Annuleren].</string>
+    <string name="job_cancel_fail">Kan het scannen niet annuleren.</string>
+    <string name="error_login_failed">Verificatie is mislukt.</string>
+    <string name="error_not_input_authentication">Er is geen informatie voor verificatie.</string>
+    <string name="error_not_authorized">U heeft geen rechten om deze functie te gebruiken.</string>
+    <string name="error_system_busy">Het systeem is bezet.</string>
+    <string name="scan_fail">Het scannen is mislukt.</string>
+    <string name="error_permission_denied">U heeft geen rechten om dit te gebruiken.</string>
+    <string name="error_path_no_exist">Kan de opgegeven map niet vinden.</string>
+    <string name="dialog_sender_protocol_type">Protocoltype:</string>
+    <string name="dialog_sender_path">Mappad:</string>
+    <string name="dialog_sender_name">Log-in gebruikersnaam:</string>
+    <string name="dialog_password">Wachtwoord</string>
+    <string name="txid_scmn_b_012">Verzend.</string>
+    <string name="txid_scan_g_running_print">Bezig met afdrukken...</string>
+    <string name="txid_scmn_f_user_code">Gebruikerscode</string>
+    <string name="txid_scmn_f_user_code_tip_1">Voer de gebruikerscode in en druk op [OK].</string>
+    <string name="txid_scmn_f_user_code_tip_2">De gebruikerscode is onjuist. Voer deze opnieuw in.</string>
+    <string name="txid_scmn_f_user_code_tip_3">De gebruikerscode is geweigerd. Voer deze opnieuw in.</string>
+    <string name="bt_cancel">Annuleren</string>
+    <string name="bt_logout">Uitloggen</string>
+    <string name="bt_next">Volg.</string>
+    <string name="bt_back">Terug</string>
+    <string name="txid_scmn_f_user_code_tip_4">De ingevoerde gebruikerscode is niet geregistreerd in het adresboek. Wilt u het registreren\?</string>
+    <string name="dialog_id">ID</string>
+    <string name="bt_ok">OK</string>
+    <string name="dialog_contain_character">Een bestandsnaam mag de volgende tekens niet bevatten:</string>
+    <string name="dialog_print_count_not_in_range">De afdrukkwaliteit ligt niet tussen %1$s tot %2$s.</string>
+    <string name="dialog_domain_wrong">De domeinnaam mag alleen de cijfers 0 t/m 9 en de letters A t/m Z bevatten.</string>
+    <string name="preview_stop_message">Weet u zeker dat u alle afbeeldingen wilt verwijderen\?</string>
+
+    <string name="txid_ppp_b_app_information">Over de toepassing</string>
+    <string name="txid_ppp_g_app_information_ver_label">Versie</string>
+    <string name="txid_ppp_b_app_information_show_oss">Licentiegegevens OSS</string>
+
+    <string name="txid_scmn_d_device_not_supported">De aangesloten betaaleenheid kan niet gebruikt worden.</string>
+</resources>

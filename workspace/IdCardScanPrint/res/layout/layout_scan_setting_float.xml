@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_rightframe" >
+
+    <FrameLayout
+        android:id="@+id/layout_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <FrameLayout
+            android:id="@+id/layout_scan_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+
+            <FrameLayout
+                android:id="@+id/btn_dest1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/icon_dest1_type"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="23dp"/>
+
+                <TextView
+                    android:id="@+id/txt_dest1_name"
+                    android:layout_width="185dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginTop="28dp"
+                    android:fontFamily="HGSMarugothicM"     
+                    android:textColor="#000000"
+                    android:singleLine="true"                    
+                    android:ellipsize="end"
+                    android:textSize="18px" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/btn_dest2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/icon_dest2_type"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="57dp"/>
+
+                <TextView
+                    android:id="@+id/txt_dest2_name"
+                    android:layout_width="185dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginTop="62dp"
+                    android:singleLine="true"
+                    android:fontFamily="HGSMarugothicM" 
+                    android:textColor="#000000"
+                    android:ellipsize="end"
+                    android:textSize="18px" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/btn_dest3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/icon_dest3_type"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="91dp"/>
+
+                <TextView
+                    android:id="@+id/txt_dest3_name"
+                    android:layout_width="185dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="52dp"
+                    android:singleLine="true"
+                    android:layout_marginTop="96dp"
+                    android:fontFamily="HGSMarugothicM"
+                    android:ellipsize="end"
+                    android:textColor="#000000"
+                    android:textSize="18px" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="138dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginTop="129dp"
+                    android:fontFamily="HGSMarugothicM"
+                    android:text="@string/txt_float_dest_total"
+                    android:textColor="#000000"
+                    android:textSize="20px" />
+
+                <TextView
+                    android:id="@+id/float_txt_dest_totalnum"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="177dp"
+                    android:layout_marginTop="129dp"
+                    android:fontFamily="HGSMarugothicM"
+                    android:gravity="right"
+                    android:text="10"
+                    android:textColor="#000000"                    
+                    android:textSize="18px" />
+            </FrameLayout>
+            <!-- スキャン条件フィードバックエリア -->
+
+            <FrameLayout
+                android:id="@+id/scan_property_show"
+                android:layout_width="194dp"
+                android:layout_height="88dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="158dp"
+                android:background="@color/lightgray" >
+
+                <TextView
+                    android:id="@+id/txt_fb_set_color"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="9dp"                    
+                    android:gravity="left"                   
+                    android:textColor="#000000"
+                    android:textSize="18px" />
+
+                <ImageView
+                    android:id="@+id/icon_value_color"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"                    
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/icon_setting_color_02" />
+
+                <ImageView
+                    android:id="@+id/icon_value_filetype"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/icon_setting_color_02"  />
+
+                <TextView
+                    android:id="@+id/txt_fb_set_filetype"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="57dp"
+                    android:gravity="left"
+                    android:textColor="#000000"
+                    android:textSize="18px" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/scan_propery_set"
+                android:layout_width="194dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="246dp"
+                android:background="@drawable/selector_bt_com_02" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"                    
+                    android:text="@string/tx_init_setting_scan"
+                    android:textColor="#000000"
+                    android:textSize="18px" />
+
+                <ImageView
+                    android:layout_width="19dp"
+                    android:layout_height="6dp"
+                    android:layout_marginLeft="168dp"
+                    android:layout_marginTop="35dp"
+                    android:src="@drawable/icon_act_pop_01" />
+            </FrameLayout>
+        </FrameLayout>
+            
+        </FrameLayout>
+
+        <!-- スタートボタン -->
+
+        <FrameLayout
+            android:id="@+id/set_btn_start"
+            android:layout_width="168dp"
+            android:layout_height="169dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="301dp" >
+
+            <ImageView
+                android:id="@+id/img_start"
+                android:layout_width="168dp"
+                android:layout_height="169dp" />
+
+            <TextView
+                android:id="@+id/txt_start"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="HGSMarugothicM"
+                android:gravity="center"
+                android:text="@string/bt_scan"
+                android:textColor="#FFFFFF"
+                android:textSize="28px" />
+        </FrameLayout>
+
+        <!-- スタートボタンエフェクト -->
+
+        <FrameLayout
+            android:id="@+id/img_startkey_effect_layout"
+            android:layout_width="168dp"
+            android:layout_height="169dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="301dp" >
+
+            <ImageView
+                android:id="@+id/img_startkey_effect"
+                android:layout_width="168dp"
+                android:layout_height="169dp"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <!-- スタートボタン押下反応エリア -->
+
+        <FrameLayout
+            android:id="@+id/btn_start_area"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="315dp" />
+    
+
+</RelativeLayout>
